@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "\"黑夜野兽\"格拉狄乌斯",
+    "name": "\"黑夜野獸\"格拉狄烏斯",
     "baseHealth": 3200,
     "nightreignHealth": 3200,
     "nightreignHealthMultiplier": 1.55,
@@ -49,7 +49,7 @@
   },
   {
     "id": 3,
-    "name": "\"黑夜之智\"格诺斯塔",
+    "name": "\"黑夜之智\"格諾斯塔",
     "baseHealth": 3680,
     "nightreignHealth": 1840,
     "nightreignHealthMultiplier": 1,
@@ -73,7 +73,7 @@
   },
   {
     "id": 4,
-    "name": "\"坚盾\"弗堤士",
+    "name": "\"堅盾\"弗堤士",
     "baseHealth": 3456,
     "nightreignHealth": 2016,
     "nightreignHealthMultiplier": 1,
@@ -97,7 +97,7 @@
   },
   {
     "id": 5,
-    "name": "\"超越之光\"亚尼姆斯",
+    "name": "\"超越之光\"亞尼姆斯",
     "baseHealth": "未知",
     "nightreignHealth": 1798,
     "nightreignHealthMultiplier": 1,
@@ -121,7 +121,7 @@
   },
   {
     "id": 6,
-    "name": "\"深海黑夜\"玛丽斯",
+    "name": "\"深海黑夜\"瑪麗斯",
     "baseHealth": 3584,
     "nightreignHealth": 8320,
     "nightreignHealthMultiplier": 1,
@@ -169,7 +169,7 @@
   },
   {
     "id": 8,
-    "name": "\"黑夜光骑士\"弗格尔",
+    "name": "\"黑夜光騎士\"弗格爾",
     "baseHealth": 3360,
     "nightreignHealth": 3360,
     "nightreignHealthMultiplier": 1.2,
@@ -193,7 +193,7 @@
   },
   {
     "id": 9,
-    "name": "\"黑夜雾霾\"卡莉果",
+    "name": "\"黑夜霧霾\"卡莉果",
     "baseHealth": 3392,
     "nightreignHealth": 3392,
     "nightreignHealthMultiplier": 1.4,
@@ -217,7 +217,7 @@
   },
   {
     "id": 10,
-    "name": "黑夜轮廓",
+    "name": "黑夜輪廓",
     "baseHealth": 1408,
     "nightreignHealth": "未知",
     "nightreignHealthMultiplier": "未知",
@@ -241,7 +241,7 @@
   },
   {
     "id": 11,
-    "name": "\"黑夜王\"布德奇冥",
+    "name": "\"黑夜王\"佈德奇冥",
     "baseHealth": 2880,
     "nightreignHealth": "未知",
     "nightreignHealthMultiplier": "未知",

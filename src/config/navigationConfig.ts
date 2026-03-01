@@ -1,43 +1,43 @@
-// 统一的导航配置
+// 統一的導航配置
 export interface NavigationItem {
   key: string;
   label: string;
   children?: NavigationItem[];
 }
 
-// 默认页面设置
-export const DEFAULT_PAGE = '游戏机制'; // 修改这里来改变默认页面
+// 默認頁面設置
+export const DEFAULT_PAGE = '遊戲機制'; // 修改這裡來改變默認頁面
 
-// 主导航项配置（用于顶部导航栏）
+// 主導航項配置（用於頂部導航欄）
 export const mainNavigationItems: NavigationItem[] = [
   {
-    key: '游戏机制',
-    label: '游戏机制'
+    key: '遊戲機制',
+    label: '遊戲機制'
   },
   {
-    key: '角色数据',
-    label: '角色数据'
+    key: '角色數據',
+    label: '角色數據'
   },
   {
-    key: '词条详细数据',
-    label: '词条详细数据'
+    key: '詞條詳細數據',
+    label: '詞條詳細數據'
   },
   {
-    key: '夜王Boss数据',
-    label: '夜王Boss数据'
+    key: '夜王Boss數據',
+    label: '夜王Boss數據'
   },
   {
-    key: '传说武器详情',
-    label: '传说武器详情'
+    key: '傳說武器詳情',
+    label: '傳說武器詳情'
   },
 ];
 
-// 获取主导航项的顺序
+// 獲取主導航項的順序
 export const getMainNavigationOrder = (): string[] => {
   return mainNavigationItems.map(item => item.key);
 };
 
-// 获取默认页面
+// 獲取默認頁面
 export const getDefaultPage = (): string => {
   return DEFAULT_PAGE;
 };

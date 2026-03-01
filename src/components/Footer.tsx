@@ -4,7 +4,7 @@ import { HeartOutlined, GithubOutlined } from '@ant-design/icons';
 
 const { Text } = Typography;
 
-// 格式化构建时间的函数
+// 格式化構建時間的函數
 const formatBuildTime = (buildTime: string): string => {
   try {
     const date = new Date(buildTime);
@@ -14,13 +14,13 @@ const formatBuildTime = (buildTime: string): string => {
       day: 'numeric'
     });
   } catch {
-    // 如果解析失败，返回原始字符串
+    // 如果解析失敗，返回原始字符串
     return buildTime;
   }
 };
 
 const Footer: React.FC = React.memo(() => {
-  // 获取构建时间，如果不存在则使用当前时间
+  // 獲取構建時間，如果不存在則使用當前時間
   const buildTime = typeof __BUILD_TIME__ !== 'undefined' ? __BUILD_TIME__ : new Date().toISOString();
   const formattedBuildTime = formatBuildTime(buildTime);
 

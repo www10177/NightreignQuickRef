@@ -1,15 +1,15 @@
-/* 主样式文件 - 导入所有样式模块 */
+/* 主樣式文件 - 導入所有樣式模塊 */
 
-/* 导入设计系统 */
+/* 導入設計系統 */
 @import './design-system.css';
 
-/* 导入组件样式 */
+/* 導入組件樣式 */
 @import './components.css';
 
-/* 导入工具类 */
+/* 導入工具類 */
 @import './utilities.css';
 
-/* 全局样式重置和基础样式 */
+/* 全局樣式重置和基礎樣式 */
 * {
   box-sizing: border-box;
 }
@@ -31,7 +31,7 @@ body {
   transition: all var(--transition-normal);
 }
 
-/* 特殊元素排除全局动画，使用自定义动画 */
+/* 特殊元素排除全局動畫，使用自定義動畫 */
 .ant-table,
 .ant-table *,
 .ant-btn,
@@ -51,7 +51,7 @@ body {
   transition: none;
 }
 
-/* 表格特殊动画 */
+/* 表格特殊動畫 */
 .ant-table {
   transition: background-color var(--transition-normal), 
               border-color var(--transition-normal);
@@ -67,12 +67,12 @@ body {
               color var(--transition-normal);
 } */
 
-/* 按钮动画 */
+/* 按鈕動畫 */
 .ant-btn {
   transition: all var(--transition-normal) !important;
 }
 
-/* 输入框动画 */
+/* 輸入框動畫 */
 .ant-input,
 .ant-select-selector {
   transition: all var(--transition-normal) !important;
@@ -83,7 +83,7 @@ body {
   min-height: 100vh;
 }
 
-/* 链接样式 */
+/* 鏈接樣式 */
 a {
   font-weight: var(--font-weight-medium);
   color: var(--color-primary-500);
@@ -97,13 +97,13 @@ a:hover {
 
 
 
-/* 标题样式 */
+/* 標題樣式 */
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
-/* 滚动条样式 */
+/* 滾動條樣式 */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -122,7 +122,7 @@ h1 {
   background: var(--theme-text-secondary);
 }
 
-/* 选择文本样式 */
+/* 選擇文本樣式 */
 ::selection {
   background-color: var(--color-primary-200);
   color: var(--color-primary-900);

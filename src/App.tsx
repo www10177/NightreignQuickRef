@@ -23,16 +23,16 @@ function App() {
   // const [isEnglish, setIsEnglish] = useState(false);
   const [isDataLoaded, setIsDataLoaded] = useState(false);
   
-  // 子Tab和Step状态管理
+  // 子Tab和Step狀態管理
   const [activeSubTab, setActiveSubTab] = useState<string>('');
   const [activeStep, setActiveStep] = useState<number>(0);
 
-  // 主题切换函数
+  // 主題切換函數
   const handleToggleTheme = () => {
     const newTheme = !isDarkMode;
     setIsDarkMode(newTheme);
     
-    // 更新body属性
+    // 更新body屬性
     if (newTheme) {
       document.body.setAttribute('tomato-theme', 'dark');
     } else {
@@ -40,53 +40,53 @@ function App() {
     }
     localStorage.setItem('theme', newTheme ? 'dark' : 'light');
     
-    // 触发自定义主题变化事件
+    // 觸發自定義主題變化事件
     window.dispatchEvent(new Event('themeChange'));
   };
 
-  // 语言切换
+  // 語言切換
   // const handleToggleLanguage = () => {
   //   setIsEnglish(!isEnglish);
   // };
 
-  // 子Tab切换处理
+  // 子Tab切換處理
   const handleSubTabChange = (tabKey: string) => {
     setActiveSubTab(tabKey);
   };
 
-  // Step切换处理
+  // Step切換處理
   const handleStepChange = (stepIndex: number) => {
     setActiveStep(stepIndex);
   };
 
-  // 预加载所有数据
+  // 預加載所有數據
   useEffect(() => {
     const dataManager = DataManager.getInstance();
     dataManager.preloadAllData().then(() => {
       setIsDataLoaded(true);
     }).catch((error) => {
-      console.error('数据预加载失败:', error);
+      console.error('數據預加載失敗:', error);
     });
   }, []);
 
-  // 初始化主题
+  // 初始化主題
   useEffect(() => {
     initializeTheme(setIsDarkMode);
   }, []);
 
-  // 监听系统主题变化
+  // 監聽系統主題變化
   useEffect(() => {
     const cleanup = setupThemeListener(setIsDarkMode);
     return cleanup;
   }, []);
 
-  // 主Tab切换时重置子Tab和Step状态
+  // 主Tab切換時重置子Tab和Step狀態
   useEffect(() => {
     setActiveSubTab('');
     setActiveStep(0);
   }, [activeTab]);
 
-  // 子Tab为一次性指令：生效后立即清空，避免持续控制子组件，阻止手动切换
+  // 子Tab為一次性指令：生效後立即清空，避免持續控制子組件，阻止手動切換
   useEffect(() => {
     if (activeSubTab) {
       const timer = setTimeout(() => setActiveSubTab(''), 0);
@@ -94,25 +94,25 @@ function App() {
     }
   }, [activeSubTab]);
 
-  // 渲染内容
+  // 渲染內容
   const renderContent = () => {
     switch (activeTab) {
-      case '词条详细数据':
+      case '詞條詳細數據':
         return <EntryDetailView activeSubTab={activeSubTab} />;
-      case '传说武器详情':
+      case '傳說武器詳情':
         return <LegendaryWeaponView activeStep={activeStep} />;
-      case '角色数据':
+      case '角色數據':
         return <CharacterDataView />;
-      case '游戏机制':
-        return <GameMechanicsView functionName="游戏机制" />;
-      case '夜王Boss数据':
+      case '遊戲機制':
+        return <GameMechanicsView functionName="遊戲機制" />;
+      case '夜王Boss數據':
         return <BossDataView activeSubTab={activeSubTab} />;
       default:
         return <EntryDetailView activeSubTab={activeSubTab} />;
     }
   };
 
-  // 统一的主题配置
+  // 統一的主題配置
   const themeConfig = {
     algorithm: isDarkMode ? theme.darkAlgorithm : theme.defaultAlgorithm,
     token: {
@@ -128,7 +128,7 @@ function App() {
       // locale={isEnglish ? enUS : zhCN}
     >
       {!isDataLoaded ? (
-        <LoadingSpinner message="正在加载数据，请稍候..." />
+        <LoadingSpinner message="正在加載數據，請稍候..." />
       ) : (
         <div className="app-container">
           <FunctionMenu 

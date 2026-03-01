@@ -1,6 +1,6 @@
 [
   {
-    "name": "铁处女",
+    "name": "鐵處女",
     "normal": 0.9,
     "strike": 1,
     "slash": 0.9,
@@ -17,7 +17,7 @@
     "location": "要塞"
   },
   {
-    "name": "结晶人",
+    "name": "結晶人",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -31,10 +31,10 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 252,
-    "location": "要塞、监牢"
+    "location": "要塞、監牢"
   },
   {
-    "name": "葛瑞克骑士",
+    "name": "葛瑞克騎士",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -48,10 +48,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 154,
-    "location": "要塞、矿洞、山顶、腐败森林"
+    "location": "要塞、礦洞、山頂、腐敗森林"
   },
   {
-    "name": "魔像守卫",
+    "name": "魔像守衛",
     "normal": 0.9,
     "strike": 1,
     "slash": 0.9,
@@ -68,7 +68,7 @@
     "location": "要塞、教堂"
   },
   {
-    "name": "大神谕使者",
+    "name": "大神諭使者",
     "normal": 1.1,
     "strike": 0.9,
     "slash": 1.1,
@@ -102,7 +102,7 @@
     "location": "教堂、火山口"
   },
   {
-    "name": "灵庙骑士",
+    "name": "靈廟騎士",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -116,7 +116,7 @@
     "poison": "免疫",
     "scarletRot": "免疫",
     "frost": "免疫",
-    "location": "教堂、隐城"
+    "location": "教堂、隱城"
   },
   {
     "name": "大白金之子",
@@ -133,10 +133,10 @@
     "poison": "免疫",
     "scarletRot": 154,
     "frost": 84,
-    "location": "遗迹"
+    "location": "遺蹟"
   },
   {
-    "name": "鲜血贵族",
+    "name": "鮮血貴族",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -150,10 +150,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 112,
-    "location": "遗迹"
+    "location": "遺蹟"
   },
   {
-    "name": "堕落调香师",
+    "name": "墮落調香師",
     "normal": 1,
     "strike": 0.9,
     "slash": 1,
@@ -167,10 +167,10 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 112,
-    "location": "遗迹"
+    "location": "遺蹟"
   },
   {
-    "name": "调香师",
+    "name": "調香師",
     "normal": 1,
     "strike": 0.9,
     "slash": 1,
@@ -184,10 +184,10 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 84,
-    "location": "遗迹"
+    "location": "遺蹟"
   },
   {
-    "name": "归树看门犬",
+    "name": "歸樹看門犬",
     "normal": 0.65,
     "strike": 0.9,
     "slash": 0.65,
@@ -201,10 +201,10 @@
     "poison": "免疫",
     "scarletRot": "免疫",
     "frost": "免疫",
-    "location": "遗迹"
+    "location": "遺蹟"
   },
   {
-    "name": "战斗法师",
+    "name": "戰鬥法師",
     "normal": 1,
     "strike": 0.9,
     "slash": 1,
@@ -218,10 +218,10 @@
     "poison": 84,
     "scarletRot": 84,
     "frost": 112,
-    "location": "遗迹"
+    "location": "遺蹟"
   },
   {
-    "name": "卢恩熊",
+    "name": "盧恩熊",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -235,7 +235,7 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 252,
-    "location": "遗迹"
+    "location": "遺蹟"
   },
   {
     "name": "白金之子射手",
@@ -252,10 +252,10 @@
     "poison": "免疫",
     "scarletRot": 112,
     "frost": 252,
-    "location": "遗迹"
+    "location": "遺蹟"
   },
   {
-    "name": "兽人（大）",
+    "name": "獸人（大）",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -269,10 +269,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 154,
-    "location": "遗迹、监牢"
+    "location": "遺蹟、監牢"
   },
   {
-    "name": "蚯蚓脸",
+    "name": "蚯蚓臉",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -286,10 +286,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 154,
-    "location": "遗迹、第一夜"
+    "location": "遺蹟、第一夜"
   },
   {
-    "name": "萨米尔的古英雄",
+    "name": "薩米爾的古英雄",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.9,
@@ -303,10 +303,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 542,
-    "location": "遗迹、野外蓝名、主城地下"
+    "location": "遺蹟、野外藍名、主城地下"
   },
   {
-    "name": "火焰战车",
+    "name": "火焰戰車",
     "normal": 0.9,
     "strike": 1,
     "slash": 0.9,
@@ -320,10 +320,10 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 252,
-    "location": "营地、火山口"
+    "location": "營地、火山口"
   },
   {
-    "name": "癫火山妖",
+    "name": "癲火山妖",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -337,10 +337,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 154,
-    "location": "营地"
+    "location": "營地"
   },
   {
-    "name": "红狮子骑士",
+    "name": "紅獅子騎士",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -354,10 +354,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 154,
-    "location": "营地"
+    "location": "營地"
   },
   {
-    "name": "罗德尔骑士",
+    "name": "羅德爾騎士",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -371,10 +371,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 154,
-    "location": "营地"
+    "location": "營地"
   },
   {
-    "name": "失乡骑士",
+    "name": "失鄉騎士",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -388,10 +388,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 154,
-    "location": "营地、监牢、主城"
+    "location": "營地、監牢、主城"
   },
   {
-    "name": "失乡骑士（龙飨）",
+    "name": "失鄉騎士（龍饗）",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -405,10 +405,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 154,
-    "location": "营地、监牢、主城"
+    "location": "營地、監牢、主城"
   },
   {
-    "name": "老狮子",
+    "name": "老獅子",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -422,10 +422,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 252,
-    "location": "营地、野外蓝名、主城"
+    "location": "營地、野外藍名、主城"
   },
   {
-    "name": "发狂南瓜头",
+    "name": "發狂南瓜頭",
     "normal": 1,
     "strike": 0.9,
     "slash": 1.1,
@@ -439,7 +439,7 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 84,
-    "location": "矿洞"
+    "location": "礦洞"
   },
   {
     "name": "山妖",
@@ -456,10 +456,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 154,
-    "location": "主城、矿洞"
+    "location": "主城、礦洞"
   },
   {
-    "name": "恶兆之子",
+    "name": "惡兆之子",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -473,10 +473,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 112,
-    "location": "监牢"
+    "location": "監牢"
   },
   {
-    "name": "诺克斯战士",
+    "name": "諾克斯戰士",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -490,10 +490,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 154,
-    "location": "监牢"
+    "location": "監牢"
   },
   {
-    "name": "守墓斗士",
+    "name": "守墓鬥士",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -507,10 +507,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 112,
-    "location": "监牢"
+    "location": "監牢"
   },
   {
-    "name": "混种（大）",
+    "name": "混種（大）",
     "normal": 1,
     "strike": 1,
     "slash": 0.9,
@@ -524,10 +524,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 112,
-    "location": "监牢"
+    "location": "監牢"
   },
   {
-    "name": "石肤古王",
+    "name": "石膚古王",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.9,
@@ -541,10 +541,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": "免疫",
-    "location": "监牢"
+    "location": "監牢"
   },
   {
-    "name": "猎犬骑士",
+    "name": "獵犬騎士",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.9,
@@ -558,10 +558,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 154,
-    "location": "监牢"
+    "location": "監牢"
   },
   {
-    "name": "熔炉骑士",
+    "name": "熔爐騎士",
     "normal": 0.65,
     "strike": 0.65,
     "slash": 0.65,
@@ -575,10 +575,10 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 252,
-    "location": "监牢、主城、第二夜"
+    "location": "監牢、主城、第二夜"
   },
   {
-    "name": "龙人士兵",
+    "name": "龍人士兵",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 1,
@@ -592,7 +592,7 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 542,
-    "location": "监牢、隐城、第二夜"
+    "location": "監牢、隱城、第二夜"
   },
   {
     "name": "神皮使徒",
@@ -609,10 +609,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 154,
-    "location": "监牢、第二夜"
+    "location": "監牢、第二夜"
   },
   {
-    "name": "神皮贵族",
+    "name": "神皮貴族",
     "normal": 1,
     "strike": 0.65,
     "slash": 1.1,
@@ -626,10 +626,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 154,
-    "location": "监牢、第二夜"
+    "location": "監牢、第二夜"
   },
   {
-    "name": "古龙",
+    "name": "古龍",
     "normal": 0.65,
     "strike": 0.65,
     "slash": 0.65,
@@ -643,10 +643,10 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 252,
-    "location": "监牢、第二夜"
+    "location": "監牢、第二夜"
   },
   {
-    "name": "死亡仪式鸟",
+    "name": "死亡儀式鳥",
     "normal": 0.9,
     "strike": 1.4,
     "slash": 0.9,
@@ -660,10 +660,10 @@
     "poison": "免疫",
     "scarletRot": 252,
     "frost": "免疫",
-    "location": "监牢、野外红名、主城楼顶、腐败森林、第二夜"
+    "location": "監牢、野外紅名、主城樓頂、腐敗森林、第二夜"
   },
   {
-    "name": "米兰达的花",
+    "name": "米蘭達的花",
     "normal": 1,
     "strike": 0.65,
     "slash": 1.4,
@@ -677,10 +677,10 @@
     "poison": 542,
     "scarletRot": 252,
     "frost": 63,
-    "location": "野外蓝名、遗迹"
+    "location": "野外藍名、遺蹟"
   },
   {
-    "name": "黑夜骑兵",
+    "name": "黑夜騎兵",
     "normal": 0.65,
     "strike": 0.65,
     "slash": 0.65,
@@ -694,10 +694,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 252,
-    "location": "野外蓝名、第一夜"
+    "location": "野外藍名、第一夜"
   },
   {
-    "name": "黑夜骑兵的马",
+    "name": "黑夜騎兵的馬",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 1,
@@ -711,10 +711,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 154,
-    "location": "野外蓝名、第一夜"
+    "location": "野外藍名、第一夜"
   },
   {
-    "name": "狮子混种",
+    "name": "獅子混種",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 1,
@@ -728,10 +728,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 154,
-    "location": "野外蓝名、主城地下"
+    "location": "野外藍名、主城地下"
   },
   {
-    "name": "王夫的红狼",
+    "name": "王夫的紅狼",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -745,10 +745,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 252,
-    "location": "野外蓝名、主城地下、火山口"
+    "location": "野外藍名、主城地下、火山口"
   },
   {
-    "name": "接肢贵族",
+    "name": "接肢貴族",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -762,7 +762,7 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 112,
-    "location": "野外蓝名、主城地下"
+    "location": "野外藍名、主城地下"
   },
   {
     "name": "黑刀刺客",
@@ -779,10 +779,10 @@
     "poison": "免疫",
     "scarletRot": "免疫",
     "frost": 154,
-    "location": "野外蓝名、主城地下、隐城"
+    "location": "野外藍名、主城地下、隱城"
   },
   {
-    "name": "亚人女王",
+    "name": "亞人女王",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -796,10 +796,10 @@
     "poison": 84,
     "scarletRot": 84,
     "frost": 112,
-    "location": "野外蓝名、火山口、第一夜"
+    "location": "野外藍名、火山口、第一夜"
   },
   {
-    "name": "黄金河马",
+    "name": "黃金河馬",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -813,7 +813,7 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 252,
-    "location": "野外蓝名、隐城、第二夜"
+    "location": "野外藍名、隱城、第二夜"
   },
   {
     "name": "王室幽魂",
@@ -830,10 +830,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 154,
-    "location": "野外蓝名、主城地下、隐城、第一夜"
+    "location": "野外藍名、主城地下、隱城、第一夜"
   },
   {
-    "name": "铃珠猎人",
+    "name": "鈴珠獵人",
     "normal": 0.65,
     "strike": 0.65,
     "slash": 0.65,
@@ -847,10 +847,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 252,
-    "location": "野外红名、主城地下、主城楼顶、腐败森林、第一夜"
+    "location": "野外紅名、主城地下、主城樓頂、腐敗森林、第一夜"
   },
   {
-    "name": "腐败树灵",
+    "name": "腐敗樹靈",
     "normal": 1,
     "strike": 1,
     "slash": 1,
@@ -864,10 +864,10 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 112,
-    "location": "野外红名、主城楼顶、腐败森林、第一夜"
+    "location": "野外紅名、主城樓頂、腐敗森林、第一夜"
   },
   {
-    "name": "祖灵",
+    "name": "祖靈",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -881,10 +881,10 @@
     "poison": 542,
     "scarletRot": 542,
     "frost": 542,
-    "location": "野外红名、主城楼顶、腐败森林"
+    "location": "野外紅名、主城樓頂、腐敗森林"
   },
   {
-    "name": "大树守卫",
+    "name": "大樹守衛",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -898,10 +898,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 252,
-    "location": "野外红名、主城楼顶、第一夜"
+    "location": "野外紅名、主城樓頂、第一夜"
   },
   {
-    "name": "龙装大树守卫",
+    "name": "龍裝大樹守衛",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -915,10 +915,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 252,
-    "location": "野外红名、主城楼顶、腐败森林、第二夜"
+    "location": "野外紅名、主城樓頂、腐敗森林、第二夜"
   },
   {
-    "name": "黄金树化身",
+    "name": "黃金樹化身",
     "normal": 0.9,
     "strike": 1,
     "slash": 0.9,
@@ -932,10 +932,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 112,
-    "location": "野外红名、主城楼顶、腐败森林"
+    "location": "野外紅名、主城樓頂、腐敗森林"
   },
   {
-    "name": "卡利亚禁卫骑士",
+    "name": "卡利亞禁衛騎士",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.9,
@@ -949,10 +949,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 252,
-    "location": "野外红名、主城楼顶、腐败森林、隐城"
+    "location": "野外紅名、主城樓頂、腐敗森林、隱城"
   },
   {
-    "name": "黑剑眷属",
+    "name": "黑劍眷屬",
     "normal": 0.9,
     "strike": 1,
     "slash": 0.65,
@@ -966,10 +966,10 @@
     "poison": "免疫",
     "scarletRot": "免疫",
     "frost": "免疫",
-    "location": "野外红名、主城楼顶、腐败森林"
+    "location": "野外紅名、主城樓頂、腐敗森林"
   },
   {
-    "name": "熔岩土龙",
+    "name": "熔岩土龍",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -983,10 +983,10 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 542,
-    "location": "野外红名、主城楼顶、火山口、腐败森林"
+    "location": "野外紅名、主城樓頂、火山口、腐敗森林"
   },
   {
-    "name": "丘陵飞龙",
+    "name": "丘陵飛龍",
     "normal": 0.65,
     "strike": 0.65,
     "slash": 0.65,
@@ -1000,7 +1000,7 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 252,
-    "location": "野外红名、隐城"
+    "location": "野外紅名、隱城"
   },
   {
     "name": "火焰主教",
@@ -1037,7 +1037,7 @@
     "location": "火山口、第一夜"
   },
   {
-    "name": "飞龙",
+    "name": "飛龍",
     "normal": 0.65,
     "strike": 0.65,
     "slash": 0.65,
@@ -1051,10 +1051,10 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 252,
-    "location": "火山口、山顶"
+    "location": "火山口、山頂"
   },
   {
-    "name": "坠星成兽",
+    "name": "墜星成獸",
     "normal": 0.65,
     "strike": 0.65,
     "slash": 0.65,
@@ -1068,7 +1068,7 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": "免疫",
-    "location": "火山口、第二夜、突发事件"
+    "location": "火山口、第二夜、突發事件"
   },
   {
     "name": "雪原山妖",
@@ -1085,10 +1085,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 542,
-    "location": "山顶"
+    "location": "山頂"
   },
   {
-    "name": "巨鸦",
+    "name": "巨鴉",
     "normal": 1.1,
     "strike": 1.1,
     "slash": 1.4,
@@ -1102,10 +1102,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 112,
-    "location": "山顶"
+    "location": "山頂"
   },
   {
-    "name": "亚人剑圣",
+    "name": "亞人劍聖",
     "normal": 1,
     "strike": 1,
     "slash": 1.2,
@@ -1119,10 +1119,10 @@
     "poison": 84,
     "scarletRot": 84,
     "frost": 112,
-    "location": "山顶、第一夜"
+    "location": "山頂、第一夜"
   },
   {
-    "name": "山顶冰龙",
+    "name": "山頂冰龍",
     "normal": 0.65,
     "strike": 0.9,
     "slash": 0.2,
@@ -1136,10 +1136,10 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": 542,
-    "location": "山顶"
+    "location": "山頂"
   },
   {
-    "name": "无头山妖",
+    "name": "無頭山妖",
     "normal": 1,
     "strike": 0.9,
     "slash": 1.1,
@@ -1153,10 +1153,10 @@
     "poison": "免疫",
     "scarletRot": "免疫",
     "frost": "免疫",
-    "location": "隐城"
+    "location": "隱城"
   },
   {
-    "name": "“黑暗之子”艾丝缇",
+    "name": "“黑暗之子”艾絲緹",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.9,
@@ -1170,10 +1170,10 @@
     "poison": 252,
     "scarletRot": 252,
     "frost": "免疫",
-    "location": "隐城"
+    "location": "隱城"
   },
   {
-    "name": "提比亚的唤声船",
+    "name": "提比亞的喚聲船",
     "normal": 0.9,
     "strike": 1.4,
     "slash": 0.9,
@@ -1207,7 +1207,7 @@
     "location": "第一夜"
   },
   {
-    "name": "贪食魔龙",
+    "name": "貪食魔龍",
     "normal": 1,
     "strike": 1,
     "slash": 1,
@@ -1224,7 +1224,7 @@
     "location": "第一夜"
   },
   {
-    "name": "百足恶魔",
+    "name": "百足惡魔",
     "normal": 1,
     "strike": 1.1,
     "slash": 1,
@@ -1241,7 +1241,7 @@
     "location": "第一夜"
   },
   {
-    "name": "公爵的夫雷迪亚",
+    "name": "公爵的夫雷迪亞",
     "normal": 0.84,
     "strike": 1.1,
     "slash": 0.93,
@@ -1258,7 +1258,7 @@
     "location": "第一夜"
   },
   {
-    "name": "镕铁恶魔",
+    "name": "鎔鐵惡魔",
     "normal": 1.1,
     "strike": 1.1,
     "slash": 0.94,
@@ -1275,7 +1275,7 @@
     "location": "第一夜"
   },
   {
-    "name": "偏地老将",
+    "name": "偏地老將",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -1292,7 +1292,7 @@
     "location": "第一夜、第二夜"
   },
   {
-    "name": "恶兆妖鬼",
+    "name": "惡兆妖鬼",
     "normal": 1,
     "strike": 1,
     "slash": 1.1,
@@ -1306,10 +1306,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 154,
-    "location": "第二夜、突发事件"
+    "location": "第二夜、突發事件"
   },
   {
-    "name": "大土龙",
+    "name": "大土龍",
     "normal": 0.9,
     "strike": 0.9,
     "slash": 0.65,
@@ -1326,7 +1326,7 @@
     "location": "第二夜"
   },
   {
-    "name": "风暴之王(无名的龙)",
+    "name": "風暴之王(無名的龍)",
     "normal": 0.8,
     "strike": 0.82,
     "slash": 0.79,
@@ -1343,7 +1343,7 @@
     "location": "第二夜"
   },
   {
-    "name": "无名王者",
+    "name": "無名王者",
     "normal": 0.79,
     "strike": 0.81,
     "slash": 0.78,

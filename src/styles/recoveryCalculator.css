@@ -1,4 +1,4 @@
-/* RecoveryCalculator 组件专用样式 */
+/* RecoveryCalculator 組件專用樣式 */
 
 /* 主容器 */
 .recovery-calculator {
@@ -7,14 +7,14 @@
   min-height: 500px;
 }
 
-/* 左侧选择区域 */
+/* 左側選擇區域 */
 .recovery-calculator .selection-area {
   flex: 1.2;
   display: flex;
   flex-direction: column;
 }
 
-/* 角色选择区域 */
+/* 角色選擇區域 */
 .recovery-calculator .character-selection {
   margin-bottom: 8px;
   display: flex;
@@ -28,7 +28,7 @@
   margin-top: 8px;
 }
 
-/* 角色选择行 */
+/* 角色選擇行 */
 .recovery-calculator .character-row {
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@
   max-width: 300px;
 }
 
-/* 回血效果选择区域 */
+/* 回血效果選擇區域 */
 .recovery-calculator .effects-selection {
   flex: 1;
 }
@@ -86,7 +86,7 @@
   box-shadow: 0 2px 8px rgba(24, 144, 255, 0.15);
 }
 
-/* 效果卡片标题 */
+/* 效果卡片標題 */
 .recovery-calculator .effect-card-title {
   font-weight: bold;
   font-size: 13px;
@@ -115,7 +115,7 @@
   align-items: center;
 }
 
-/* 备注信息区域 */
+/* 備註信息區域 */
 .recovery-calculator .notes-section {
   margin-top: 16px;
   margin-bottom: 12px;
@@ -140,7 +140,7 @@
   margin-bottom: 4px;
 }
 
-/* 计算按钮 */
+/* 計算按鈕 */
 .recovery-calculator .calculate-button {
   width: 100%;
   height: 50px;
@@ -159,14 +159,14 @@
   border-color: var(--color-primary-400);
 }
 
-/* 右侧数据展示区域 */
+/* 右側數據展示區域 */
 .recovery-calculator .results-area {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
-/* 计算步骤卡片 */
+/* 計算步驟卡片 */
 .recovery-calculator .steps-card {
   flex: 1;
   margin-bottom: 8px;
@@ -216,7 +216,7 @@
   align-items: center;
 }
 
-/* 计算结果卡片 */
+/* 計算結果卡片 */
 .recovery-calculator .results-card {
   flex: 0 0 auto;
 }
@@ -227,7 +227,7 @@
   gap: 16px;
 }
 
-/* 计算结果区域 */
+/* 計算結果區域 */
 .recovery-calculator .recovery-section {
   flex: 1;
 }
@@ -261,13 +261,13 @@
   height: 100%;
 }
 
-/* 分隔线 */
+/* 分隔線 */
 .recovery-calculator .divider {
   height: 60px;
   margin: 0 8px;
 }
 
-/* 移动端基础适配 - 简化版 */
+/* 移動端基礎適配 - 簡化版 */
 @media (max-width: 999px) {
   .recovery-calculator {
     flex-direction: column;
@@ -287,7 +287,7 @@
   }
 }
 
-/* 黑暗模式适配 */
+/* 黑暗模式適配 */
 [data-theme="dark"] .recovery-calculator .effect-card,
 body[tomato-theme="dark"] .recovery-calculator .effect-card {
   background-color: var(--theme-bg-primary);
@@ -359,7 +359,7 @@ body[tomato-theme="dark"] .recovery-calculator .recovery-percentage {
   color: var(--theme-text-secondary);
 }
 
-/* 黑暗模式下的计算按钮样式 */
+/* 黑暗模式下的計算按鈕樣式 */
 [data-theme="dark"] .recovery-calculator .calculate-button,
 body[tomato-theme="dark"] .recovery-calculator .calculate-button {
   background-color: var(--color-primary-500);

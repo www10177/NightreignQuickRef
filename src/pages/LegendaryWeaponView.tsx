@@ -6,38 +6,38 @@ import DataManager from '../utils/dataManager';
 type OnChange = NonNullable<TableProps<TransformedWeaponEffect>['onChange']>;
 type Filters = Parameters<OnChange>[1];
 
-// 传说武器数据结构
+// 傳說武器數據結構
 interface WeaponCharacter {
   [weaponName: string]: {
     [characterName: string]: number;
   };
 }
 
-// 武器特效数据结构
+// 武器特效數據結構
 interface WeaponEffect {
   [weaponName: string]: {
-    类型: string;
+    類型: string;
     特效: string;
     描述: string;
-    削韧: string;
+    削韌: string;
   };
 }
 
-// 数据接口
+// 數據接口
 interface DataState {
   weaponCharacterData: TransformedWeaponCharacter[];
   weaponEffectData: TransformedWeaponEffect[];
   loading: boolean;
 }
 
-// 转换后的数据结构
+// 轉換後的數據結構
 interface TransformedWeaponEffect {
   weapon_id: string;
   weapon_name: string;
-  类型: string;
+  類型: string;
   特效: string;
   描述: string;
-  削韧: string;
+  削韌: string;
 }
 
 interface TransformedWeaponCharacter {
@@ -46,7 +46,7 @@ interface TransformedWeaponCharacter {
   [characterName: string]: string | number;
 }
 
-const characterNames = ['追踪者', '守护者', '铁之眼', '女爵', '无赖', '复仇者', '隐士', '执行者'];
+const characterNames = ['追蹤者', '守護者', '鐵之眼', '女爵', '無賴', '復仇者', '隱士', '執行者'];
 
 const transformData = (rawData: WeaponCharacter[]) => {
   const weapons = rawData[0];
@@ -66,7 +66,7 @@ const transformEffectData = (rawData: WeaponEffect[]) => {
   }));
 };
 
-// 根据行内数值范围获取对应的背景颜色
+// 根據行內數值範圍獲取對應的背景顏色
 const getBackgroundColor = (value: number, rowValues: number[]): string => {
   const max = Math.max(...rowValues);
   const min = Math.min(...rowValues);
@@ -77,7 +77,7 @@ const getBackgroundColor = (value: number, rowValues: number[]): string => {
   const normalizedValue = (value - min) / range;
   const isDarkMode = document.body.getAttribute('tomato-theme') === 'dark';
 
-  // 浅色模式（带透明度）
+  // 淺色模式（帶透明度）
   if (!isDarkMode) {
     if (normalizedValue < 0.25) return 'rgba(237, 242, 255, 0.3)';
     if (normalizedValue < 0.5) return 'rgba(224, 232, 255, 0.5)';
@@ -96,8 +96,8 @@ const ColorLegend = () => {
   const isDarkMode = document.body.getAttribute('tomato-theme') === 'dark';
   const legendItems = [
     { range: '低', threshold: 0.25, valueRange: '0 ~ 25%' },
-    { range: '较低', threshold: 0.5, valueRange: '25% ~ 50%' },
-    { range: '较高', threshold: 0.8, valueRange: '50% ~ 80%' },
+    { range: '較低', threshold: 0.5, valueRange: '25% ~ 50%' },
+    { range: '較高', threshold: 0.8, valueRange: '50% ~ 80%' },
     { range: '高', threshold: 1.0, valueRange: '80% ~ 100%' }
   ];
 
@@ -115,7 +115,7 @@ const ColorLegend = () => {
         marginBottom: '8px',
         flexWrap: 'wrap'
       }}>
-        <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>颜色映射：</span>
+        <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>顏色映射：</span>
         <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
           {legendItems.map((item, index) => (
             <div key={index} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -126,7 +126,7 @@ const ColorLegend = () => {
                   borderRadius: '3px',
                   backgroundColor: getBackgroundColor(
                     item.threshold,
-                    [0, 1] // 用0和1模拟范围以便获取对应颜色
+                    [0, 1] // 用0和1模擬範圍以便獲取對應顏色
                   )
                 }}
               />
@@ -145,7 +145,7 @@ const ColorLegend = () => {
         fontSize: '12px',
         color: 'var(--text-secondary)'
       }}>
-        映射原理：按行计算（当前值 - 最小值）/（最大值 - 最小值)，将结果归一化为0-100%范围，数值越高颜色越深。
+        映射原理：按行計算（當前值 - 最小值）/（最大值 - 最小值)，將結果歸一化為0-100%範圍，數值越高顏色越深。
       </div>
     </div>
   );
@@ -188,7 +188,7 @@ const LegendaryWeaponView: React.FC<LegendaryWeaponViewProps> = ({ activeStep })
     loadData();
   }, []);
 
-  // 监听外部Step切换
+  // 監聽外部Step切換
   useEffect(() => {
     if (typeof activeStep === 'number') {
       setCurrentStep(activeStep);
@@ -197,15 +197,15 @@ const LegendaryWeaponView: React.FC<LegendaryWeaponViewProps> = ({ activeStep })
 
   const { weaponCharacterData, weaponEffectData, loading } = dataState;
 
-  // 表格变化处理函数
+  // 表格變化處理函數
   const handleTableChange: OnChange = (_pagination, filters) => {
     setFilteredInfo(filters);
   };
 
-  // 表格列定义
+  // 表格列定義
   const columns: TableColumnsType<TransformedWeaponCharacter> = [
     {
-      title: '武器名称',
+      title: '武器名稱',
       dataIndex: 'weapon_name',
       key: 'weapon_name',
       width: 110,
@@ -242,10 +242,10 @@ const LegendaryWeaponView: React.FC<LegendaryWeaponViewProps> = ({ activeStep })
     }))
   ];
 
-  // 武器特效表格列定义
+  // 武器特效表格列定義
   const effectColumns: TableColumnsType<TransformedWeaponEffect> = [
     {
-      title: '武器名称',
+      title: '武器名稱',
       dataIndex: 'weapon_name',
       key: 'weapon_name',
       width: 120,
@@ -253,32 +253,32 @@ const LegendaryWeaponView: React.FC<LegendaryWeaponViewProps> = ({ activeStep })
       render: (text) => <span className="legendary-weapon-text-center">{text}</span>,
     },
     {
-      title: '类型',
-      dataIndex: '类型',
-      key: '类型',
+      title: '類型',
+      dataIndex: '類型',
+      key: '類型',
       width: 80,
       align: 'center' as const,
       filters: [
-        { text: '直剑', value: '直剑' },
-        { text: '大剑', value: '大剑' },
-        { text: '特大剑', value: '特大剑' },
-        { text: '重刺剑', value: '重刺剑' },
-        { text: '大曲剑', value: '大曲剑' },
+        { text: '直劍', value: '直劍' },
+        { text: '大劍', value: '大劍' },
+        { text: '特大劍', value: '特大劍' },
+        { text: '重刺劍', value: '重刺劍' },
+        { text: '大麴劍', value: '大麴劍' },
         { text: '刀', value: '刀' },
         { text: '大斧', value: '大斧' },
         { text: '槌', value: '槌' },
         { text: '大槌', value: '大槌' },
-        { text: '连枷', value: '连枷' },
+        { text: '連枷', value: '連枷' },
         { text: '矛', value: '矛' },
         { text: '大矛', value: '大矛' },
         { text: '鞭子', value: '鞭子' },
-        { text: '拳头', value: '拳头' },
+        { text: '拳頭', value: '拳頭' },
         { text: '特大武器', value: '特大武器' },
         { text: '法杖', value: '法杖' },
         { text: '大弓', value: '大弓' },
       ],
-      filteredValue: filteredInfo.类型 || null,
-      onFilter: (value, record) => record.类型 === value,
+      filteredValue: filteredInfo.類型 || null,
+      onFilter: (value, record) => record.類型 === value,
     },
     {
       title: '特效',
@@ -294,15 +294,15 @@ const LegendaryWeaponView: React.FC<LegendaryWeaponViewProps> = ({ activeStep })
       width: 300,
     },
     {
-      title: '削韧',
-      dataIndex: '削韧',
-      key: '削韧',
+      title: '削韌',
+      dataIndex: '削韌',
+      key: '削韌',
       width: 150,
       align: 'center' as const,
     }
   ];
 
-  // 第一个表格内容（包含颜色图例）
+  // 第一個表格內容（包含顏色圖例）
   const firstTable = (
     <div className="legendary-weapon-table-container">
       <ColorLegend />
@@ -317,7 +317,7 @@ const LegendaryWeaponView: React.FC<LegendaryWeaponViewProps> = ({ activeStep })
     </div>
   );
 
-  // 第二个表格内容
+  // 第二個表格內容
   const secondTable = (
     <div className="legendary-weapon-table-container">
       <Table
@@ -335,7 +335,7 @@ const LegendaryWeaponView: React.FC<LegendaryWeaponViewProps> = ({ activeStep })
     </div>
   );
 
-  // 自定义步骤条
+  // 自定義步驟條
   const customSteps = (
     <div className="custom-steps-container legendary-weapon-steps-container">
       <Steps
@@ -347,8 +347,8 @@ const LegendaryWeaponView: React.FC<LegendaryWeaponViewProps> = ({ activeStep })
           }
         }}
         items={[
-          { title: '全角色传说武器面板' },
-          { title: '传说武器庇佑效果' }
+          { title: '全角色傳說武器面板' },
+          { title: '傳說武器庇佑效果' }
         ]}
       />
     </div>
@@ -357,7 +357,7 @@ const LegendaryWeaponView: React.FC<LegendaryWeaponViewProps> = ({ activeStep })
   if (loading) {
     return (
       <div className="legendary-weapon-container" style={{ padding: '16px', textAlign: 'center' }}>
-        <div>加载中...</div>
+        <div>加載中...</div>
       </div>
     );
   }

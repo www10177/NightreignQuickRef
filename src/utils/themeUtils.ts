@@ -1,9 +1,9 @@
-// 主题相关的工具函数
+// 主題相關的工具函數
 export const toggleTheme = (isDarkMode: boolean, setIsDarkMode: (value: boolean) => void) => {
   const newTheme = !isDarkMode;
   setIsDarkMode(newTheme);
   
-  // 更新body属性
+  // 更新body屬性
   if (newTheme) {
     document.body.setAttribute('tomato-theme', 'dark');
   } else {
@@ -13,12 +13,12 @@ export const toggleTheme = (isDarkMode: boolean, setIsDarkMode: (value: boolean)
   // 保存到localStorage
   localStorage.setItem('theme', newTheme ? 'dark' : 'light');
   
-  // 触发自定义主题变化事件
+  // 觸發自定義主題變化事件
   window.dispatchEvent(new Event('themeChange'));
 };
 
 export const initializeTheme = (setIsDarkMode: (value: boolean) => void) => {
-  // 从localStorage读取主题设置
+  // 從localStorage讀取主題設置
   const savedTheme = localStorage.getItem('theme');
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   
@@ -42,7 +42,7 @@ export const setupThemeListener = (setIsDarkMode: (value: boolean) => void) => {
   const darkThemeMq = window.matchMedia('(prefers-color-scheme: dark)');
   
   const handleThemeChange = (e: MediaQueryListEvent) => {
-    if (!localStorage.getItem('theme')) { // 只有用户没有手动设置主题时才跟随系统
+    if (!localStorage.getItem('theme')) { // 只有用戶沒有手動設置主題時才跟隨系統
       const newTheme = e.matches;
       setIsDarkMode(newTheme);
       
@@ -61,19 +61,19 @@ export const setupThemeListener = (setIsDarkMode: (value: boolean) => void) => {
   };
 };
 
-// 检测当前主题状态
+// 檢測當前主題狀態
 export const getCurrentTheme = (): 'light' | 'dark' => {
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme) {
     return savedTheme as 'light' | 'dark';
   }
   
-  // 如果没有保存的主题设置，检查系统偏好
+  // 如果沒有保存的主題設置，檢查系統偏好
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   return prefersDark ? 'dark' : 'light';
 };
 
-// 检测是否为深色模式
+// 檢測是否為深色模式
 export const isDarkMode = (): boolean => {
   return getCurrentTheme() === 'dark';
 }; 

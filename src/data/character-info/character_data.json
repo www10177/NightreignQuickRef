@@ -1,6 +1,6 @@
   [
     {
-      "name": "训练场人偶士兵",
+      "name": "訓練場人偶士兵",
       "normal": 1,
       "strike": 1.1,
       "slash": 0.9,
@@ -14,10 +14,10 @@
       "poison": 112,
       "scarletRot": 112,
       "frost": 112,
-      "location": "训练场"
+      "location": "訓練場"
     },
     {
-    "name": "追踪者",
+    "name": "追蹤者",
     "normal": 0.81,
     "strike": 0.81,
     "slash": 0.8,
@@ -31,10 +31,10 @@
     "poison": 102,
     "scarletRot": 102,
     "frost": 95,
-    "location": "可选角色"
+    "location": "可選角色"
   },
   {
-    "name": "守护者",
+    "name": "守護者",
     "normal": 0.76,
     "strike": 0.76,
     "slash": 0.75,
@@ -48,10 +48,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 85,
-    "location": "可选角色"
+    "location": "可選角色"
   },
   {
-    "name": "铁之眼",
+    "name": "鐵之眼",
     "normal": 0.81,
     "strike": 0.86,
     "slash": 0.85,
@@ -65,7 +65,7 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 85,
-    "location": "可选角色"
+    "location": "可選角色"
   },
   {
     "name": "女爵",
@@ -82,10 +82,10 @@
     "poison": 102,
     "scarletRot": 102,
     "frost": 85,
-    "location": "可选角色"
+    "location": "可選角色"
   },
   {
-    "name": "无赖",
+    "name": "無賴",
     "normal": 0.76,
     "strike": 0.76,
     "slash": 0.75,
@@ -99,10 +99,10 @@
     "poison": 102,
     "scarletRot": 102,
     "frost": 95,
-    "location": "可选角色"
+    "location": "可選角色"
   },
   {
-    "name": "复仇者",
+    "name": "復仇者",
     "normal": 0.86,
     "strike": 0.86,
     "slash": 0.9,
@@ -116,10 +116,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 85,
-    "location": "可选角色"
+    "location": "可選角色"
   },
   {
-    "name": "隐士",
+    "name": "隱士",
     "normal": 0.86,
     "strike": 0.86,
     "slash": 0.9,
@@ -133,10 +133,10 @@
     "poison": 112,
     "scarletRot": 112,
     "frost": 85,
-    "location": "可选角色"
+    "location": "可選角色"
   },
   {
-    "name": "执行者",
+    "name": "執行者",
     "normal": 0.76,
     "strike": 0.76,
     "slash": 0.75,
@@ -150,10 +150,10 @@
     "poison": 92,
     "scarletRot": 92,
     "frost": 105,
-    "location": "可选角色"
+    "location": "可選角色"
   },
   {
-    "name": "熔炉百相之兽",
+    "name": "熔爐百相之獸",
     "normal": 0.3,
     "strike": 0.3,
     "slash": 0.33,
@@ -167,10 +167,10 @@
     "poison": 154,
     "scarletRot": 154,
     "frost": 252,
-    "location": "执行者绝招"
+    "location": "執行者絕招"
   },
   {
-    "name": "海伦",
+    "name": "海倫",
     "normal": 0.8,
     "strike": 0.72,
     "slash": 0.8,
@@ -184,7 +184,7 @@
     "poison": "免疫",
     "scarletRot": "免疫",
     "frost": "免疫",
-    "location": "复仇者家人"
+    "location": "復仇者家人"
   },
   {
     "name": "弗雷德利克",
@@ -201,7 +201,7 @@
     "poison": "免疫",
     "scarletRot": "免疫",
     "frost": "免疫",
-    "location": "复仇者家人"
+    "location": "復仇者家人"
   },
   {
     "name": "塞巴斯蒂安",
@@ -218,5 +218,5 @@
     "poison": "免疫",
     "scarletRot": "免疫",
     "frost": "免疫",
-    "location": "复仇者家人"
+    "location": "復仇者家人"
   }]

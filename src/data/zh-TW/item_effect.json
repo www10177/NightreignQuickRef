@@ -1,0 +1,482 @@
+[
+        {
+            "name": "聖盃瓶",
+            "effect": "恢復60%生命值",
+            "singleGridQty": "-",
+            "type": "聖盃瓶"
+        },
+        {
+            "name": "聖盃瓶(緩慢恢復)",
+            "effect": "立刻恢復10%(受恢復量buff加成)；後續恢復1%/0.1s，持續8s(不受恢復量buff加成)",
+            "singleGridQty": "-",
+            "type": "聖盃瓶"
+        },
+        {
+            "name": "羅亞果實",
+            "effect": "恢復10%+100生命",
+            "singleGridQty": "-",
+            "type": "採集"
+        },
+        {
+            "name": "藍結晶木芽",
+            "effect": "恢復20%藍",
+            "singleGridQty": "-",
+            "type": "採集"
+        },
+        {
+            "name": "金色螢火蟲",
+            "effect": "獲取盧恩增加10%，持續120秒",
+            "singleGridQty": "-",
+            "type": "採集"
+        },
+        {
+            "name": "火星蝶",
+            "effect": "物理和火攻擊力提升10%，持續120秒",
+            "singleGridQty": "-",
+            "type": "採集"
+        },
+        {
+            "name": "脫生蝶",
+            "effect": "消除所有異常狀態，異常值上限變為2倍，持續120秒",
+            "singleGridQty": "-",
+            "type": "採集"
+        },
+        {
+            "name": "怨魂墓碑",
+            "effect": "召喚3個怨魂，每個60魔，削韌1",
+            "singleGridQty": "-",
+            "type": "採集"
+        },
+        {
+            "name": "羅亞原種果實",
+            "effect": "恢復15%+150生命，消除冰凍狀態和累積值",
+            "singleGridQty": "-",
+            "type": "採集"
+        },
+        {
+            "name": "銀色淚滴空殼",
+            "effect": "全減傷率提升20%，持續120秒",
+            "singleGridQty": "-",
+            "type": "採集"
+        },
+        {
+            "name": "聖血木芽",
+            "effect": "清除腐敗狀態和累積值",
+            "singleGridQty": "-",
+            "type": "採集"
+        },
+        {
+            "name": "星光碎片",
+            "effect": "恢復60%藍",
+            "singleGridQty": "2",
+            "type": "道具"
+        },
+        {
+            "name": "xx苔藥",
+            "effect": "解除對應異常，並永久增加4點對應抗性（上限40）",
+            "singleGridQty": "2",
+            "type": "苔藥"
+        },
+        {
+            "name": "醃製白銀鳥爪",
+            "effect": "提升30觀察力，持續60秒",
+            "singleGridQty": "2",
+            "type": "道具"
+        },
+        {
+            "name": "醃製黃金鳥爪",
+            "effect": "獲取盧恩增加10%，持續60秒",
+            "singleGridQty": "2",
+            "type": "道具"
+        },
+        {
+            "name": "煮熟蝦子",
+            "effect": "物理減傷率提升15%，持續60秒",
+            "singleGridQty": "2",
+            "type": "道具"
+        },
+        {
+            "name": "煮熟螃蟹",
+            "effect": "物理減傷率提升20%，持續60秒",
+            "singleGridQty": "2",
+            "type": "道具"
+        },
+        {
+            "name": "醃製龜頸肉",
+            "effect": "精力恢復提升10/s，持續60秒",
+            "singleGridQty": "2",
+            "type": "道具"
+        },
+        {
+            "name": "勇者肉塊",
+            "effect": "物理攻擊提升20%，持續30秒",
+            "singleGridQty": "2",
+            "type": "道具"
+        },
+        {
+            "name": "紅結晶露滴",
+            "effect": "恢復70%生命值",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "漫紅結晶露滴",
+            "effect": "最大生命值提升20%，持續120秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "湧紅結晶露滴",
+            "effect": "每秒恢復7點生命值，持續120秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "藍結晶露滴",
+            "effect": "恢復所有藍",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "漫綠結晶露滴",
+            "effect": "最大精力提升15%，持續120秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "湧綠結晶露滴",
+            "effect": "精力恢復提升15/s，持續120秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "珍珠硬露滴",
+            "effect": "所有減傷率提升15%，持續120秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "斑斕硬露滴",
+            "effect": "消除所有異常狀態及累積，所有異常抗性提升90，持續120秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "細枝破露滴",
+            "effect": "120秒內死亡不掉盧恩和等級",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "鉛化硬露滴",
+            "effect": "10秒內免疫1,2,3,5,8衝擊力，其他衝擊力弱化為5級",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "帶x破露滴",
+            "effect": "對應屬性傷害提升20%，持續120秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "巖刺破露滴",
+            "effect": "削韌提升30%，持續30秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "大刺破露滴",
+            "effect": "蓄力攻擊（不含戰技、法術）傷害提升15%，持續120秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "連刺破露滴",
+            "effect": "累積值達到 17/30/45/60 時增傷 9%/13%/20%/20%，持續120秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "風結晶露滴",
+            "effect": "翻滾無敵幀增加3幀，但受到傷害增加10%，持續120秒(與強化閃避詞條、熔爐羽護符不可疊加)",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "紅泡狀露滴",
+            "effect": "120秒內生命值低於20%時恢復30%最大生命值，只能觸發一次",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "紅漩泡狀露滴",
+            "effect": "屬性傷害減傷率提升99%，受到屬性傷害時恢復5%生命值，持續10秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "珍珠泡狀露滴",
+            "effect": "獲得一個減傷率提升90%護盾，持續120秒",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "藍秘密露滴",
+            "effect": "15秒內藍耗歸零",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "爆裂結晶露滴",
+            "effect": "自身扣血25%，900聖，衝擊力7（擊退），削韌10",
+            "singleGridQty": "1",
+            "type": "露滴"
+        },
+        {
+            "name": "火焰壺",
+            "effect": "138火焰攻擊力，衝擊力7（擊退），削韌3",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "魔力壺",
+            "effect": "193魔攻擊力，衝擊力7（擊退），削韌3",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "雷電壺",
+            "effect": "156雷攻擊力，衝擊力7（擊退），削韌3",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "聖水壺",
+            "effect": "100聖攻擊力，對死誕者傷害加倍並防止復活，衝擊力7（擊退），削韌3",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "毒壺",
+            "effect": "爆炸112中毒值，毒霧持續造成10中毒值",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "糞便壺",
+            "effect": "為自己累積200中毒值，爆炸60普通+154中毒值，無削韌，毒霧3普通+12中毒值，削韌1（中毒值均為劇毒）; 劇毒效果：每1.3秒扣血0.12%+12，持續40秒",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "腐敗壺",
+            "effect": "爆炸112腐敗值，毒霧3普通+10腐敗值，削韌1",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "蒼蠅壺",
+            "effect": "爆炸60普通+80出血值，無削韌，後續4次傷害69普通+25出血值，削韌1",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "結冰壺",
+            "effect": "爆炸71魔+112冰凍值，衝擊力7（擊退），削韌3，冰霧3魔+10冰凍值，削韌1",
+            "singleGridQty": "2",
+            "type": "壺"
+        },  
+        {
+            "name": "催眠壺",
+            "effect": "煙霧持續疊加25催眠值",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "火山壺",
+            "effect": "持續造成15火，無削韌",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "怨魂壺",
+            "effect": "爆炸45魔，衝擊力7（擊退），產生4個怨魂，每個27魔，削韌1",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "誘敵壺",
+            "effect": "吸引人類敵人，持續5秒",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "引獸壺",
+            "effect": "吸引野獸，持續5秒",
+            "singleGridQty": "2",
+            "type": "壺"
+        },
+        {
+            "name": "骨毒飛刀",
+            "effect": "30突刺+58中毒值，削韌1",
+            "singleGridQty": "8",
+            "type": "飛刀"
+        },
+        {
+            "name": "結晶飛刀",
+            "effect": "39突刺+26魔，削韌1，使小惡魔、看門犬混亂",
+            "singleGridQty": "8",
+            "type": "飛刀"
+        },
+        {
+            "name": "投擲匕首",
+            "effect": "40突刺，削韌1",
+            "singleGridQty": "8",
+            "type": "飛刀"
+        },
+        {
+            "name": "廓爾喀彎刀",
+            "effect": "52突刺+70出血值，削韌3",
+            "singleGridQty": "8",
+            "type": "飛刀"
+        },
+        {
+            "name": "扇形暗器",
+            "effect": "每發22突刺，削韌0.5，一共5發",
+            "singleGridQty": "8",
+            "type": "飛刀"
+        },
+        {
+            "name": "崩裂輝石",
+            "effect": "每發49魔，削韌2，一共3發",
+            "singleGridQty": "3",
+            "type": "石"
+        },
+        {
+            "name": "大塊崩裂輝石",
+            "effect": "每發39魔，削韌2，一共7發",
+            "singleGridQty": "2",
+            "type": "石"
+        },
+        {
+            "name": "杜鵬輝石",
+            "effect": "爆炸84魔，削韌10，生成5個球每個49魔，削韌2",
+            "singleGridQty": "2",
+            "type": "石"
+        },
+        {
+            "name": "扇形重力石",
+            "effect": "106打擊+36魔，削韌10",
+            "singleGridQty": "2",
+            "type": "石"
+        },
+        {
+            "name": "大塊重力石",
+            "effect": "156打擊+42魔，衝擊力9（擊飛），削韌10",
+            "singleGridQty": "2",
+            "type": "石"
+        },
+        {
+            "name": "溫熱石",
+            "effect": "範圍內每秒恢復35生命值，持續30秒",
+            "singleGridQty": "2",
+            "type": "石"
+        },
+        {
+            "name": "魅惑樹枝",
+            "effect": "使敵方為自己而戰",
+            "singleGridQty": "2",
+            "type": "道具"
+        },
+        {
+            "name": "火花香",
+            "effect": "444火，削韌5",
+            "singleGridQty": "2",
+            "type": "香"
+        },
+        {
+            "name": "毒發噴霧",
+            "effect": "毒霧每次3普通+8中毒值（劇毒; 劇毒效果：每1.3秒扣血0.12%+12，持續40秒",
+            "singleGridQty": "2",
+            "type": "香"
+        },
+        {
+            "name": "鐵壺香藥",
+            "effect": "物理減傷率提升20%，雷減傷率降低60%，弱化衝擊力，人物獲得90彈刀力，只能慢走，持續40秒",
+            "singleGridQty": "2",
+            "type": "香"
+        },
+        {
+            "name": "振奮香",
+            "effect": "獲得一個減傷90%的護盾，物理攻擊提升10%(立誓類buff)，持續40秒，隊友有效",
+            "singleGridQty": "2",
+            "type": "香"
+        },
+        {
+            "name": "酸蝕噴霧",
+            "effect": "降低敵人15%物理傷害，持續60秒",
+            "singleGridQty": "2",
+            "type": "香"
+        },
+        {
+            "name": "狂熱香藥",
+            "effect": "物理攻擊提升35%，所有減傷率降低35%，最大精力提升20%，精力恢復速度提升5/s，持續60秒",
+            "singleGridQty": "2",
+            "type": "香"
+        },
+        {
+            "name": "招咒魂鈴",
+            "effect": "153魔，削韌3，耗藍6",
+            "singleGridQty": "1",
+            "type": "道具"
+        },
+        {
+            "name": "惡兆幼子像",
+            "effect": "爆炸63聖，衝擊力7（擊退），削韌15，12發飛彈每個42聖，削韌1，耗藍24",
+            "singleGridQty": "1",
+            "type": "道具"
+        },
+        {
+            "name": "王室惡兆幼子像",
+            "effect": "爆炸69聖，衝擊力7（擊退），削韌15，24發飛彈每個36聖，削韌1，耗藍50",
+            "singleGridQty": "1",
+            "type": "道具"
+        },
+        {
+            "name": "稚幼祖靈頭部",
+            "effect": "每次33魔，無削韌，耗藍17",
+            "singleGridQty": "1",
+            "type": "道具"
+        },
+        {
+            "name": "魔/火/雷/聖油脂",
+            "effect": "附魔屬性21點，持續30秒",
+            "singleGridQty": "2",
+            "type": "油脂"
+        },
+        {
+            "name": "異常油脂",
+            "effect": "附魔對應異常30點，持續30秒",
+            "singleGridQty": "2",
+            "type": "油脂"
+        },
+        {
+            "name": "傷龍油脂",
+            "effect": "物理傷害提升10%，對古龍額外增傷20%，對龍額外增傷30%，持續60秒",
+            "singleGridQty": "2",
+            "type": "油脂"
+        },
+        {
+            "name": "堅盾油脂",
+            "effect": "盾牌減傷率提升20%，防禦強度提升13%，持續60秒",
+            "singleGridQty": "3",
+            "type": "油脂"
+        },
+        {
+            "name": "徘徊賜福",
+            "effect": "倒地後自動復活，立即恢復50%生命值，並在5秒內每0.5秒回覆5%+1生命值",
+            "singleGridQty": "1",
+            "type": "道具"
+        }
+    ]

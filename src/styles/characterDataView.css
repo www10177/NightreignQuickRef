@@ -1,4 +1,4 @@
-/* CharacterDataView 组件专用样式 */
+/* CharacterDataView 組件專用樣式 */
 
 .character-data-container {
   /* padding: 20px 0; */
@@ -17,7 +17,7 @@
   padding: 0;
 }
 
-/* ===== 卡片列表组件 ===== */
+/* ===== 卡片列表組件 ===== */
 .card-item {
   margin-bottom: 20px !important;
   transition: all var(--transition-normal);
@@ -29,13 +29,13 @@
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2) !important;
 }
 
-/* 卡片内容动画 */
+/* 卡片內容動畫 */
 .card-item .card-header,
 .card-item .card-body {
   transition: all var(--transition-normal);
 }
 
-/* 淡入动画 */
+/* 淡入動畫 */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -80,7 +80,7 @@ body[tomato-theme="dark"] .card-item .card-body {
   background: var(--content-bg);
 }
 
-/* 角色属性表格样式 */
+/* 角色屬性表格樣式 */
 .character-attributes-table {
   background: var(--content-bg);
   border-radius: 8px;
@@ -88,7 +88,7 @@ body[tomato-theme="dark"] .card-item .card-body {
   transition: all var(--transition-normal);
 }
 
-/* 表格行选择动画 */
+/* 表格行選擇動畫 */
 .character-attributes-table .ant-table-tbody > tr {
   transition: background-color var(--transition-normal);
 }
@@ -97,7 +97,7 @@ body[tomato-theme="dark"] .card-item .card-body {
   transition: background-color var(--transition-normal);
 }
 
-/* 不同等级的颜色定义 */
+/* 不同等級的顏色定義 */
 .character-attribute-value.s-rank {
   color: #ffc118;
 }
@@ -123,7 +123,7 @@ body[tomato-theme="dark"] .card-item .card-body {
 }
 
 
-/* 开发中功能样式 */
+/* 開發中功能樣式 */
 .character-development-placeholder {
   text-align: center;
   padding: 40px;
@@ -134,7 +134,7 @@ body[tomato-theme="dark"] .card-item .card-body {
   color: var(--color-text-2);
 }
 
-/* 雷达图过渡动画 - 与全局动画同步 */
+/* 雷達圖過渡動畫 - 與全局動畫同步 */
 .radar-chart-container {
   transition: all var(--transition-normal);
   opacity: 1;
@@ -148,7 +148,7 @@ body[tomato-theme="dark"] .card-item .card-body {
   filter: brightness(0.7);
 }
 
-/* 雷达图容器动画 */
+/* 雷達圖容器動畫 */
 .radar-wrapper {
   position: relative;
   transition: all var(--transition-normal);
@@ -161,7 +161,7 @@ body[tomato-theme="dark"] .card-item .card-body {
   height: 100%;
 }
 
-/* 确保radar-wrapper内部的Radar组件容器居中 */
+/* 確保radar-wrapper內部的Radar組件容器居中 */
 .radar-wrapper > div {
   display: flex;
   align-items: center;
@@ -170,7 +170,7 @@ body[tomato-theme="dark"] .card-item .card-body {
   height: 100%;
 }
 
-/* 确保radar-wrapper中的canvas居中 */
+/* 確保radar-wrapper中的canvas居中 */
 .radar-wrapper canvas {
   display: block;
   margin: 0 auto;
@@ -182,13 +182,13 @@ body[tomato-theme="dark"] .card-item .card-body {
   filter: brightness(0.7);
 }
 
-/* 雷达图内部元素动画 */
+/* 雷達圖內部元素動畫 */
 .radar-chart-container.theme-transitioning canvas,
 .radar-wrapper.theme-transitioning canvas {
   transition: all var(--transition-normal);
 }
 
-/* 闪避无敌帧对比图表过渡动画 */
+/* 閃避無敵幀對比圖表過渡動畫 */
 .dodge-frames-chart-container {
   transition: all var(--transition-normal);
   opacity: 1;
@@ -206,7 +206,7 @@ body[tomato-theme="dark"] .card-item .card-body {
   transition: all var(--transition-normal);
 }
 
-/* 闪避无敌帧提示信息样式 */
+/* 閃避無敵幀提示信息樣式 */
 .dodge-frames-tips {
   color: var(--color-text-1);
 }
@@ -218,7 +218,7 @@ body[tomato-theme="dark"] .card-item .card-body {
   color: var(--color-text-2);
 }
 
-/* Alert 组件样式优化 */
+/* Alert 組件樣式優化 */
 
 .character-data-container .ant-alert-message {
   color: var(--color-text-1);
@@ -230,7 +230,7 @@ body[tomato-theme="dark"] .card-item .card-body {
   color: var(--color-text-2);
 }
 
-/* 移动端基础适配 - 简化版 */
+/* 移動端基礎適配 - 簡化版 */
 @media (max-width: 999px) {
   .content-wrapper.card-item {
     width: 95%;
@@ -239,9 +239,9 @@ body[tomato-theme="dark"] .card-item .card-body {
   
 } 
 
-/* ===== 表格与雷达图宽度比例控制 ===== */
+/* ===== 表格與雷達圖寬度比例控制 ===== */
 
-/* 默认比例：表格60%，雷达图40% */
+/* 默認比例：表格60%，雷達圖40% */
 .character-attributes-table-container {
   flex: 0.6 !important;
   min-width: 0;
@@ -270,7 +270,7 @@ body[tomato-theme="dark"] .card-item .card-body {
   position: relative;
 }
 
-/* 确保Radar组件生成的内部容器居中 */
+/* 確保Radar組件生成的內部容器居中 */
 .radar-chart-container > div {
   display: flex;
   align-items: center;
@@ -279,19 +279,19 @@ body[tomato-theme="dark"] .card-item .card-body {
   height: 100%;
 }
 
-/* 确保canvas在内部容器中居中 */
+/* 確保canvas在內部容器中居中 */
 .radar-chart-container canvas {
   display: block;
   margin: 0 auto;
 }
 
-/* 黑暗模式下选中行样式 */
+/* 黑暗模式下選中行樣式 */
 [data-theme="dark"] .character-attributes-table .ant-table-tbody > tr.ant-table-row-selected > td,
 body[tomato-theme="dark"] .character-attributes-table .ant-table-tbody > tr.ant-table-row-selected > td {
   background-color: #000000 !important;
 }
 
-/* 移动端响应式调整 - 简化版 */
+/* 移動端響應式調整 - 簡化版 */
 @media (max-width: 999px) {
   .attributes-and-radar {
     flex-direction: column !important;
@@ -302,7 +302,7 @@ body[tomato-theme="dark"] .character-attributes-table .ant-table-tbody > tr.ant-
     min-width: 100% !important;
   }
 
-  /* 移动端雷达图，表格下方 */
+  /* 移動端雷達圖，表格下方 */
   .radar-chart-container {
     display: block !important;
     flex: unset !important;

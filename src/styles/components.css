@@ -1,8 +1,8 @@
-/* 组件样式库 */
+/* 組件樣式庫 */
 
-/* CSS变量定义 - 支持暗黑模式 */
+/* CSS變量定義 - 支持暗黑模式 */
 :root {
-  /* geekblue色板 - 全局定义 */
+  /* geekblue色板 - 全局定義 */
   --geekblue-1: #f0f5ff;
   --geekblue-2: #d6e4ff;
   --geekblue-3: #adc6ff;
@@ -14,7 +14,7 @@
   --geekblue-9: #061178;
   --geekblue-10: #030852;
   
-  /* 亮色模式变量 */
+  /* 亮色模式變量 */
   --bg-color: #fff;
   --color-text-1: #415394;
   --color-text-2: #637fbb;
@@ -48,7 +48,7 @@ body[tomato-theme="dark"] {
   --theme-primary-active: var(--geekblue-5);
 }
 
-/* ===== 布局组件 ===== */
+/* ===== 佈局組件 ===== */
 .app-container {
   min-height: 100vh;
   background: linear-gradient(135deg, var(--color-primary-50) 0%, var(--color-primary-100) 100%);
@@ -91,7 +91,7 @@ body[tomato-theme="dark"] .steps-container {
   }
 }
 
-/* ===== 顶部导航栏 ===== */
+/* ===== 頂部導航欄 ===== */
 .top-bar {
   width: 100%;
   text-align: center;
@@ -108,7 +108,7 @@ body[tomato-theme="dark"] .steps-container {
   justify-content: flex-end;
   align-items: center;
 }
-/* Logo图片样式 */
+/* Logo圖片樣式 */
 .fixed-logo img {
   width: 50px;
   height: 50px;
@@ -127,7 +127,7 @@ body[tomato-theme="dark"] .steps-container {
           drop-shadow(0 0 30px rgba(179, 164, 253, 1));
 }
 
-/* 暗色模式下的发光效果 */
+/* 暗色模式下的發光效果 */
 [data-theme="dark"] .fixed-logo img:hover,
 body[tomato-theme="dark"] .fixed-logo img:hover {
   filter: drop-shadow(0 0 6px rgba(102, 73, 251, 0.4)) 
@@ -136,7 +136,7 @@ body[tomato-theme="dark"] .fixed-logo img:hover {
           drop-shadow(0 0 30px rgba(102, 73, 251, 1));
 }
 
-/* 功能导航菜单样式 */
+/* 功能導航菜單樣式 */
 .function-menu-overlay {
   animation: menuSlideIn 0.2s ease-out;
 }
@@ -195,7 +195,7 @@ body[tomato-theme="dark"] .fixed-logo img:hover {
   transform: translateX(2px) !important;
 }
 
-/* ===== Giscus评论组件 ===== */
+/* ===== Giscus評論組件 ===== */
 .giscus-comments-modal .ant-modal-body {
   padding: 0;
 }
@@ -216,13 +216,13 @@ body[tomato-theme="dark"] .fixed-logo img:hover {
   padding: 20px;
 }
 
-/* 确保Giscus在暗色模式下正确显示 */
+/* 確保Giscus在暗色模式下正確顯示 */
 [data-theme="dark"] #giscus-comments,
 body[tomato-theme="dark"] #giscus-comments {
   background-color: var(--content-bg);
 }
 
-/* 黑暗模式适配 */
+/* 黑暗模式適配 */
 [data-theme="dark"] .function-menu .ant-menu-item,
 body[tomato-theme="dark"] .function-menu .ant-menu-item {
   color: rgba(255, 255, 255, 0.85) !important;
@@ -294,7 +294,7 @@ body[tomato-theme="dark"] .function-menu .ant-menu-submenu .ant-menu-item:hover 
     0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
-/* 为按钮添加微妙的发光效果 */
+/* 為按鈕添加微妙的發光效果 */
 .theme-toggle-btn::before,
 .language-toggle-btn::before,
 .visits-counter-btn::before {
@@ -317,7 +317,7 @@ body[tomato-theme="dark"] .function-menu .ant-menu-submenu .ant-menu-item:hover 
   left: 100%;
 }
 
-/* 暗色模式下的按钮样式 */
+/* 暗色模式下的按鈕樣式 */
 [data-theme="dark"] .theme-toggle-btn,
 [data-theme="dark"] .language-toggle-btn,
 [data-theme="dark"] .visits-counter-btn {
@@ -334,7 +334,7 @@ body[tomato-theme="dark"] .function-menu .ant-menu-submenu .ant-menu-item:hover 
     0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* ===== 头部组件 ===== */
+/* ===== 頭部組件 ===== */
 .header {
   text-align: center;
   margin-bottom: var(--spacing-xl);
@@ -394,7 +394,7 @@ body[tomato-theme="dark"] .function-menu .ant-menu-submenu .ant-menu-item:hover 
   color: var(--color-primary-600);
 }
 
-/* ===== 标签页组件 ===== */
+/* ===== 標籤頁組件 ===== */
 .steps-container {
   max-width: 1300px;
   min-width: 1000px;
@@ -407,7 +407,7 @@ body[tomato-theme="dark"] .function-menu .ant-menu-submenu .ant-menu-item:hover 
   margin-bottom: var(--spacing-2xl);
 }
 
-/* 移动端步骤容器适配 */
+/* 移動端步驟容器適配 */
 @media (max-width: 999px) {
   .steps-container {
     min-width: auto;
@@ -420,7 +420,7 @@ body[tomato-theme="dark"] .function-menu .ant-menu-submenu .ant-menu-item:hover 
   width: 100%;
 }
 
-/* ===== 自定义按钮组件 ===== */
+/* ===== 自定義按鈕組件 ===== */
 .custom-tab-button {
   position: relative;
   width: 150px;
@@ -573,7 +573,7 @@ body[tomato-theme="dark"] .custom-tab-button.active::after {
     0 0 100px var(--color-primary-600) !important;
 }
 
-/* 黑暗模式下的普通发光效果 */
+/* 黑暗模式下的普通發光效果 */
 [data-theme="dark"] .custom-tab-button::before,
 [data-theme="dark"] .custom-tab-button::after,
 body[tomato-theme="dark"] .custom-tab-button::before,
@@ -594,7 +594,7 @@ body[tomato-theme="dark"] .custom-tab-button::after {
   margin-top: var(--spacing-md);
 }
 
-/* 移动端按钮容器适配 */
+/* 移動端按鈕容器適配 */
 @media (max-width: 999px) {
   .custom-buttons-container {
     gap: var(--spacing-sm);
@@ -608,7 +608,7 @@ body[tomato-theme="dark"] .custom-tab-button::after {
   }
 }
 
-/* ===== 搜索组件 ===== */
+/* ===== 搜索組件 ===== */
 .search-container {
   margin-bottom: var(--spacing-md);
   display: flex;
@@ -655,7 +655,7 @@ body[tomato-theme="dark"] .custom-tab-button::after {
   flex-shrink: 0;
 }
 
-/* 移动端搜索输入框适配 */
+/* 移動端搜索輸入框適配 */
 @media (max-width: 999px) {
   .custom-search-input {
     min-width: auto;
@@ -686,7 +686,7 @@ body[tomato-theme="dark"] .custom-tab-button::after {
   flex-wrap: wrap;
 }
 
-/* 移动端搜索筛选行适配 */
+/* 移動端搜索篩選行適配 */
 @media (max-width: 999px) {
   .filter-search-row {
     gap: var(--spacing-sm);
@@ -704,7 +704,7 @@ body[tomato-theme="dark"] .custom-tab-button::after {
   flex-wrap: wrap;
 }
 
-/* 移动端搜索内容适配 */
+/* 移動端搜索內容適配 */
 @media (max-width: 999px) {
   .filter-search-content {
     gap: var(--spacing-sm);
@@ -722,7 +722,7 @@ body[tomato-theme="dark"] .custom-tab-button::after {
   min-width: 0;
 }
 
-/* 移动端筛选控件适配 */
+/* 移動端篩選控件適配 */
 @media (max-width: 999px) {
   .filter-controls {
     gap: 8px;
@@ -738,7 +738,7 @@ body[tomato-theme="dark"] .custom-tab-button::after {
   flex-wrap: wrap;
 }
 
-/* 移动端分页控件适配 */
+/* 移動端分頁控件適配 */
 @media (max-width: 999px) {
   .pagination-controls {
     gap: 8px;
@@ -747,7 +747,7 @@ body[tomato-theme="dark"] .custom-tab-button::after {
   }
 }
 
-/* 自定义分页行：移动端换行显示 */
+/* 自定義分頁行：移動端換行顯示 */
 .custom-pagination-row {
   width: 100%;
 }
@@ -785,7 +785,7 @@ body[tomato-theme="dark"] .custom-tab-button::after {
   flex-shrink: 0;
 }
 
-/* ===== 表格组件 ===== */
+/* ===== 表格組件 ===== */
 .ant-table {
   border-radius: 8px;
   overflow: hidden;
@@ -824,7 +824,7 @@ body[tomato-theme="dark"] .ant-table-tbody > tr:hover > td {
 
 
 
-/* ===== 热力图表格特殊样式 ===== */
+/* ===== 熱力圖表格特殊樣式 ===== */
 .heatmap-table .ant-table-tbody > tr:hover > td {
   background: transparent !important;
 }
@@ -869,7 +869,7 @@ body[tomato-theme="dark"] .ant-table-tbody > tr:hover > td {
   color: var(--ant-color-text) !important;
 }
 
-/* ===== 步骤条组件 ===== */
+/* ===== 步驟條組件 ===== */
 .custom-steps-container {
   margin-bottom: var(--spacing-md);
   text-align: center;
@@ -881,7 +881,7 @@ body[tomato-theme="dark"] .ant-table-tbody > tr:hover > td {
   margin: 0 auto 0 auto;
 }
 
-/* 移动端步骤条容器优化 */
+/* 移動端步驟條容器優化 */
 @media (max-width: 999px) {
   .custom-steps-container {
     max-width: none;
@@ -912,7 +912,7 @@ body[tomato-theme="dark"] .ant-table-tbody > tr:hover > td {
 }
 
 
-/* ===== 传说武器视图组件 ===== */
+/* ===== 傳說武器視圖組件 ===== */
 .legendary-weapon-container {
   padding: 6px;
   width: 100%;
@@ -951,7 +951,7 @@ body[tomato-theme="dark"] .ant-table-tbody > tr:hover > td {
   margin: 0 auto;
 }
 
-/* 隔行变色样式 */
+/* 隔行變色樣式 */
 .table-row-even {
   background-color: var(--content-bg);
 }
@@ -965,7 +965,7 @@ body[tomato-theme="dark"] .table-row-odd {
   background-color: var(--color-neutral-900);
 }
 
-/* ===== 页脚组件 ===== */
+/* ===== 頁腳組件 ===== */
 .footer {
   text-align: center;
   background: rgba(0, 0, 0, 0.05);
@@ -1013,7 +1013,7 @@ body[tomato-theme="dark"] .footer {
   text-decoration: underline;
 }
 
-/* 保留原有的custom-card样式用于其他地方 */
+/* 保留原有的custom-card樣式用於其他地方 */
 .custom-card {
   background: var(--content-bg);
   transition: all var(--transition-normal);
@@ -1065,7 +1065,7 @@ body[tomato-theme="dark"] .custom-card .ant-card-body {
   background: var(--content-bg);
 }
 
-/* 移动端卡片优化 - 移除大小限制 */
+/* 移動端卡片優化 - 移除大小限制 */
 @media (max-width: 999px) {
   .custom-card {
     width: 100% !important;
@@ -1082,7 +1082,7 @@ body[tomato-theme="dark"] .custom-card .ant-card-body {
   }
 }
 
-/* 固定在左上角的logo按钮 */
+/* 固定在左上角的logo按鈕 */
 .fixed-logo {
   position: fixed;
   top: 20px;
@@ -1090,7 +1090,7 @@ body[tomato-theme="dark"] .custom-card .ant-card-body {
   z-index: 1050;
 }
 
-/* 加载动画样式 */
+/* 加載動畫樣式 */
 .loading-container {
   position: fixed;
   top: 0;
@@ -1124,21 +1124,21 @@ body[tomato-theme="dark"] .custom-card .ant-card-body {
   transition: color var(--transition-normal);
 }
 
-/* 确保暗色模式下的文本颜色 */
+/* 確保暗色模式下的文本顏色 */
 [data-theme="dark"] .loading-text,
 body[tomato-theme="dark"] .loading-text {
   color: rgba(255, 255, 255, 0.85);
 }
 
-/* 加载动画淡入淡出效果 */
+/* 加載動畫淡入淡出效果 */
 .loading-container.fade-out {
   opacity: 0;
   pointer-events: none;
 }
 
-/* 已合并到999px的媒体查询中 */
+/* 已合併到999px的媒體查詢中 */
 
-/* 移动端表格横向滚动优化 */
+/* 移動端表格橫向滾動優化 */
 @media (max-width: 999px) {
   .ant-table-wrapper {
     overflow-x: auto;
@@ -1146,13 +1146,13 @@ body[tomato-theme="dark"] .loading-text {
   }
   
   .ant-table {
-    min-width: 800px; /* 确保表格内容完整显示 */
+    min-width: 800px; /* 確保表格內容完整顯示 */
   }
 }
 
-/* 已合并到999px的媒体查询中 */
+/* 已合併到999px的媒體查詢中 */
 
-/* ===== Boss数据页面样式 ===== */
+/* ===== Boss數據頁面樣式 ===== */
 .boss-data-view {
   display: flex;
   justify-content: center;
@@ -1173,7 +1173,7 @@ body[tomato-theme="dark"] .loading-text {
   border-radius: 20px;
 }
 
-/* 移动端开发通知优化 */
+/* 移動端開發通知優化 */
 @media (max-width: 999px) {
   .development-notice {
     max-width: none;
@@ -1214,7 +1214,7 @@ body[tomato-theme="dark"] .loading-text {
   }
 }
 
-/* 暗色模式下的样式 */
+/* 暗色模式下的樣式 */
 [data-theme="dark"] .development-notice,
 body[tomato-theme="dark"] .development-notice {
   background: #262626;
@@ -1231,11 +1231,11 @@ body[tomato-theme="dark"] .development-notice p {
   color: var(--color-text-secondary-dark);
 }
 
-/* 已合并到999px的媒体查询中 */
+/* 已合併到999px的媒體查詢中 */
 
-/* 已合并到999px的媒体查询中 */ 
+/* 已合併到999px的媒體查詢中 */ 
 
-/* ===== 自定义搜索组件样式 ===== */
+/* ===== 自定義搜索組件樣式 ===== */
 .custom-search-wrapper .ant-input {
   border-radius: 8px;
   border: 1px solid var(--theme-border);
@@ -1253,7 +1253,7 @@ body[tomato-theme="dark"] .development-notice p {
   margin-right: 8px;
 }
 
-/* 暗色模式适配 */
+/* 暗色模式適配 */
 [data-theme="dark"] .custom-search-wrapper .ant-input,
 body[tomato-theme="dark"] .custom-search-wrapper .ant-input {
   background-color: var(--theme-bg-primary);
@@ -1261,9 +1261,9 @@ body[tomato-theme="dark"] .custom-search-wrapper .ant-input {
   color: var(--theme-text-primary);
 }
 
-/* ===== 移动端触摸优化 ===== */
+/* ===== 移動端觸摸優化 ===== */
 @media (max-width: 999px) {
-  /* 确保触摸目标足够大 */
+  /* 確保觸摸目標足夠大 */
   .ant-btn {
     min-height: 44px;
     min-width: 44px;
@@ -1278,7 +1278,7 @@ body[tomato-theme="dark"] .custom-search-wrapper .ant-input {
     padding: 8px 12px;
   }
   
-  /* 移动端标签页优化 */
+  /* 移動端標籤頁優化 */
   .ant-tabs-nav {
     margin-bottom: 16px;
   }
@@ -1287,7 +1287,7 @@ body[tomato-theme="dark"] .custom-search-wrapper .ant-input {
     white-space: nowrap;
   }
   
-  /* 移动端步骤条优化 */
+  /* 移動端步驟條優化 */
   .ant-steps-item {
     min-height: 44px;
   }
@@ -1296,7 +1296,7 @@ body[tomato-theme="dark"] .custom-search-wrapper .ant-input {
     font-size: 14px;
   }
   
-  /* 移动端通用容器优化 */
+  /* 移動端通用容器優化 */
   .ant-card,
   .ant-table-wrapper,
   .ant-tabs-content-holder {
@@ -1304,7 +1304,7 @@ body[tomato-theme="dark"] .custom-search-wrapper .ant-input {
     max-width: none !important;
   }
   
-  /* 移动端间距优化 */
+  /* 移動端間距優化 */
   .ant-card-body {
     padding: var(--spacing-sm) !important;
   }

@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 
-// 构建时间全局变量
+// 構建時間全局變量
 declare const __BUILD_TIME__: string;
 
 declare module '*.png' {

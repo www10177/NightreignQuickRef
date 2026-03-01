@@ -1,4 +1,4 @@
-/* GameMechanicsView 组件专用样式 */
+/* GameMechanicsView 組件專用樣式 */
 
 .game-mechanics-container {
   /* padding: 20px 0; */
@@ -9,7 +9,7 @@
   flex-direction: column;
 }
 
-/* 主布局容器 - 可配置最大宽度 */
+/* 主佈局容器 - 可配置最大寬度 */
 .mechanics-layout {
   width: 70%;
   max-width: var(--mechanics-container-width, 1200px);
@@ -17,19 +17,19 @@
   padding: 0 20px;
 }
 
-/* 板块网格布局 */
+/* 板塊網格佈局 */
 .mechanics-grid {
   display: grid;
   gap: 15px;
   margin-bottom: 15px;
 }
 
-/* 单列布局 */
+/* 單列布局 */
 .mechanics-grid.single-column {
   grid-template-columns: 1fr;
 }
 
-/* 双列布局 */
+/* 雙列布局 */
 .mechanics-grid.two-columns {
   grid-template-columns: 1fr 1fr;
 }
@@ -39,10 +39,10 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* 自定义列宽布局 */
+/* 自定義列寬佈局 */
 .mechanics-grid.custom-columns {
   grid-template-columns: var(--mechanics-grid-columns, 1fr 1fr);
-  align-items: stretch; /* 确保所有子元素高度相等 */
+  align-items: stretch; /* 確保所有子元素高度相等 */
 }
 
 
@@ -59,7 +59,7 @@
   }
 }
 
-/* 新卡片样式 - 融合设计 */
+/* 新卡片樣式 - 融合設計 */
 .mechanic-card {
   background: var(--content-bg);
   border-radius: var(--radius-lg);
@@ -77,7 +77,7 @@
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* 新卡片内容布局 */
+/* 新卡片內容佈局 */
 .mechanic-card .card-content {
   padding: 24px;
   position: relative;
@@ -87,7 +87,7 @@
 }
 
 
-/* 时间轴容器过渡效果 */
+/* 時間軸容器過渡效果 */
 .timeline-container {
   position: relative;
   overflow: hidden;
@@ -107,7 +107,7 @@
   pointer-events: none !important;
 }
 
-/* Segmented 控制器样式增强 */
+/* Segmented 控制器樣式增強 */
 .mechanic-card .ant-segmented {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   /* border: 1px solid #d9d9d9; */
@@ -123,7 +123,7 @@
   box-shadow: 0 2px 4px rgba(24, 144, 255, 0.3);
 }
 
-/* 垂直分段控制器特殊样式 */
+/* 垂直分段控制器特殊樣式 */
 .mechanic-card .ant-segmented[data-vertical="true"] {
   min-height: 120px;
 }
@@ -134,7 +134,7 @@
   text-align: center;
 }
 
-/* 时间轴布局样式 */
+/* 時間軸佈局樣式 */
 .timeline-layout-container {
   display: flex;
   flex-direction: column;
@@ -229,7 +229,7 @@
   border-radius: 1px;
 }
 
-/* 卡片标题样式 */
+/* 卡片標題樣式 */
 .mechanic-card-title {
   margin: 0 !important;
   font-weight: var(--font-weight-semibold);
@@ -244,29 +244,29 @@
   color: var(--color-primary-500);
 }
 
-/* 武器等级注释样式 */
+/* 武器等級註釋樣式 */
 .weapon-level-note {
   font-size: var(--font-size-sm);
   color: var(--color-text-2);
   line-height: 1.4;
 }
 
-/* 深色模式武器等级注释适配 */
+/* 深色模式武器等級註釋適配 */
 [data-theme="dark"] .weapon-level-note,
 body[tomato-theme="dark"] .weapon-level-note {
   color: var(--color-text-2);
 }
 
-/* 卡片内容区域 */
+/* 卡片內容區域 */
 .mechanic-card .card-body {
   padding: 5px;
   margin-top: 10px;
-  flex: 1; /* 让内容区域占据剩余空间 */
+  flex: 1; /* 讓內容區域佔據剩餘空間 */
   display: flex;
   flex-direction: column;
 }
 
-/* 时间轴样式优化 */
+/* 時間軸樣式優化 */
 .mechanic-timeline {
   margin-top: 16px;
 }
@@ -287,7 +287,7 @@ body[tomato-theme="dark"] .weapon-level-note {
   font-size: var(--font-size-sm);
 }
 
-/* 开发中占位符样式 */
+/* 開發中佔位符樣式 */
 .mechanics-development-placeholder {
   text-align: center;
   padding: 60px 20px;
@@ -306,7 +306,7 @@ body[tomato-theme="dark"] .weapon-level-note {
   color: var(--color-text-2);
 }
 
-/* 动画效果 */
+/* 動畫效果 */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -330,7 +330,7 @@ body[tomato-theme="dark"] .weapon-level-note {
   animation-delay: 0.2s;
 }
 
-/* 深色模式适配 */
+/* 深色模式適配 */
 [data-theme="dark"] .mechanic-card,
 body[tomato-theme="dark"] .mechanic-card {
   background: var(--content-bg);
@@ -347,7 +347,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   border-bottom-color: var(--color-primary-700);
 }
 
-/* 升级所需卢恩表格样式 */
+/* 升級所需盧恩表格樣式 */
 
 .rune-grid {
   display: grid;
@@ -372,16 +372,16 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   margin-bottom: 8px;
 }
 
-/* 已合并到999px的媒体查询中 */
+/* 已合併到999px的媒體查詢中 */
 
-/* 移动端卢恩表格 - 简化版 */
+/* 移動端盧恩表格 - 簡化版 */
 @media (max-width: 999px) {
   .rune-grid {
     overflow-x: auto;
   }
 }
 
-/* 卢恩表格2栏布局样式 */
+/* 盧恩表格2欄佈局樣式 */
 .runes-table-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -410,9 +410,9 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   text-align: center;
 }
 
-/* 已合并到999px的媒体查询中 */
+/* 已合併到999px的媒體查詢中 */
 
-/* 移动端卢恩表格2栏布局 - 简化版 */
+/* 移動端盧恩表格2欄佈局 - 簡化版 */
 @media (max-width: 999px) {
   .runes-table-container {
     grid-template-columns: 1fr;
@@ -432,7 +432,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   color: var(--color-text-2);
 }
 
-/* 数据来源图标样式 */
+/* 數據來源圖標樣式 */
 .data-source-icon {
   transition: all 0.2s ease;
 }
@@ -442,7 +442,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   transform: scale(1.1);
 }
 
-/* 数据来源链接样式 - 统一设置Popover中的所有链接 */
+/* 數據來源鏈接樣式 - 統一設置Popover中的所有鏈接 */
 .ant-popover a {
   color: #1890ff;
   text-decoration: none;
@@ -456,22 +456,22 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
 }
 
 /* ========================================
-   缩圈效果图 CSS 逻辑说明
+   縮圈效果圖 CSS 邏輯說明
    ========================================
    
-   缩圈效果图由以下层级组成（从外到内）：
-   1. 外圈 (circle-outer) - 固定大小的参考边界
-   2. 上一个圈 (circle-pulse-ring) - 显示缩圈前的大小
-   3. 当前圈 (circle-inner) - 显示缩圈后的大小
-   4. 脉冲边框 (::before) - 缩圈开始时的动画效果
-   5. 中心点 (circle-center) - 最中心的点
+   縮圈效果圖由以下層級組成（從外到內）：
+   1. 外圈 (circle-outer) - 固定大小的參考邊界
+   2. 上一個圈 (circle-pulse-ring) - 顯示縮圈前的大小
+   3. 當前圈 (circle-inner) - 顯示縮圈後的大小
+   4. 脈衝邊框 (::before) - 縮圈開始時的動畫效果
+   5. 中心點 (circle-center) - 最中心的點
    
-   动画触发条件：
-   - 第一次缩圈开始 (step 1) - 使用 innerPulse + borderPulse
-   - 第二次缩圈开始 (step 3) - 使用 innerPulseSecond + borderPulseSecond
+   動畫觸發條件：
+   - 第一次縮圈開始 (step 1) - 使用 innerPulse + borderPulse
+   - 第二次縮圈開始 (step 3) - 使用 innerPulseSecond + borderPulseSecond
    ======================================== */
 
-/* 缩圈效果容器 */
+/* 縮圈效果容器 */
 .circle-shrink-section {
   display: flex;
   justify-content: center;
@@ -499,7 +499,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   align-items: center;
 }
 
-/* 外圈 - 固定大小的参考边界，不参与动画 */
+/* 外圈 - 固定大小的參考邊界，不參與動畫 */
 .circle-outer {
   position: absolute;
   width: 100%;
@@ -509,17 +509,17 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   background: transparent;
 }
 
-/* 第一次缩圈结束后的外圈 - 浅蓝色 */
+/* 第一次縮圈結束後的外圈 - 淺藍色 */
 .circle-outer.circle-outer-faded {
   border: 2px solid rgba(24, 144, 255, 0.4);
 }
 
-/* 第二次缩圈开始时的外圈 - 浅蓝色 */
+/* 第二次縮圈開始時的外圈 - 淺藍色 */
 .circle-outer.circle-outer-second-shrink {
   border: 2px solid rgba(24, 144, 255, 0.4);
 }
 
-/* 当前圈 - 根据时间点动态变化大小，无背景色 */
+/* 當前圈 - 根據時間點動態變化大小，無背景色 */
 .circle-inner {
   position: absolute;
   border: 3px solid rgba(24, 144, 255, 0.3);
@@ -531,36 +531,36 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   align-items: center;
 }
 
-/* 第一次缩圈阶段（60%圈） - 保持透明背景 */
+/* 第一次縮圈階段（60%圈） - 保持透明背景 */
 .circle-inner.first-shrink-no-bg {
   background: transparent;
 }
 
-/* 第一次缩圈结束阶段 - 深蓝色背景 */
+/* 第一次縮圈結束階段 - 深藍色背景 */
 .circle-inner.first-shrink-end-dark {
   background: radial-gradient(circle, rgba(24, 144, 255, 0.3) 0%, rgba(24, 144, 255, 0.1) 70%);
   border: 2px solid #1890ff;
 }
 
-/* 第二次缩圈开始阶段 - 内圈保持浅蓝色 */
+/* 第二次縮圈開始階段 - 內圈保持淺藍色 */
 .circle-inner.second-shrink-start-dark {
   background: radial-gradient(circle, rgba(24, 144, 255, 0.1) 0%, transparent 70%);
   border: 3px solid rgba(24, 144, 255, 0.3);
 }
 
-/* 第二次缩圈结束阶段 - 内圈变为深蓝色 */
+/* 第二次縮圈結束階段 - 內圈變為深藍色 */
 .circle-inner.second-shrink-end-dark {
   background: radial-gradient(circle, rgba(24, 144, 255, 0.3) 0%, rgba(24, 144, 255, 0.1) 70%);
   border: 2px solid #1890ff;
 }
 
-/* 第一次缩圈脉冲效果 - 当前圈保持固定大小，只有阴影脉冲 */
+/* 第一次縮圈脈衝效果 - 當前圈保持固定大小，只有陰影脈衝 */
 .circle-inner.circle-pulse {
   animation: innerPulse 2s ease-in-out infinite;
-  transform: scale(1); /* 确保当前圈保持固定大小，不缩放 */
+  transform: scale(1); /* 確保當前圈保持固定大小，不縮放 */
 }
 
-/* 脉冲边框 - 围绕当前圈进行缩放动画 */
+/* 脈衝邊框 - 圍繞當前圈進行縮放動畫 */
 .circle-inner.circle-pulse::before {
   content: '';
   position: absolute;
@@ -573,7 +573,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   animation: borderPulse 4s ease-in-out infinite;
 }
 
-/* 第二次缩圈脉冲效果 - 使用不同的动画，scale值更大 */
+/* 第二次縮圈脈衝效果 - 使用不同的動畫，scale值更大 */
 .circle-inner.shrink-second.circle-pulse {
   animation: innerPulseSecond 4s ease-in-out infinite;
 }
@@ -582,7 +582,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   animation: borderPulseSecond 4s ease-in-out infinite;
 }
 
-/* 上一个圈 - 显示缩圈前的大小，静态显示，无动画 */
+/* 上一個圈 - 顯示縮圈前的大小，靜態顯示，無動畫 */
 .circle-pulse-ring {
   position: absolute;
   border: 2px solid rgba(24, 144, 255, 0.2);
@@ -591,7 +591,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   z-index: 1;
 }
 
-/* 第二次缩圈开始时的脉冲圈 - 深蓝色 */
+/* 第二次縮圈開始時的脈衝圈 - 深藍色 */
 .circle-pulse-ring.second-shrink-pulse {
   border: 2px solid #1890ff;
 }
@@ -652,7 +652,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
 
 
 
-/* 移动端基础适配 - 简化版 */
+/* 移動端基礎適配 - 簡化版 */
 @media (max-width: 999px) {
   .circle-shrink-wrapper {
     width: 150px;
@@ -660,7 +660,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   }
 }
 
-/* Day切换按钮样式 */
+/* Day切換按鈕樣式 */
 .timeline-day-switcher {
   text-align: center;
   max-width: 500px;
@@ -669,7 +669,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   margin: 0 auto 0 auto;
 }
 
-/* 时间轴 + 两栏布局样式 */
+/* 時間軸 + 兩欄佈局樣式 */
 .timeline-with-steps {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -686,7 +686,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   /* border: 1px solid #d9d9d9; */
 }
 
-/* 两栏布局样式 */
+/* 兩欄佈局樣式 */
 .timeline-two-columns {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -695,7 +695,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   min-height: 200px;
   height: 100%;
 }
-/* Boss信息样式 */
+/* Boss信息樣式 */
 .boss-info {
   width: 100%;
   flex: 1;
@@ -704,7 +704,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   gap: 10px;
 }
 
-/* 进度条样式 */
+/* 進度條樣式 */
 .boss-progress-container {
   /* margin-top: 12px; */
   display: flex;
@@ -716,7 +716,7 @@ body[tomato-theme="dark"] .mechanic-card .card-title-section {
   border-radius: 20px;
 }
 
-/* 深色模式下的进度条容器样式 */
+/* 深色模式下的進度條容器樣式 */
 [data-theme="dark"] .boss-progress-container,
 body[tomato-theme="dark"] .boss-progress-container {
   background-color: var(--theme-bg-tertiary);
@@ -732,7 +732,7 @@ body[tomato-theme="dark"] .boss-progress-container {
   margin-bottom: 0;
 }
 
-/* 进度条标签样式 */
+/* 進度條標籤樣式 */
 .progress-label {
   font-size: 12px;
   /* margin-bottom: 4px; */
@@ -744,7 +744,7 @@ body[tomato-theme="dark"] .boss-progress-container {
   color: rgba(255, 255, 255, 0.65);
 }
 
-/* 进度条数字样式 */
+/* 進度條數字樣式 */
 .boss-progress-item .ant-progress-text {
   font-size: 12px;
   font-weight: 600;
@@ -754,7 +754,7 @@ body[tomato-theme="dark"] .boss-progress-container {
   color: rgba(255, 255, 255, 0.85);
 }
 
-/* 伤害信息样式 */
+/* 傷害信息樣式 */
 .damage-info {
   width: 100%;
   flex: 1;
@@ -778,13 +778,13 @@ body[tomato-theme="dark"] .boss-progress-container {
   margin-bottom: 0;
 }
 
-/* 深色模式下的伤害统计样式 */
+/* 深色模式下的傷害統計樣式 */
 [data-theme="dark"] .damage-stat,
 body[tomato-theme="dark"] .damage-stat {
   color: var(--theme-text-primary);
 }
 
-/* 时间轴列样式 */
+/* 時間軸列樣式 */
 .timeline-column {
   display: flex;
   flex-direction: column;
@@ -795,7 +795,7 @@ body[tomato-theme="dark"] .damage-stat {
   /* background: #fafafa; */
 }
 
-/* 缩圈效果图列样式 - 宽度自适应内容 */
+/* 縮圈效果圖列樣式 - 寬度自適應內容 */
 .timeline-column:first-child {
   width: fit-content;
   min-width: 200px;
@@ -828,13 +828,13 @@ body[tomato-theme="dark"] .damage-stat {
   min-height: 0;
 }
 
-/* 深色模式下的时间轴列内容样式 */
+/* 深色模式下的時間軸列內容樣式 */
 [data-theme="dark"] .timeline-column-content,
 body[tomato-theme="dark"] .timeline-column-content {
   color: var(--theme-text-primary);
 }
 
-/* 时间轴控制样式 */
+/* 時間軸控制樣式 */
 .timeline-controls {
   text-align: center;
   padding: 16px;
@@ -843,7 +843,7 @@ body[tomato-theme="dark"] .timeline-column-content {
   /* border: 1px solid rgba(24, 144, 255, 0.1); */
 }
 
-/* Boss标题样式 */
+/* Boss標題樣式 */
 .boss-section-title {
   font-size: 15px;
   font-weight: 600;
@@ -862,7 +862,7 @@ body[tomato-theme="dark"] .timeline-column-content {
   font-size: 14px;
 }
 
-/* 深色模式下的Boss标题样式 */
+/* 深色模式下的Boss標題樣式 */
 [data-theme="dark"] .boss-section-title,
 body[tomato-theme="dark"] .boss-section-title {
   color: #40a9ff;
@@ -875,16 +875,16 @@ body[tomato-theme="dark"] .boss-section-title .anticon {
 }
 
 
-/* 移动端适配强化：时间机制与卢恩布局自动换行 */
+/* 移動端適配強化：時間機制與盧恩佈局自動換行 */
 @media (max-width: 999px) {
-  /* 主网格在小屏下单列 */
+  /* 主網格在小屏下單列 */
   .mechanics-grid.two-columns,
   .mechanics-grid.three-columns,
   .mechanics-grid.custom-columns {
     grid-template-columns: 1fr;
   }
 
-  /* 时间机制：两栏改为单栏 */
+  /* 時間機制：兩欄改為單欄 */
   .timeline-with-steps,
   .timeline-two-columns {
     grid-template-columns: 1fr;
@@ -913,7 +913,7 @@ body[tomato-theme="dark"] .boss-section-title .anticon {
     margin-bottom: 0;
   }
 
-  /* 升级所需卢恩：网格自动换行 */
+  /* 升級所需盧恩：網格自動換行 */
   .rune-grid {
     overflow-x: visible;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));

@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = React.memo(({
 }) => {
   const { sitePv, siteUv, pagePv } = useVercount();
 
-  // 根据图标类型获取对应的图标组件
+  // 根據圖標類型獲取對應的圖標組件
   const getDataSourceIcon = (iconType: DataSourceIcon): React.ReactNode => {
     switch (iconType) {
       case 'baidu':
@@ -35,12 +35,12 @@ const Header: React.FC<HeaderProps> = React.memo(({
     }
   };
 
-  // 渲染数据来源内容
+  // 渲染數據來源內容
   const renderDataSourceContent = () => {
     return (
       <div style={{ padding: '8px', maxWidth: '250px' }}>
         <div style={{ fontSize: '13px', marginBottom: '8px', fontWeight: 'bold', borderBottom: '1px solid rgba(198, 198, 198, 0.2)', paddingBottom: '8px' }}>
-          数据来源链接 🔗
+          數據來源鏈接 🔗
         </div>
         <div style={{ fontSize: '11px', lineHeight: '1.4' }}>
           {DATA_SOURCE_CONFIG.map((group, groupIndex) => (
@@ -74,7 +74,7 @@ const Header: React.FC<HeaderProps> = React.memo(({
         <div className="top-bar-content">
           <div className="top-bar-right">
             <Space size="small">
-              <Tooltip title={isDarkMode ? "切换到亮色模式" : "切换到暗色模式"} placement="bottom">
+              <Tooltip title={isDarkMode ? "切換到亮色模式" : "切換到暗色模式"} placement="bottom">
                 <Button
                   type="text"
                   icon={isDarkMode ? <MoonOutlined /> : <SunOutlined />}
@@ -83,7 +83,7 @@ const Header: React.FC<HeaderProps> = React.memo(({
                 />
               </Tooltip>
 
-              <Tooltip title={"点击跳转【地图种子筛选器】"} placement="bottom">
+              <Tooltip title={"點擊跳轉【地圖種子篩選器】"} placement="bottom">
                 <Button
                   type="text"
                   icon={<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-map" viewBox="0 0 16 16">
@@ -94,21 +94,21 @@ const Header: React.FC<HeaderProps> = React.memo(({
                 />
               </Tooltip>
 
-              <Tooltip title="查看访问量" placement="bottom" className="theme-toggle-btn">
+              <Tooltip title="查看訪問量" placement="bottom" className="theme-toggle-btn">
                 <Popover
                   content={
                     <div style={{ padding: '5px' }}>
                       <div style={{ fontSize: '13px', marginBottom: '8px', fontWeight: 'bold', borderBottom: '1px solid rgba(198, 198, 198, 0.2)', paddingBottom: '4px' }}>
-                        访问量统计 🔥
+                        訪問量統計 🔥
                       </div>
                       <div style={{ fontSize: '12px' }}>
-                        本站总访客数 <span style={{ color: '#1890ff' }}>{siteUv}</span> 人
+                        本站總訪客數 <span style={{ color: '#1890ff' }}>{siteUv}</span> 人
                       </div>
                       <div style={{ fontSize: '12px' }}>
-                        本站总访问量 <span style={{ color: '#1890ff' }}>{sitePv}</span> 次
+                        本站總訪問量 <span style={{ color: '#1890ff' }}>{sitePv}</span> 次
                       </div>
                       <div style={{ fontSize: '12px' }}>
-                        数据查询页访问量 <span style={{ color: '#1890ff' }}>{pagePv}</span> 次
+                        數據查詢頁訪問量 <span style={{ color: '#1890ff' }}>{pagePv}</span> 次
                       </div>
                       <div style={{
                         marginTop: '8px',
@@ -117,7 +117,7 @@ const Header: React.FC<HeaderProps> = React.memo(({
                         fontSize: '10px',
                         color: '#999'
                       }}>
-                        统计服务: Vercount
+                        統計服務: Vercount
                       </div>
                     </div>
                   }
@@ -132,7 +132,7 @@ const Header: React.FC<HeaderProps> = React.memo(({
                 </Popover>
               </Tooltip>
 
-              <Tooltip title="查看数据来源" placement="bottom" className="theme-toggle-btn">
+              <Tooltip title="查看數據來源" placement="bottom" className="theme-toggle-btn">
                 <Popover
                   content={renderDataSourceContent()}
                   placement="bottom"
@@ -145,12 +145,12 @@ const Header: React.FC<HeaderProps> = React.memo(({
                   />
                 </Popover>
               </Tooltip>
-              <Tooltip title="查看更新记录和计划" placement="bottom" className="theme-toggle-btn">
+              <Tooltip title="查看更新記錄和計劃" placement="bottom" className="theme-toggle-btn">
                 <Popover
                   content={
                     <div style={{ padding: '8px', maxWidth: '280px' }}>
                       <div style={{ fontSize: '13px', marginBottom: '8px', fontWeight: 'bold', borderBottom: '1px solid rgba(198, 198, 198, 0.2)', paddingBottom: '8px' }}>
-                        更新记录 & 计划 📋
+                        更新記錄 & 計劃 📋
                       </div>
                       <div style={{ fontSize: '11px', lineHeight: '1.4' }}>
                         {/* 最新更新 */}
@@ -159,9 +159,9 @@ const Header: React.FC<HeaderProps> = React.memo(({
                             ✅ 最新更新
                           </div>
                           <div style={{ marginLeft: '12px', marginBottom: '2px' }}>
-                            • 添加了DLC新词条数据；<br />
-                            • 添加了{getVersionNumber()}版本更新后的新词条数据；<br />
-                            • 添加了DLC角色雷达图数据；
+                            • 添加了DLC新詞條數據；<br />
+                            • 添加了{getVersionNumber()}版本更新後的新詞條數據；<br />
+                            • 添加了DLC角色雷達圖數據；
                           </div>
                         </div>
 
@@ -170,9 +170,9 @@ const Header: React.FC<HeaderProps> = React.memo(({
                             🔧 TODO
                           </div>
                           <div style={{ marginLeft: '12px', marginBottom: '2px' }}>
-                            • 添加新夜王、DLC新敌人数据<br />
-                            • 更新新角色等级、闪避面板<br />
-                            • 夜雨伤害数据待更新(无数据来源)
+                            • 添加新夜王、DLC新敵人數據<br />
+                            • 更新新角色等級、閃避面板<br />
+                            • 夜雨傷害數據待更新(無數據來源)
                           </div>
                         </div>
                       </div>
@@ -188,12 +188,12 @@ const Header: React.FC<HeaderProps> = React.memo(({
                   />
                 </Popover>
               </Tooltip>
-              <Tooltip title="查看本项目" placement="bottom" className="theme-toggle-btn">
+              <Tooltip title="查看本項目" placement="bottom" className="theme-toggle-btn">
                 <Popover
                   content={
                     <div style={{ padding: '8px', maxWidth: '200px' }}>
                       <div style={{ fontSize: '13px', marginBottom: '8px', fontWeight: 'bold' }}>
-                        <GithubOutlined style={{ marginRight: '4px' }} /> GitHub仓库
+                        <GithubOutlined style={{ marginRight: '4px' }} /> GitHub倉庫
                       </div>
                       <div style={{ fontSize: '11px', lineHeight: '1.4' }}>
                         <a
@@ -212,7 +212,7 @@ const Header: React.FC<HeaderProps> = React.memo(({
                         fontSize: '10px',
                         color: '#999'
                       }}>
-                        🙏 求个Star ⭐️ 感谢支持 🙏
+                        🙏 求個Star ⭐️ 感謝支持 🙏
                       </div>
                     </div>
                   }
@@ -226,7 +226,7 @@ const Header: React.FC<HeaderProps> = React.memo(({
                   />
                 </Popover>
               </Tooltip>
-              {/* <Tooltip title="切换语言功能尚未开发" placement="bottom">
+              {/* <Tooltip title="切換語言功能尚未開發" placement="bottom">
                 <Button
                   type="text"
                   icon={<TranslationOutlined />}
@@ -241,14 +241,14 @@ const Header: React.FC<HeaderProps> = React.memo(({
 
       <div className="header">
         <Title level={1} className="main-title">
-          黑夜君临速查手册
+          黑夜君臨速查手冊
         </Title>
         <Space direction="vertical" size="small" className="subtitle">
           <Text type="secondary" className="subtitle-text version-info">
             {getVersionDisplayText()}
           </Text>
           <Text type="secondary" className="subtitle-text">
-            个人收集/整理的黑夜君临数据、机制速查网页，可快速检索条目信息，后续会添加更多内容
+            個人收集/整理的黑夜君臨數據、機制速查網頁，可快速檢索條目信息，後續會添加更多內容
           </Text>
         </Space>
       </div>

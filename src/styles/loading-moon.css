@@ -1,4 +1,4 @@
-/* 圆环加载动画 */
+/* 圓環加載動畫 */
 .loader {
   position: relative;
   width: 100px;
@@ -22,7 +22,7 @@
   100% { transform: rotate(360deg)}
 }
 
-/* 移动端基础适配 - 简化版 */
+/* 移動端基礎適配 - 簡化版 */
 @media (max-width: 999px) {
   .loader {
     width: 80px;

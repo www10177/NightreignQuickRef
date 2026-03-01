@@ -1,0 +1,1592 @@
+[
+	{
+		"6001400": {
+			"entry_id": 6001400,
+			"entry_name": "提升物理攻擊力＋３",
+			"entry_type": "攻擊力",
+			"explanation": "物理攻擊力+10.5%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6001401": {
+			"entry_id": 6001401,
+			"entry_name": "提升物理攻擊力＋４",
+			"entry_type": "攻擊力",
+			"explanation": "物理攻擊力+12%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6001500": {
+			"entry_id": 6001500,
+			"entry_name": "提升魔力屬性攻擊力＋３",
+			"entry_type": "攻擊力",
+			"explanation": "魔力屬性攻擊力+10.5%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6001501": {
+			"entry_id": 6001501,
+			"entry_name": "提升魔力屬性攻擊力＋４",
+			"entry_type": "攻擊力",
+			"explanation": "魔力屬性攻擊力+12%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6001600": {
+			"entry_id": 6001600,
+			"entry_name": "提升火屬性攻擊力＋３",
+			"entry_type": "攻擊力",
+			"explanation": "火屬性攻擊力+10.5%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6001601": {
+			"entry_id": 6001601,
+			"entry_name": "提升火屬性攻擊力＋４",
+			"entry_type": "攻擊力",
+			"explanation": "火屬性攻擊力+12%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6001700": {
+			"entry_id": 6001700,
+			"entry_name": "提升雷屬性攻擊力＋３",
+			"entry_type": "攻擊力",
+			"explanation": "雷屬性攻擊力+10.5%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6001701": {
+			"entry_id": 6001701,
+			"entry_name": "提升雷屬性攻擊力＋４",
+			"entry_type": "攻擊力",
+			"explanation": "雷屬性攻擊力+12%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6001800": {
+			"entry_id": 6001800,
+			"entry_name": "提升聖屬性攻擊力＋３",
+			"entry_type": "攻擊力",
+			"explanation": "聖屬性攻擊力+10.5%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6001801": {
+			"entry_id": 6001801,
+			"entry_name": "提升聖屬性攻擊力＋４",
+			"entry_type": "攻擊力",
+			"explanation": "聖屬性攻擊力+12%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6002600": {
+			"entry_id": 6002600,
+			"entry_name": "提升魔力屬性減傷率＋１",
+			"entry_type": "減傷率",
+			"explanation": "減少受到魔力屬性傷害-15%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6002601": {
+			"entry_id": 6002601,
+			"entry_name": "提升魔力屬性減傷率＋２",
+			"entry_type": "減傷率",
+			"explanation": "減少受到魔力屬性傷害-16%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6002700": {
+			"entry_id": 6002700,
+			"entry_name": "提升火屬性減傷率＋１",
+			"entry_type": "減傷率",
+			"explanation": "減少受到火屬性傷害-15%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6002701": {
+			"entry_id": 6002701,
+			"entry_name": "提升火屬性減傷率＋２",
+			"entry_type": "減傷率",
+			"explanation": "減少受到火屬性傷害-16%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6002800": {
+			"entry_id": 6002800,
+			"entry_name": "提升雷屬性減傷率＋１",
+			"entry_type": "減傷率",
+			"explanation": "減少受到雷屬性傷害-15%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6002801": {
+			"entry_id": 6002801,
+			"entry_name": "提升雷屬性減傷率＋２",
+			"entry_type": "減傷率",
+			"explanation": "減少受到雷屬性傷害-16%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6002900": {
+			"entry_id": 6002900,
+			"entry_name": "提升聖屬性減傷率＋１",
+			"entry_type": "減傷率",
+			"explanation": "減少受到聖屬性傷害-15%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6002901": {
+			"entry_id": 6002901,
+			"entry_name": "提升聖屬性減傷率＋２",
+			"entry_type": "減傷率",
+			"explanation": "減少受到聖屬性傷害-16%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003000": {
+			"entry_id": 6003000,
+			"entry_name": "提升對中毒的抵抗力＋１",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+110點中毒異常耐受上限",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003001": {
+			"entry_id": 6003001,
+			"entry_name": "提升對中毒的抵抗力＋２",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+130點中毒異常耐受上限",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003100": {
+			"entry_id": 6003100,
+			"entry_name": "提升對出血的抵抗力＋１",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+110點出血異常耐受上限",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003101": {
+			"entry_id": 6003101,
+			"entry_name": "提升對出血的抵抗力＋２",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+130點出血異常耐受上限",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003200": {
+			"entry_id": 6003200,
+			"entry_name": "提升對催眠的抵抗力＋１",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+110點催眠異常耐受上限",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003201": {
+			"entry_id": 6003201,
+			"entry_name": "提升對催眠的抵抗力＋２",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+130點催眠異常耐受上限",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003300": {
+			"entry_id": 6003300,
+			"entry_name": "提升對驟死的抵抗力＋１",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+110點死亡異常耐受上限",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003301": {
+			"entry_id": 6003301,
+			"entry_name": "提升對驟死的抵抗力＋２",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+130點死亡異常耐受上限",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003400": {
+			"entry_id": 6003400,
+			"entry_name": "提升對腐敗的抵抗力＋１",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+110點猩紅腐敗異常耐受上限",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003401": {
+			"entry_id": 6003401,
+			"entry_name": "提升對腐敗的抵抗力＋２",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+130點猩紅腐敗異常耐受上限",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003500": {
+			"entry_id": 6003500,
+			"entry_name": "提升對凍傷的抵抗力＋１",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+110點凍傷異常耐受上限",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003501": {
+			"entry_id": 6003501,
+			"entry_name": "提升對凍傷的抵抗力＋２",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+130點凍傷異常耐受上限",  
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003600": {
+			"entry_id": 6003600,
+			"entry_name": "提升對發狂的抵抗力＋１",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+110點發狂異常耐受上限",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6003601": {
+			"entry_id": 6003601,
+			"entry_name": "提升對發狂的抵抗力＋２",
+			"entry_type": "對異常狀態的抵抗力",
+			"explanation": "+130點發狂異常耐受上限",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6005600": {
+			"entry_id": 6005600,
+			"entry_name": "受到損傷的當下，能通過攻擊恢復部分血量＋１",
+			"entry_type": "恢復",
+			"explanation": "最近一次被攻擊的4s內，可通過攻擊恢復這部分虛血每次攻擊的恢復量=武器基礎回血量×動作回血倍率×1.25",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6005601": {
+			"entry_id": 6005601,
+			"entry_name": "受到損傷的當下，能通過攻擊恢復部分血量＋２",
+			"entry_type": "恢復",
+			"explanation": "最近一次被攻擊的4s內，可通過攻擊恢復這部分虛血每次攻擊的恢復量=武器基礎回血量×動作回血倍率×1.35",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6030200": {
+			"entry_id": 6030200,
+			"entry_name": "食用苔藥等等道具時，能恢復血量＋１",
+			"entry_type": "恢復",
+			"explanation": "使用對應道具後立即回覆80點生命值，然後每秒回覆最大生命值的0.5%+1，持續20秒",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6030600": {
+			"entry_id": 6030600,
+			"entry_name": "防禦成功時，能累積絕招量表＋１",
+			"entry_type": "技藝/絕招",
+			"explanation": "絕招量表+1.5",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6030800": {
+			"entry_id": 6030800,
+			"entry_name": "使出致命一擊時，加快累積絕招量表＋１",
+			"entry_type": "技藝/絕招",
+			"explanation": "絕招量表+6.5",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6030900": {
+			"entry_id": 6030900,
+			"entry_name": "塗抹油脂類道具時，能額外提升物理攻擊力＋１",
+			"entry_type": "攻擊力",
+			"explanation": "30秒內，增加物理傷害+17%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6030901": {
+			"entry_id": 6030901,
+			"entry_name": "塗抹油脂類道具時，能額外提升物理攻擊力＋２",
+			"entry_type": "攻擊力",
+			"explanation": "30秒內，增加物理傷害+20%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6035100": {
+			"entry_id": 6035100,
+			"entry_name": "使出致命一擊時，能提升精力的恢復速度＋１",
+			"entry_type": "恢復",
+			"explanation": "15秒內，精力回覆速度+17點/秒",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6040100": {
+			"entry_id": 6040100,
+			"entry_name": "強化防禦反擊＋１",
+			"entry_type": "攻擊力",
+			"explanation": "防禦反擊造成的傷害+25%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6040101": {
+			"entry_id": 6040101,
+			"entry_name": "強化防禦反擊＋２",
+			"entry_type": "攻擊力",
+			"explanation": "防禦反擊造成的傷害+29%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6040300": {
+			"entry_id": 6040300,
+			"entry_name": "提升投擲壺的攻擊力＋１",
+			"entry_type": "攻擊力",
+			"explanation": "投擲壺造成的傷害+30%",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6040400": {
+			"entry_id": 6040400,
+			"entry_name": "提升投擲小刀的攻擊力＋１",
+			"entry_type": "攻擊力",
+			"explanation": "投擲小刀造成的傷害+30%",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6040500": {
+			"entry_id": 6040500,
+			"entry_name": "提升使用輝石、重力石道具的攻擊力＋１",
+			"entry_type": "攻擊力",
+			"explanation": "投擲輝石、重力石造成的傷害+30%",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6043100": {
+			"entry_id": 6043100,
+			"entry_name": "強化調香術＋１",
+			"entry_type": "攻擊力",
+			"explanation": "調香術造成的傷害+18%",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6060300": {
+			"entry_id": 6060300,
+			"entry_name": "每次打倒大教堂的強敵，能提升血量上限",
+			"entry_type": "能力值",
+			"explanation": "每次生命值上限+5%",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6060400": {
+			"entry_id": 6060400,
+			"entry_name": "每次打倒小型要塞的強敵，能增加獲得的盧恩、提升觀察力",
+			"entry_type": "能力值",
+			"explanation": "每次獲得的盧恩+5.5%，僅對擊殺獎勵有效，觀察力+16",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6060500": {
+			"entry_id": 6060500,
+			"entry_name": "每次打倒遺蹟的強敵，能提升感應",
+			"entry_type": "能力值",
+			"explanation": "每次感應+4",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6060600": {
+			"entry_id": 6060600,
+			"entry_name": "每次打倒大型營地的強敵，能提升精力上限",
+			"entry_type": "能力值",
+			"explanation": "每次精力值上限+7.5%",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6090000": {
+			"entry_id": 6090000,
+			"entry_name": "提升打倒敵人時，絕招量表的累積量＋１",
+			"entry_type": "技藝/絕招",
+			"explanation": "絕招量表+6.5",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6160000": {
+			"entry_id": 6160000,
+			"entry_name": "突刺反擊成功時，能恢復血量＋１",
+			"entry_type": "恢復",
+			"explanation": "觸發突刺反擊時，回覆人物最大生命值的3.3%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6260000": {
+			"entry_id": 6260000,
+			"entry_name": "對陷入中毒的敵人，能強化攻擊＋１",
+			"entry_type": "行動",
+			"explanation": "對中毒的敵人造成的傷害+16%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6260001": {
+			"entry_id": 6260001,
+			"entry_name": "對陷入中毒的敵人，能強化攻擊＋２",
+			"entry_type": "行動",
+			"explanation": "對中毒的敵人造成的傷害+20%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6260300": {
+			"entry_id": 6260300,
+			"entry_name": "對陷入猩紅腐敗的敵人，能強化攻擊＋１",
+			"entry_type": "行動",
+			"explanation": "對猩紅腐敗的敵人造成的傷害+16%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6260301": {
+			"entry_id": 6260301,
+			"entry_name": "對陷入猩紅腐敗的敵人，能強化攻擊＋２",
+			"entry_type": "行動",
+			"explanation": "對猩紅腐敗的敵人造成的傷害+20%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6260400": {
+			"entry_id": 6260400,
+			"entry_name": "對陷入凍傷的敵人，能強化攻擊＋１",
+			"entry_type": "行動",
+			"explanation": "對凍傷的敵人造成的傷害+16%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6260401": {
+			"entry_id": 6260401,
+			"entry_name": "對陷入凍傷的敵人，能強化攻擊＋２",
+			"entry_type": "行動",
+			"explanation": "對凍傷的敵人造成的傷害+20%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6500000": {
+			"entry_id": 6500000,
+			"entry_name": "【追蹤者】技藝會附加引發異常狀態出血的效果",
+			"entry_type": "僅限特定角色",
+			"explanation": "鉤出附帶60點出血值，鉤回附帶55點出血值",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6500100": {
+			"entry_id": 6500100,
+			"entry_name": "【守護者】發動技藝時，能提升周圍我方人物的減傷率",
+			"entry_type": "僅限特定角色",
+			"explanation": "30秒內，受到的傷害-18%",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6500200": {
+			"entry_id": 6500200,
+			"entry_name": "【鐵之眼】技藝會附加引發異常狀態中毒的效果; 對上陷入中毒的敵人，能給予大傷害",
+			"entry_type": "僅限特定角色",
+			"explanation": "附帶 70 點中毒值，如果目標已經中毒，扣除敵人最大生命值的 0.25% + 250; 中毒：40秒內，每秒扣除敵人最大生命值的 0.1% + 10",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6500300": {
+			"entry_id": 6500300,
+			"entry_name": "【女爵】發動技藝時，能進入短暫無敵狀態",
+			"entry_type": "僅限特定角色",
+			"explanation": "產生12幀（0.4秒）無敵幀",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6500400": {
+			"entry_id": 6500400,
+			"entry_name": "【無賴】技藝命中敵人時，能降低對方的攻擊力",
+			"entry_type": "僅限特定角色",
+			"explanation": "13s 內，敵人造成的傷害-13%",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6500500": {
+			"entry_id": 6500500,
+			"entry_name": "【復仇者】發動能力時，能提升專注值上限",
+			"entry_type": "僅限特定角色",
+			"explanation": "每次發動能力【死靈術】，提升專注值上限，局內無限成長; 最多可成長60次，最多 +51% 專注值上限;",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6500600": {
+			"entry_id": 6500600,
+			"entry_name": "【隱士】收集屬性痕時，能提升該屬性的減傷率",
+			"entry_type": "僅限特定角色",
+			"explanation": "30秒內，受到對應屬性的傷害-20% (反覆收集同一個屬性的屬性痕時，減傷buff不能反覆疊加, 但4種不同屬性的減傷buff可以共存)",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6500700": {
+			"entry_id": 6500700,
+			"entry_name": "【執行者】發動能力時，能緩慢恢復血量",
+			"entry_type": "僅限特定角色",
+			"explanation": "每次發動能力【不屈】，每秒回覆最大生命值的[0.27% + 3]，持續60秒(總回覆量約為[16.2%+180]點)",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6600000": {
+			"entry_id": 6600000,
+			"entry_name": "周圍陷入催眠時，提升攻擊力",
+			"entry_type": "行動",
+			"explanation": "周圍有任意角色催眠後，造成傷害+12%，持續20秒",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6600001": {
+			"entry_id": 6600001,
+			"entry_name": "周圍陷入催眠時，提升攻擊力＋１",
+			"entry_type": "行動",
+			"explanation": "周圍有任意角色催眠後，造成傷害+22%，持續20秒",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6600100": {
+			"entry_id": 6600100,
+			"entry_name": "周圍陷入發狂時，提升攻擊力",
+			"entry_type": "行動",
+			"explanation": "周圍有任意角色發狂後，造成傷害+12%，持續20秒",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6600101": {
+			"entry_id": 6600101,
+			"entry_name": "周圍陷入發狂時，提升攻擊力＋１",
+			"entry_type": "行動",
+			"explanation": "周圍有任意角色發狂後，造成傷害+22%，持續20秒",
+			"buff_type": "附帶負面詞條",
+			"superposability": "不同級別可疊加"
+		},
+		"6610400": {
+			"entry_id": 6610400,
+			"entry_name": "提升血量上限",
+			"entry_type": "能力值",
+			"explanation": "生命值上限+10%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6610500": {
+			"entry_id": 6610500,
+			"entry_name": "提升專注值上限",
+			"entry_type": "能力值",
+			"explanation": "專注值上限+15%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6610600": {
+			"entry_id": 6610600,
+			"entry_name": "提升精力上限",
+			"entry_type": "能力值",
+			"explanation": "精力值上限+12%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6610700": {
+			"entry_id": 6610700,
+			"entry_name": "減少專注值消耗",
+			"entry_type": "能力值",
+			"explanation": "專注值消耗-8%",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6610800": {
+			"entry_id": 6610800,
+			"entry_name": "提升屬性攻擊力",
+			"entry_type": "攻擊力",
+			"explanation": "魔力/火/雷/聖屬性傷害+5%",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6610801": {
+			"entry_id": 6610801,
+			"entry_name": "提升屬性攻擊力＋１",
+			"entry_type": "攻擊力",
+			"explanation": "魔力/火/雷/聖屬性傷害+8%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6610802": {
+			"entry_id": 6610802,
+			"entry_name": "提升屬性攻擊力＋２",
+			"entry_type": "攻擊力",
+			"explanation": "魔力/火/雷/聖屬性傷害+10%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611001": {
+			"entry_id": 6611001,
+			"entry_name": "提升物理減傷率＋１",
+			"entry_type": "減傷率",
+			"explanation": "受到的物理屬性傷害-10.5%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611002": {
+			"entry_id": 6611002,
+			"entry_name": "提升物理減傷率＋２",
+			"entry_type": "減傷率",
+			"explanation": "受到的物理屬性傷害-12%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611100": {
+			"entry_id": 6611100,
+			"entry_name": "提升屬性減傷率",
+			"entry_type": "減傷率",
+			"explanation": "受到的魔力/火/雷/聖屬性傷害-6%",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611101": {
+			"entry_id": 6611101,
+			"entry_name": "提升屬性減傷率＋１",
+			"entry_type": "減傷率",
+			"explanation": "受到的魔力/火/雷/聖屬性傷害-10.5%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611102": {
+			"entry_id": 6611102,
+			"entry_name": "提升屬性減傷率＋２",
+			"entry_type": "減傷率",
+			"explanation": "受到的魔力/火/雷/聖屬性傷害-12%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611200": {
+			"entry_id": 6611200,
+			"entry_name": "強化魔法",
+			"entry_type": "攻擊力",
+			"explanation": "魔法造成的傷害+5% (只要用魔法杖打出的都算）",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611201": {
+			"entry_id": 6611201,
+			"entry_name": "強化魔法＋１",
+			"entry_type": "攻擊力",
+			"explanation": "魔法造成的傷害+8.5% (只要用魔法杖打出的都算）",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611202": {
+			"entry_id": 6611202,
+			"entry_name": "強化魔法＋２",
+			"entry_type": "攻擊力",
+			"explanation": "魔法造成的傷害+10% (只要用魔法杖打出的都算）",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611300": {
+			"entry_id": 6611300,
+			"entry_name": "強化禱告",
+			"entry_type": "攻擊力",
+			"explanation": "禱告造成的傷害+5%",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611301": {
+			"entry_id": 6611301,
+			"entry_name": "強化禱告＋１",
+			"entry_type": "攻擊力",
+			"explanation": "禱告造成的傷害+8.5%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611302": {
+			"entry_id": 6611302,
+			"entry_name": "強化禱告＋２",
+			"entry_type": "攻擊力",
+			"explanation": "禱告造成的傷害+10%",
+			"buff_type": "附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6611400": {
+			"entry_id": 6611400,
+			"entry_name": "提升聖盃瓶恢復量",
+			"entry_type": "恢復",
+			"explanation": "增加紅露滴聖盃瓶10%恢復量",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6621000": {
+			"entry_id": 6621000,
+			"entry_name": "出擊時，會持有“漫紅結晶露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6621100": {
+			"entry_id": 6621100,
+			"entry_name": "出擊時，會持有“紅結晶露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6621200": {
+			"entry_id": 6621200,
+			"entry_name": "出擊時，會持有“藍結晶露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6621300": {
+			"entry_id": 6621300,
+			"entry_name": "出擊時，會持有“斑斕硬露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6621400": {
+			"entry_id": 6621400,
+			"entry_name": "出擊時，會持有“紅泡狀露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6621500": {
+			"entry_id": 6621500,
+			"entry_name": "出擊時，會持有“珍珠泡狀露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6621600": {
+			"entry_id": 6621600,
+			"entry_name": "出擊時，會持有“湧紅結晶露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6621700": {
+			"entry_id": 6621700,
+			"entry_name": "出擊時，會持有“湧綠結晶露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6621800": {
+			"entry_id": 6621800,
+			"entry_name": "出擊時，會持有“珍珠硬露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6621900": {
+			"entry_id": 6621900,
+			"entry_name": "出擊時，會持有“連刺破露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6622000": {
+			"entry_id": 6622000,
+			"entry_name": "出擊時，會持有“大刺破露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6622100": {
+			"entry_id": 6622100,
+			"entry_name": "出擊時，會持有“風結晶露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6622200": {
+			"entry_id": 6622200,
+			"entry_name": "出擊時，會持有“爆裂結晶露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6622300": {
+			"entry_id": 6622300,
+			"entry_name": "出擊時，會持有“鉛化硬露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6622400": {
+			"entry_id": 6622400,
+			"entry_name": "出擊時，會持有“細枝破露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6622500": {
+			"entry_id": 6622500,
+			"entry_name": "出擊時，會持有“紅漩泡狀露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6622600": {
+			"entry_id": 6622600,
+			"entry_name": "出擊時，會持有“藍秘密露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6622700": {
+			"entry_id": 6622700,
+			"entry_name": "出擊時，會持有“巖刺破露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6622800": {
+			"entry_id": 6622800,
+			"entry_name": "出擊時，會持有“帶火破露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6622900": {
+			"entry_id": 6622900,
+			"entry_name": "出擊時，會持有“帶魔力破露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6623000": {
+			"entry_id": 6623000,
+			"entry_name": "出擊時，會持有“帶雷破露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6623100": {
+			"entry_id": 6623100,
+			"entry_name": "出擊時，會持有“帶聖破露滴”",
+			"entry_type": "出擊時的道具(結晶露滴)",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6624000": {
+			"entry_id": 6624000,
+			"entry_name": "出擊時，會持有“振奮香”",
+			"entry_type": "出擊時的道具",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6624100": {
+			"entry_id": 6624100,
+			"entry_name": "出擊時，會持有“火花香”",
+			"entry_type": "出擊時的道具",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6624200": {
+			"entry_id": 6624200,
+			"entry_name": "出擊時，會持有“鐵壺香藥”",
+			"entry_type": "出擊時的道具",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6624300": {
+			"entry_id": 6624300,
+			"entry_name": "出擊時，會持有“狂熱香藥”",
+			"entry_type": "出擊時的道具",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6624400": {
+			"entry_id": 6624400,
+			"entry_name": "出擊時，會持有“毒發噴霧”",
+			"entry_type": "出擊時的道具",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6624500": {
+			"entry_id": 6624500,
+			"entry_name": "出擊時，會持有“酸蝕噴霧”",
+			"entry_type": "出擊時的道具",
+			"explanation": "",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "可疊加"
+		},
+		"6630000": {
+			"entry_id": 6630000,
+			"entry_name": "通過潛在能力，能比較容易找到短劍",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6630100": {
+			"entry_id": 6630100,
+			"entry_name": "通過潛在能力，能比較容易找到直劍",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6630200": {
+			"entry_id": 6630200,
+			"entry_name": "通過潛在能力，能比較容易找到大劍",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6630300": {
+			"entry_id": 6630300,
+			"entry_name": "通過潛在能力，能比較容易找到特大劍",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6630400": {
+			"entry_id": 6630400,
+			"entry_name": "通過潛在能力，能比較容易找到曲劍",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6630500": {
+			"entry_id": 6630500,
+			"entry_name": "通過潛在能力，能比較容易找到大麴劍",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6630600": {
+			"entry_id": 6630600,
+			"entry_name": "通過潛在能力，能比較容易找到刀",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6630700": {
+			"entry_id": 6630700,
+			"entry_name": "通過潛在能力，能比較容易找到雙頭劍",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6630800": {
+			"entry_id": 6630800,
+			"entry_name": "通過潛在能力，能比較容易找到刺劍",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6630900": {
+			"entry_id": 6630900,
+			"entry_name": "通過潛在能力，能比較容易找到重刺劍",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6631000": {
+			"entry_id": 6631000,
+			"entry_name": "通過潛在能力，能比較容易找到斧",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6631100": {
+			"entry_id": 6631100,
+			"entry_name": "通過潛在能力，能比較容易找到大斧",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6631200": {
+			"entry_id": 6631200,
+			"entry_name": "通過潛在能力，能比較容易找到槌",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6631300": {
+			"entry_id": 6631300,
+			"entry_name": "通過潛在能力，能比較容易找到大槌",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6631400": {
+			"entry_id": 6631400,
+			"entry_name": "通過潛在能力，能比較容易找到連枷",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6631500": {
+			"entry_id": 6631500,
+			"entry_name": "通過潛在能力，能比較容易找到矛",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6631600": {
+			"entry_id": 6631600,
+			"entry_name": "通過潛在能力，能比較容易找到大矛",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6631700": {
+			"entry_id": 6631700,
+			"entry_name": "通過潛在能力，能比較容易找到戟",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6631800": {
+			"entry_id": 6631800,
+			"entry_name": "通過潛在能力，能比較容易找到鐮刀",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6631900": {
+			"entry_id": 6631900,
+			"entry_name": "通過潛在能力，能比較容易找到拳頭",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6632000": {
+			"entry_id": 6632000,
+			"entry_name": "通過潛在能力，能比較容易找到鉤爪",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6632100": {
+			"entry_id": 6632100,
+			"entry_name": "通過潛在能力，能比較容易找到軟鞭",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6632200": {
+			"entry_id": 6632200,
+			"entry_name": "通過潛在能力，能比較容易找到特大武器",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6632300": {
+			"entry_id": 6632300,
+			"entry_name": "通過潛在能力，能比較容易找到弓",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6632400": {
+			"entry_id": 6632400,
+			"entry_name": "通過潛在能力，能比較容易找到大弓",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6632500": {
+			"entry_id": 6632500,
+			"entry_name": "通過潛在能力，能比較容易找到弩",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6632600": {
+			"entry_id": 6632600,
+			"entry_name": "通過潛在能力，能比較容易找到弩炮",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6632700": {
+			"entry_id": 6632700,
+			"entry_name": "通過潛在能力，能比較容易找到小盾",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6632800": {
+			"entry_id": 6632800,
+			"entry_name": "通過潛在能力，能比較容易找到中盾",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6632900": {
+			"entry_id": 6632900,
+			"entry_name": "通過潛在能力，能比較容易找到大盾",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6633000": {
+			"entry_id": 6633000,
+			"entry_name": "通過潛在能力，能比較容易找到手杖",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6633100": {
+			"entry_id": 6633100,
+			"entry_name": "通過潛在能力，能比較容易找到聖印記",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6633200": {
+			"entry_id": 6633200,
+			"entry_name": "通過潛在能力，能比較容易找到火把",
+			"entry_type": "僅限特定武器",
+			"explanation": "直接替換角色專屬池",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6640000": {
+			"entry_id": 6640000,
+			"entry_name": "【追蹤者】提升集中力，但降低生命力",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，集中力+1，生命力-1; 等級12時達到變化最大值，集中力+10，生命力-5",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6640100": {
+			"entry_id": 6640100,
+			"entry_name": "【追蹤者】提升智力、信仰，但降低力氣、靈巧",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，智力+1，信仰+1，力氣-1，靈巧-1; 等級12時達到變化最大值，智力+15，信仰+15，力氣-7、靈巧-5",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6641000": {
+			"entry_id": 6641000,
+			"entry_name": "【守護者】提升力氣、靈巧，但降低生命力",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，力氣+1，靈巧+2，生命力-1; 等級12時達到變化最大值，力氣+9，靈巧+19，生命力-8",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6641100": {
+			"entry_id": 6641100,
+			"entry_name": "【守護者】提升集中力、信仰，但降低生命力",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，集中力+1，信仰+2，生命力-1; 等級12時達到變化最大值，集中力+8，信仰+17，生命力-6",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6642000": {
+			"entry_id": 6642000,
+			"entry_name": "【鐵之眼】提升感應，但降低靈巧",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，感應+2，靈巧-1; 等級12時達到變化最大值，感應+15，靈巧-9",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6642100": {
+			"entry_id": 6642100,
+			"entry_name": "【鐵之眼】提升生命力、力氣，但降低靈巧",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，生命力+1，力氣+2，靈巧-2; 等級12時達到變化最大值，生命力+5，力氣+20，靈巧-13",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6643000": {
+			"entry_id": 6643000,
+			"entry_name": "【女爵】提升生命力、力氣，但降低集中力",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，生命力+1，力氣+2，集中力-2; 等級12時達到變化最大值，生命力+3，力氣+24，集中力-14",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6643100": {
+			"entry_id": 6643100,
+			"entry_name": "【女爵】提升集中力、信仰，但降低智力",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，集中力+1，信仰+2，智力-1; 等級12時達到變化最大值，集中力+3，信仰+13，智力-5",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6644000": {
+			"entry_id": 6644000,
+			"entry_name": "【無賴】提升集中力、智力，但降低生命力、耐力",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，集中力+1，智力+2，生命力-1，耐力-1; 等級12時達到變化最大值，集中力+9，智力+35，生命力-8，耐力-4",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6644100": {
+			"entry_id": 6644100,
+			"entry_name": "【無賴】提升感應，但降低生命力",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，感應+2，生命力-1; 等級12時達到變化最大值，感應+17，生命力-4",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6645000": {
+			"entry_id": 6645000,
+			"entry_name": "【復仇者】提升生命力、耐力，但降低集中力",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，生命力+1，耐力+1，集中力-1; 等級12時達到變化最大值，生命力+5，耐力+5，集中力-11",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6645100": {
+			"entry_id": 6645100,
+			"entry_name": "【復仇者】提升力氣，但降低信仰",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，力氣+2，信仰-1; 等級12時達到變化最大值，力氣+25，信仰-6",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6646000": {
+			"entry_id": 6646000,
+			"entry_name": "【隱士】提升生命力、耐力、靈巧，但降低智力、信仰",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，生命力+1，耐力+1，靈巧+2，智力-1，信仰-1; 等級12時達到變化最大值，生命力+4，耐力+5，靈巧+20，智力-10，信仰-10",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6646100": {
+			"entry_id": 6646100,
+			"entry_name": "【隱士】提升智力、信仰，但降低集中力",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，智力+2，信仰+2，集中力-2; 等級12時達到變化最大值，智力+12，信仰+12，集中力-13",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6647000": {
+			"entry_id": 6647000,
+			"entry_name": "【執行者】提升生命力、耐力，但降低感應",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，生命力+1，耐力+1，感應-2; 等級12時達到變化最大值，生命力+5，耐力+6，感應-13",
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6647100": {
+			"entry_id": 6647100,
+			"entry_name": "【執行者】提升靈巧、感應，但降低生命力",
+			"entry_type": "僅限特定角色",
+			"explanation": "等級1時，靈巧+1，感應+1，生命力-1; 等級12時達到變化最大值，靈巧+12，感應+9，生命力-7",
+
+			"buff_type": "不附帶負面詞條",
+			"superposability": "不可疊加"
+		},
+		"6800000": {
+			"entry_id": 6800000,
+			"entry_name": "降低生命力",
+			"entry_type": "減益(能力值)",
+			"explanation": "生命力-5",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6800200": {
+			"entry_id": 6800200,
+			"entry_name": "降低耐力",
+			"entry_type": "減益(能力值)",
+			"explanation": "耐力-5",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6810100": {
+			"entry_id": 6810100,
+			"entry_name": "降低減傷率",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到的傷害+10%",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6820000": {
+			"entry_id": 6820000,
+			"entry_name": "受到損傷時，會累積中毒量表",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到傷害時，累積65點中毒值",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6820100": {
+			"entry_id": 6820100,
+			"entry_name": "受到損傷時，會累積猩紅腐敗量表",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到傷害時，累積55點腐敗值",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6820200": {
+			"entry_id": 6820200,
+			"entry_name": "受到損傷時，會累積凍傷量表",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到傷害時，累積55點凍傷值",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6820300": {
+			"entry_id": 6820300,
+			"entry_name": "受到損傷時，會累積出血量表",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到傷害時，累積55點出血值",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6820400": {
+			"entry_id": 6820400,
+			"entry_name": "受到損傷時，會累積發狂量表",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到傷害時，累積50點發狂值",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6820500": {
+			"entry_id": 6820500,
+			"entry_name": "受到損傷時，會累積催眠量表",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到傷害時，累積50點睡眠值",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6820600": {
+			"entry_id": 6820600,
+			"entry_name": "受到損傷時，會累積死亡量表",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到傷害時，累積40點驟死值",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6830000": {
+			"entry_id": 6830000,
+			"entry_name": "降低力氣、智力",
+			"entry_type": "減益(能力值)",
+			"explanation": "力氣-3，智力-3",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6830100": {
+			"entry_id": 6830100,
+			"entry_name": "降低靈巧、信仰",
+			"entry_type": "減益(能力值)",
+			"explanation": "靈巧-3，信仰-3",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6830200": {
+			"entry_id": 6830200,
+			"entry_name": "降低智力、靈巧",
+			"entry_type": "減益(能力值)",
+			"explanation": "智力-3，靈巧-3",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6830300": {
+			"entry_id": 6830300,
+			"entry_name": "降低信仰、力氣",
+			"entry_type": "減益(能力值)",
+			"explanation": "信仰-3，力氣-3",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6830400": {
+			"entry_id": 6830400,
+			"entry_name": "降低生命力、感應",
+			"entry_type": "減益(能力值)",
+			"explanation": "生命力-3，感應-3",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6840000": {
+			"entry_id": 6840000,
+			"entry_name": "減少獲得的盧恩",
+			"entry_type": "減益(能力值)",
+			"explanation": "獲得的盧恩-10%，僅對擊殺獎勵有效",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6840100": {
+			"entry_id": 6840100,
+			"entry_name": "降低聖盃瓶恢復量",
+			"entry_type": "減益(行動)",
+			"explanation": "紅露滴聖盃瓶-15%恢復量",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6840200": {
+			"entry_id": 6840200,
+			"entry_name": "降低絕招量表累積量",
+			"entry_type": "減益(行動)",
+			"explanation": "絕招量表累積速率-15%",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6850000": {
+			"entry_id": 6850000,
+			"entry_name": "降低物理減傷率",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到的物理屬性傷害+12%",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6850100": {
+			"entry_id": 6850100,
+			"entry_name": "降低屬性減傷率",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到的魔力/火/雷/聖屬性傷害+12%",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6850200": {
+			"entry_id": 6850200,
+			"entry_name": "降低對所有異常狀態的抵抗力",
+			"entry_type": "減益(減傷率)",
+			"explanation": "中毒/猩紅腐敗/出血/凍傷/催眠/發狂/驟死異常耐受上限-80",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6850500": {
+			"entry_id": 6850500,
+			"entry_name": "持續減少血量",
+			"entry_type": "減益(減傷率)",
+			"explanation": "每秒減少2點生命值 (可以觸發“受到損傷的當下，能通過攻擊恢復部分血量”系列; 不能觸發“受到損傷時……”系列;)",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6850700": {
+			"entry_id": 6850700,
+			"entry_name": "閃避後的當下，受傷時損傷加劇",
+			"entry_type": "減益(減傷率)",
+			"explanation": "閃避後無敵幀結束的後搖，受到的傷害+45%",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6850800": {
+			"entry_id": 6850800,
+			"entry_name": "連續閃避時，降低減傷率",
+			"entry_type": "減益(減傷率)",
+			"explanation": "連續閃避時，受到的傷害+35%，效果持續15秒",
+			"notes": "連續按閃避時，第3次閃避觸發效果;2次按下閃避鍵的間隔小於1秒，就會被判定為“連續閃避”",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6850900": {
+			"entry_id": 6850900,
+			"entry_name": "使用聖盃瓶時，降低減傷率",
+			"entry_type": "減益(減傷率)",
+			"explanation": "使用聖盃瓶的動作中，受到的傷害+45%",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6851200": {
+			"entry_id": 6851200,
+			"entry_name": "血量沒有全滿時，降低攻擊力",
+			"entry_type": "減益(行動)",
+			"explanation": "血量不滿時，造成的傷害-8.5%",
+			"notes": "現版本血量小於84.99%才會觸發該效果",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6851300": {
+			"entry_id": 6851300,
+			"entry_name": "血量沒有全滿時，累積中毒量表",
+			"entry_type": "減益(行動)",
+			"explanation": "血量不滿時，每1.3秒增加3點中毒值",
+			"notes": "現版本血量小於84.99%才會觸發該效果",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6851400": {
+			"entry_id": 6851400,
+			"entry_name": "血量沒有全滿時，累積猩紅腐敗量表",
+			"entry_type": "減益(行動)",
+			"explanation": "血量不滿時，每1.3秒增加2點腐敗值",
+			"notes": "現版本血量小於84.99%才會觸發該效果",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		},
+		"6851700": {
+			"entry_id": 6851700,
+			"entry_name": "瀕死時，降低血量上限",
+			"entry_type": "減益(行動)",
+			"explanation": "瀕死救活後，60秒內，生命值上限-25%",
+			"buff_type": "隨機加入正面詞條",
+			"superposability": "可疊加"
+		}
+	}
+]

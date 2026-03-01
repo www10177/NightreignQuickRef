@@ -1,0 +1,431 @@
+[
+	{
+		"6610400": {
+			"entry_entry_id": 6610400,
+			"entry_name": "提升血量上限",
+			"entry_type": "能力值",
+			"explanation": "生命值上限+10%",
+			"superposability": "相同詞條可疊加"
+		},
+		"6610500": {
+			"entry_id": 6610500,
+			"entry_name": "提升專注值上限",
+			"entry_type": "能力值",
+			"explanation": "專注值上限+15%",
+			"superposability": "相同詞條可疊加"
+		},
+		"6610600": {
+			"entry_id": 6610600,
+			"entry_name": "提升精力上限",
+			"entry_type": "能力值",
+			"explanation": "精力值上限+12%",
+			"superposability": "相同詞條可疊加"
+		},
+		"6610700": {
+			"entry_id": 6610700,
+			"entry_name": "減少專注值消耗",
+			"entry_type": "能力值",
+			"explanation": "專注值消耗-8%",
+			"superposability": "相同詞條可疊加"
+		},
+		"6610800": {
+			"entry_id": 6610800,
+			"entry_name": "提升屬性攻擊力",
+			"entry_type": "攻擊力",
+			"explanation": "魔力/火/雷/聖屬性傷害+5%",
+			"superposability": "相同詞條可疊加"
+		},
+		"6610801": {
+			"entry_id": 6610801,
+			"entry_name": "提升屬性攻擊力＋１",
+			"entry_type": "攻擊力",
+			"explanation": "魔力/火/雷/聖屬性傷害+8%",
+			"superposability": "相同詞條可疊加"
+		},
+		"6610802": {
+			"entry_id": 6610802,
+			"entry_name": "提升屬性攻擊力＋２",
+			"entry_type": "攻擊力",
+			"explanation": "魔力/火/雷/聖屬性傷害+11%",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"6611001": {
+			"entry_id": 6611001,
+			"entry_name": "提升物理減傷率＋１",
+			"entry_type": "減傷率",
+			"explanation": "受到的物理屬性傷害-10.5%",
+			"superposability": "相同詞條可疊加"
+		},
+		"6611002": {
+			"entry_id": 6611002,
+			"entry_name": "提升物理減傷率＋２",
+			"entry_type": "減傷率",
+			"explanation": "受到的物理屬性傷害-12%",
+			"superposability": "相同詞條可疊加"
+		},
+		"6611100": {
+			"entry_id": 6611100,
+			"entry_name": "提升屬性減傷率",
+			"entry_type": "減傷率",
+			"explanation": "受到的魔力/火/雷/聖屬性傷害-6%",
+			"superposability": "相同詞條可疊加"
+		},
+		"6611101": {
+			"entry_id": 6611101,
+			"entry_name": "提升屬性減傷率＋１",
+			"entry_type": "減傷率",
+			"explanation": "受到的魔力/火/雷/聖屬性傷害-10.5%",
+			"superposability": "相同詞條可疊加"
+		},
+		"6611102": {
+			"entry_id": 6611102,
+			"entry_name": "提升屬性減傷率＋２",
+			"entry_type": "減傷率",
+			"explanation": "受到的魔力/火/雷/聖屬性傷害-12%",
+			"superposability": "相同詞條可疊加"
+		},
+		"6611200": {
+			"entry_id": 6611200,
+			"entry_name": "強化魔法",
+			"entry_type": "攻擊力",
+			"explanation": "魔法造成的傷害+5% (只要用魔法杖打出的都算）",
+			"superposability": "相同詞條可疊加"
+		},
+		"6611201": {
+			"entry_id": 6611201,
+			"entry_name": "強化魔法＋１",
+			"entry_type": "攻擊力",
+			"explanation": "魔法造成的傷害+8.5% (只要用魔法杖打出的都算）",
+			"superposability": "相同詞條可疊加"
+		},
+		"6611202": {
+			"entry_id": 6611202,
+			"entry_name": "強化魔法＋２",
+			"entry_type": "攻擊力",
+			"explanation": "魔法造成的傷害+11% (只要用魔法杖打出的都算）",			
+			"superposability": "相同詞條可疊加"
+		},
+		"6611300": {
+			"entry_id": 6611300,
+			"entry_name": "強化禱告",
+			"entry_type": "攻擊力",
+			"explanation": "禱告造成的傷害+5%",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"6611301": {
+			"entry_id": 6611301,
+			"entry_name": "強化禱告＋１",
+			"entry_type": "攻擊力",
+			"explanation": "禱告造成的傷害+8.5%",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"6611302": {
+			"entry_id": 6611302,
+			"entry_name": "強化禱告＋２",
+			"entry_type": "攻擊力",
+			"explanation": "禱告造成的傷害+11%",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"6611400": {
+			"entry_id": 6611400,
+			"entry_name": "提升聖盃瓶恢復量",
+			"entry_type": "恢復",
+			"explanation": "增加紅露滴聖盃瓶10%恢復量",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"8760000": {
+			"entry_id": 8760000,
+			"entry_name": "降低血量上限",
+			"entry_type": "減益(能力值)",
+			"explanation": "生命值上限-4% / -6%",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"8760100": {
+			"entry_id": 8760100,
+			"entry_name": "降低專注值上限",
+			"entry_type": "減益(能力值)",
+			"explanation": "專注值上限-6% / -9%",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"8760200": {
+			"entry_id": 8760200,
+			"entry_name": "降低精力上限",
+			"entry_type": "減益(能力值)",
+			"explanation": "精力值上限-5% / -8%",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"8761000": {
+			"entry_id": 8761000,
+			"entry_name": "降低物理減傷率",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到的物理屬性傷害+6% / +8%",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"8761100": {
+			"entry_id": 8761100,
+			"entry_name": "降低屬性減傷率",
+			"entry_type": "減益(減傷率)",
+			"explanation": "受到的魔力/火/雷/聖屬性傷害+6% / +8%",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"8762000": {
+			"entry_id": 8762000,
+			"entry_name": "降低對所有異常狀態的抵抗力",
+			"entry_type": "減益(減傷率)",
+			"explanation": "中毒/猩紅腐敗/出血/凍傷/催眠/發狂/驟死異常耐受上限-30 / -45",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"8763000": {
+			"entry_id": 8763000,
+			"entry_name": "降低聖盃瓶恢復量",
+			"entry_type": "減益(恢復)",
+			"explanation": "減少紅露滴聖盃瓶6% / 9%恢復量",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"8766000": {
+			"entry_id": 8766000,
+			"entry_name": "持續減少血量",
+			"entry_type": "減益(減傷率)",
+			"explanation": "每秒減少1點生命值; 可以觸發“受到損傷的當下，能通過攻擊恢復部分血量”系列詞條，不能觸發“受到損傷時...”系列詞條",
+			"superposability": "相同詞條可疊加"
+		},
+		"8770000": {
+			"entry_id": 8770000,
+			"entry_name": "被黑夜雨淋到的損傷加劇",
+			"entry_type": "減益(減傷率)",
+			"explanation": "黑夜雨傷害變為2倍 / 2.5倍",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"8771000": {
+			"entry_id": 8771000,
+			"entry_name": "時間越接近夜晚，受到的損傷加劇",
+			"entry_type": "減益(減傷率)",
+			"explanation": "隨著特定時間點，受到的傷害持續疊加1% / 2.5%，共疊加4次;觸發時機暫不確定，猜測是：第一天開始、第一個縮圈結束，第二圈開始縮圈，第二圈縮圈結束。第二天黎明時，效果會解除。",
+			"superposability": "相同詞條可疊加"
+		},
+		"8800100": {
+			"entry_id": 8800100,
+			"entry_name": "閃避後的當下，受傷時損傷加劇",
+			"entry_type": "減益(減傷率)",
+			"explanation": "閃避後無敵幀結束的後搖，受到的傷害+15% / +20%",
+			
+			"superposability": "相同詞條可疊加"
+		},
+		"8800200": {
+			"entry_id": 8800200,
+			"entry_name": "連續閃避時，降低減傷率",
+			"entry_type": "減益(減傷率)",
+			"explanation": "連續閃避時，受到的傷害+30% / +46%，效果持續15秒; 連續按閃避時，第3次閃避觸發效果; 2次按下閃避鍵的間隔小於1秒，就會被判定為“連續閃避”",
+			"superposability": "相同詞條可疊加"
+		},
+		"8801000": {
+			"entry_id": 8801000,
+			"entry_name": "使用聖盃瓶時，降低減傷率",
+			"entry_type": "減益(減傷率)",
+			"explanation": "使用聖盃瓶的動作中，受到的傷害+33%",
+			"superposability": "相同詞條可疊加"
+		},
+		"8810000": {
+			"entry_id": 8810000,
+			"entry_name": "血量沒有全滿時，降低攻擊力",
+			"entry_type": "減益(行動)",
+			"explanation": "血量不滿時，造成的傷害-5% / -7%",
+			"superposability": "相同詞條可疊加"
+		},
+		"8810200": {
+			"entry_id": 8810200,
+			"entry_name": "血量沒有全滿時，降低絕招量表累積",
+			"entry_type": "減益(行動)",
+			"explanation": "血量不滿時，絕招量表累積速率-10% / -15%",
+			"superposability": "相同詞條可疊加"
+		},
+		"8810300": {
+			"entry_id": 8810300,
+			"entry_name": "血量沒有全滿時，累積中毒量表",
+			"entry_type": "減益(行動)",
+			"explanation": "血量不滿時，每1.3秒增加2點中毒值",
+			"superposability": "相同詞條可疊加"
+		},
+		"8810400": {
+			"entry_id": 8810400,
+			"entry_name": "血量沒有全滿時，累積猩紅腐敗量表",
+			"entry_type": "減益(行動)",
+			"explanation": "血量不滿時，每1.3秒增加2點腐敗值",
+			"superposability": "相同詞條可疊加"
+		},
+		"8813100": {
+			"entry_id": 8813100,
+			"entry_name": "精力偏少時，降低減傷率",
+			"entry_type": "減益(減傷率)",
+			"explanation": "精力值小於50%時，受到的傷害+10% / +15%",
+			"superposability": "相同詞條可疊加"
+		},
+		"8821000": {
+			"entry_id": 8821000,
+			"entry_name": "攻擊時，攻擊偶爾會掠過目標",
+			"entry_type": "減益(行動)",
+			"explanation": "每次攻擊有3% / 5%，造成的傷害變為1% (僅降低傷害，依舊可以打出削韌值/異常值/衝擊力)",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8830000": {
+			"entry_id": 8830000,
+			"entry_name": "增加因異常狀態受到的損傷",
+			"entry_type": "減益(減傷率)",
+			"explanation": "玩家觸發異常後，異常狀態扣除的血量增加+25% / +35%",
+			"superposability": "相同詞條可疊加"
+		},
+		"8831000": {
+			"entry_id": 8831000,
+			"entry_name": "瀕死時，減少絕招量表",
+			"entry_type": "減益(行動)",
+			"explanation": "陷入瀕死後，絕招量表-30% / -45%",
+			"superposability": "相同詞條可疊加"
+		},
+		"8831200": {
+			"entry_id": 8831200,
+			"entry_name": "瀕死時，降低血量上限",
+			"entry_type": "減益(能力值)",
+			"explanation": "陷入瀕死後，30秒內，生命值上限-15%",
+			"superposability": "相同詞條可疊加"
+		},
+		"8880000": {
+			"entry_id": 8880000,
+			"entry_name": "蓄力攻擊時，颳起冰風暴",
+			"entry_type": "特殊效果",
+			"explanation": "使出蓄力攻擊時，能颳起冰風暴; 冰風暴：造成120點基礎魔力屬性傷害，4點削韌，1號衝擊力，50點凍傷值; 冰風暴持續存在1.2秒，半徑1.7m，但僅進行一次傷害判定; 附魔效果：20秒內，武器附帶20點凍傷值",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8880200": {
+			"entry_id": 8880200,
+			"entry_name": "蓄力攻擊時，噴灑黑焰",
+			"entry_type": "特殊效果",
+			"explanation": "使出蓄力攻擊時，能噴灑黑焰; 黑焰：造成5點基礎火屬性傷害，1點削韌，0號衝擊力; 持續存在3.5秒，半徑1m，附帶黑焰特效; 黑焰特效：1.2秒內，每0.1秒扣除敵人（最大生命值的0.010%+3）; 附魔效果：7秒內，武器附帶12點火屬性傷害; 黑焰效果可以多層無限疊加，每層的持續時間單獨計算)",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8880300": {
+			"entry_id": 8880300,
+			"entry_name": "蓄力攻擊時，形成幻影進行攻擊",
+			"entry_type": "特殊效果",
+			"explanation": "使出蓄力攻擊時，能形成幻影進行攻擊; 幻影：造成165點基礎物理傷害，8點削韌，6號衝擊力",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8881000": {
+			"entry_id": 8881000,
+			"entry_name": "蓄力攻擊時，釋放聖屬性衝擊波",
+			"entry_type": "特殊效果",
+			"explanation": "蓄力使出打擊攻擊時，能釋放黃金衝擊波; 黃金衝擊波：造成150點基礎聖屬性傷害，4點削韌，1號衝擊力; 黃金衝擊波會向前擴散12m; 附魔效果：20秒內，武器附帶12點聖屬性傷害",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8881200": {
+			"entry_id": 8881200,
+			"entry_name": "蓄力攻擊時，將敵人拉近自己",
+			"entry_type": "特殊效果",
+			"explanation": "使出蓄力攻擊時，能將敵人拉近自己; 拉拽：造成45點基礎魔力屬性傷害，3點削韌，3號衝擊力; 共有3層不同的球狀攻擊判定，半徑3.2m / 半徑5.2m / 半徑7m; 根據敵人的遠近最多可以讓3個攻擊判定都命中",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8881500": {
+			"entry_id": 8881500,
+			"entry_name": "蓄力攻擊時，形成熔岩",
+			"entry_type": "特殊效果",
+			"explanation": "使出蓄力攻擊時，能形成熔岩; 熔岩：造成50點基礎火屬性傷害，5點削韌，3號衝擊力; 熔岩持續存在3秒，半徑2m; 每0.5秒可持續造成25點基礎火屬性傷害，1點削韌，0號衝擊力; 附魔效果：20秒內，武器附帶12點火屬性傷害",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8882100": {
+			"entry_id": 8882100,
+			"entry_name": "蓄力攻擊時，釋放雷電",
+			"entry_type": "特殊效果",
+			"explanation": "使出蓄力攻擊時，能釋放雷電; 雷電：造成120點基礎雷屬性傷害，5點削韌，3號衝擊力; 附魔效果：20秒內，武器附帶12點雷屬性傷害",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8882500": {
+			"entry_id": 8882500,
+			"entry_name": "蓄力攻擊時，形成催眠煙霧",
+			"entry_type": "特殊效果",
+			"explanation": "使出蓄力攻擊時，能形成催眠煙霧; 催眠煙霧：持續存在3秒，半徑1m擴散至3m，每0.5秒可造成20點睡眠值; 附魔效果：20秒內，武器附帶20點催眠值;（實際的存在時間解包看到就是3秒，比視覺上的動畫特效更長）",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8883000": {
+			"entry_id": 8883000,
+			"entry_name": "蓄力攻擊時，形成追擊魔力球",
+			"entry_type": "弓弩專屬",
+			"explanation": "使出蓄力攻擊時，能形成魔力球，進行追擊; 魔力球：3個魔力球，每個造成20點基礎魔力屬性傷害，1點削韌，3號衝擊力",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8883100": {
+			"entry_id": 8883100,
+			"entry_name": "精密射擊時，在命中點降下落雷",
+			"entry_type": "弓弩專屬",
+			"explanation": "精密射擊時，能在命中點降下落雷; 落雷：造成33%武器面板攻擊力+30點基礎雷屬性傷害，不造成削韌，0號衝擊力; 在水域可以額外形成擴散雷，造成60點基礎雷屬性傷害，不造成削韌，1號衝擊力",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8883200": {
+			"entry_id": 8883200,
+			"entry_name": "精密射擊時，在命中點形成毒性煙霧",
+			"entry_type": "弓弩專屬",
+			"explanation": "精密射擊時，能在命中點形成毒性煙霧; 毒性煙霧：持續存在1.8秒，半徑1m擴散至3m，每0.5秒可造成11點中毒值",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8883300": {
+			"entry_id": 8883300,
+			"entry_name": "精密射擊時，在命中點形成腐敗煙霧",
+			"entry_type": "弓弩專屬",
+			"explanation": "精密射擊時，能在命中點形成腐敗煙霧; 腐敗煙霧：持續存在1.8秒，半徑1m擴散至3m，每0.5秒可造成9點腐敗值",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8883400": {
+			"entry_id": 8883400,
+			"entry_name": "精密射擊時，在命中點招來血蠅",
+			"entry_type": "弓弩專屬",
+			"explanation": "精密射擊時，能在命中點招來血蠅; 血蠅：造成3%武器面板攻擊力+1點基礎物理傷害，不造成削韌，0號衝擊力; 持續存在1.8秒，半徑1m擴散至3m，每0.5秒可造成7點出血值",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8884200": {
+			"entry_id": 8884200,
+			"entry_name": "持盾維持防禦時，發動聖域",
+			"entry_type": "盾牌專屬",
+			"explanation": "持盾維持防禦時，能緩慢恢復血量並展開聖域，提升減傷率; 持盾維持防禦超過2.5秒後展開聖域，內置3秒冷卻時間; 聖域：附近的友方單位，受到的傷害-15%，每1.5秒回覆7點生命值，持續35秒; 弱化版聖域，和戰技/其他詞條引發的聖域數值不同",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8884300": {
+			"entry_id": 8884300,
+			"entry_name": "失去平衡時，發動忍耐",
+			"entry_type": "盾牌專屬",
+			"explanation": "防禦時失去平衡，或是被敵人格擋時能發動忍耐，提升強韌度與減傷率; 被破盾或者被彈反後，3.5秒內，受到的傷害-30%，免疫衝擊力",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8885000": {
+			"entry_id": 8885000,
+			"entry_name": "使用聖盃瓶時，也恢復專注值",
+			"entry_type": "特殊效果",
+			"explanation": "使用聖盃瓶時，也會恢復專注值; 使用聖盃瓶時，可以額外回覆20%專注值",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8885100": {
+			"entry_id": 8885100,
+			"entry_name": "專注值不夠時，施展魔法、祈禱恢復專注值",
+			"entry_type": "法術觸媒專屬",
+			"explanation": "專注值不夠時，詠唱失敗動作會轉為恢復專注值; 詠唱失敗的動作會被替換，並恢復13%專注值",
+			"superposability": "相同詞條不可疊加"
+		},
+		"8885200": {
+			"entry_id": 8885200,
+			"entry_name": "維持防禦時，強化魔法、禱告",
+			"entry_type": "法術觸媒專屬",
+			"explanation": "維持防禦時，能提升魔法、禱告的攻擊力與縮短詠唱時間; 雙手共持法術觸媒時，按照維持防禦的時間觸發增益buff，最多3層; 3層buff可互相疊加，但buff結束時間獨立計算; 每2.5秒觸發一層持續時間為25秒的增益; 法術傷害+10%，獲得相當於30點靈巧所帶來的施法速度",
+			"superposability": "相同詞條不可疊加"
+		}
+	}
+]

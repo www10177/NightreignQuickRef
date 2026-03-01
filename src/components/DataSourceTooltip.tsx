@@ -19,7 +19,7 @@ const DataSourceTooltip: React.FC<DataSourceTooltipProps> = ({
   const content = (
     <div style={{ maxWidth: '350px' }}>
       <div style={{ fontSize: '12px', marginBottom: '8px', fontWeight: 'bold' }}>
-        数据来源 🔗
+        數據來源 🔗
       </div>
       <div style={{ fontSize: '11px', lineHeight: '1.4' }}>
         {links.map((link, index) => (

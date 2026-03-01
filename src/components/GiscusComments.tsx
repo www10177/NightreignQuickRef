@@ -2,7 +2,7 @@ import React from 'react';
 import Giscus from '@giscus/react';
 
 const GiscusComments: React.FC = () => {
-    // 检测当前主题
+    // 檢測當前主題
     const isDarkMode = document.body.getAttribute('tomato-theme') === 'dark' ||
         document.documentElement.getAttribute('data-theme') === 'dark';
     const theme = isDarkMode ? 'dark_protanopia' : 'light_protanopia';
@@ -23,7 +23,7 @@ const GiscusComments: React.FC = () => {
                 emitMetadata="0"
                 inputPosition="bottom"
                 theme={theme}
-                lang="zh-CN"
+                lang="zh-TW"
                 loading="lazy"
             />
         </div>

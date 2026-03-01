@@ -1,0 +1,2585 @@
+[
+    {
+        "entry_id":"7000000",
+        "entry_name":"生命力+１",
+        "entry_type":"能力",
+        "explanation":"+1點生命力（固定+20點生命值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000001",
+        "entry_name":"生命力+２",
+        "entry_type":"能力",
+        "explanation":"+2點生命力（固定+40點生命值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000002",
+        "entry_name":"生命力+３",
+        "entry_type":"能力",
+        "explanation":"+3點生命力（固定+60點生命值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000090",
+        "entry_name":"提升血量上限",
+        "entry_type":"能力",
+        "explanation":"+5點生命力（固定+100點生命值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000100",
+        "entry_name":"集中力+１",
+        "entry_type":"能力",
+        "explanation":"+1點集中力（固定+5點專注值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000101",
+        "entry_name":"集中力+２",
+        "entry_type":"能力",
+        "explanation":"+2點集中力（固定+10點專注值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000102",
+        "entry_name":"集中力+３",
+        "entry_type":"能力",
+        "explanation":"+3點集中力（固定+15點專注值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000190",
+        "entry_name":"提升專注值上限",
+        "entry_type":"能力",
+        "explanation":"+5點集中力（固定+25點專注值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000200",
+        "entry_name":"耐力+１",
+        "entry_type":"能力",
+        "explanation":"+1點耐力（固定+2點精力值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000201",
+        "entry_name":"耐力+２",
+        "entry_type":"能力",
+        "explanation":"+2點耐力（固定+4點精力值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000202",
+        "entry_name":"耐力+３",
+        "entry_type":"能力",
+        "explanation":"+3點耐力（固定+6點精力值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000290",
+        "entry_name":"提升精力上限",
+        "entry_type":"能力",
+        "explanation":"+5點耐力（固定+10點精力值上限）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000300",
+        "entry_name":"力氣+１",
+        "entry_type":"能力",
+        "explanation":"+1點力氣",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000301",
+        "entry_name":"力氣+２",
+        "entry_type":"能力",
+        "explanation":"+2點力氣",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000302",
+        "entry_name":"力氣+３",
+        "entry_type":"能力",
+        "explanation":"+3點力氣",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000400",
+        "entry_name":"靈巧+１",
+        "entry_type":"能力",
+        "explanation":"+1點靈巧",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000401",
+        "entry_name":"靈巧+２",
+        "entry_type":"能力",
+        "explanation":"+2點靈巧",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000402",
+        "entry_name":"靈巧+３",
+        "entry_type":"能力",
+        "explanation":"+3點靈巧",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000500",
+        "entry_name":"智力+１",
+        "entry_type":"能力",
+        "explanation":"+1點智力",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000501",
+        "entry_name":"智力+２",
+        "entry_type":"能力",
+        "explanation":"+2點智力",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000502",
+        "entry_name":"智力+３",
+        "entry_type":"能力",
+        "explanation":"+3點智力",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000600",
+        "entry_name":"信仰+１",
+        "entry_type":"能力",
+        "explanation":"+1點信仰",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000601",
+        "entry_name":"信仰+２",
+        "entry_type":"能力",
+        "explanation":"+2點信仰",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000602",
+        "entry_name":"信仰+３",
+        "entry_type":"能力",
+        "explanation":"+3點信仰",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000700",
+        "entry_name":"感應+１",
+        "entry_type":"能力",
+        "explanation":"+1點感應",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000701",
+        "entry_name":"感應+２",
+        "entry_type":"能力",
+        "explanation":"+2點感應",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000702",
+        "entry_name":"感應+３",
+        "entry_type":"能力",
+        "explanation":"+3點感應",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000800",
+        "entry_name":"縮短技藝的冷卻時間+１",
+        "entry_type":"技藝/絕招",
+        "explanation":"技藝冷卻時間 -5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000801",
+        "entry_name":"縮短技藝的冷卻時間+２",
+        "entry_type":"技藝/絕招",
+        "explanation":"技藝冷卻時間 -7.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000802",
+        "entry_name":"縮短技藝的冷卻時間+３",
+        "entry_type":"技藝/絕招",
+        "explanation":"技藝冷卻時間 -10%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000900",
+        "entry_name":"自然累積絕招量表 +１",
+        "entry_type":"技藝/絕招",
+        "explanation":"絕招量表累積速率 +5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000901",
+        "entry_name":"自然累積絕招量表 +２",
+        "entry_type":"技藝/絕招",
+        "explanation":"絕招量表累積速率 +7.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7000902",
+        "entry_name":"自然累積絕招量表 +３",
+        "entry_type":"技藝/絕招",
+        "explanation":"絕招量表累積速率+10%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001000",
+        "entry_name":"強韌度+１",
+        "entry_type":"能力",
+        "explanation":"受到的韌性傷害 -5%",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7001001",
+        "entry_name":"強韌度+２",
+        "entry_type":"能力",
+        "explanation":"受到的韌性傷害 -10%",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7001002",
+        "entry_name":"強韌度+３",
+        "entry_type":"能力",
+        "explanation":"受到的韌性傷害 -15%",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7001400",
+        "entry_name":"提升物理攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"物理攻擊力 +4%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001401",
+        "entry_name":"提升物理攻擊力 +１",
+        "entry_type":"攻擊力",
+        "explanation":"物理攻擊力 +5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001402",
+        "entry_name":"提升物理攻擊力 +２",
+        "entry_type":"攻擊力",
+        "explanation":"物理攻擊力 +6%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001500",
+        "entry_name":"提升魔力屬性攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"魔力屬性攻擊力 +4.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001501",
+        "entry_name":"提升魔力屬性攻擊力 +１",
+        "entry_type":"攻擊力",
+        "explanation":"魔力屬性攻擊力 +5.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001502",
+        "entry_name":"提升魔力屬性攻擊力 +２",
+        "entry_type":"攻擊力",
+        "explanation":"魔力屬性攻擊力 +6.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001600",
+        "entry_name":"提升火屬性攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"火屬性攻擊力 +4.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001601",
+        "entry_name":"提升火屬性攻擊力 +１",
+        "entry_type":"攻擊力",
+        "explanation":"火屬性攻擊力 +5.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001602",
+        "entry_name":"提升火屬性攻擊力 +２",
+        "entry_type":"攻擊力",
+        "explanation":"火屬性攻擊力 +6.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001700",
+        "entry_name":"提升雷屬性攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"雷屬性攻擊力 +4.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001701",
+        "entry_name":"提升雷屬性攻擊力 +１",
+        "entry_type":"攻擊力",
+        "explanation":"雷屬性攻擊力 +5.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001702",
+        "entry_name":"提升雷屬性攻擊力 +２",
+        "entry_type":"攻擊力",
+        "explanation":"雷屬性攻擊力 +6.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001800",
+        "entry_name":"提升聖屬性攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"聖屬性攻擊力 +4.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001801",
+        "entry_name":"提升聖屬性攻擊力 +１",
+        "entry_type":"攻擊力",
+        "explanation":"聖屬性攻擊力 +5.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7001802",
+        "entry_name":"提升聖屬性攻擊力 +２",
+        "entry_type":"攻擊力",
+        "explanation":"聖屬性攻擊力 +6.5%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7002600",
+        "entry_name":"提升魔力屬性減傷率",
+        "entry_type":"減傷率",
+        "explanation":"受到的魔力屬性傷害 -10%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7002700",
+        "entry_name":"提升火屬性減傷率",
+        "entry_type":"減傷率",
+        "explanation":"受到的火屬性傷害 -10%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7002800",
+        "entry_name":"提升雷屬性減傷率",
+        "entry_type":"減傷率",
+        "explanation":"受到的雷屬性傷害 -10%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7002900",
+        "entry_name":"提升聖屬性減傷率",
+        "entry_type":"減傷率",
+        "explanation":"受到的聖屬性傷害 -10%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7003000",
+        "entry_name":"提升對中毒的抵抗力",
+        "entry_type":"對異常狀態的抵抗力",
+        "explanation":"+75點中毒異常耐受上限",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7003100",
+        "entry_name":"提升對出血的抵抗力",
+        "entry_type":"對異常狀態的抵抗力",
+        "explanation":"+75點出血異常耐受上限",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7003200",
+        "entry_name":"提升對催眠的抵抗力",
+        "entry_type":"對異常狀態的抵抗力",
+        "explanation":"+75點催眠異常耐受上限",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7003300",
+        "entry_name":"提升對死亡的抵抗力",
+        "entry_type":"對異常狀態的抵抗力",
+        "explanation":"+75點死亡異常耐受上限",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7003400",
+        "entry_name":"提升對猩紅腐敗的抵抗力",
+        "entry_type":"對異常狀態的抵抗力",
+        "explanation":"+75點猩紅腐敗異常耐受上限",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7003500",
+        "entry_name":"提升對凍傷的抵抗力",
+        "entry_type":"對異常狀態的抵抗力",
+        "explanation":"+75點凍傷異常耐受上限",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7003600",
+        "entry_name":"提升對發狂的抵抗力",
+        "entry_type":"對異常狀態的抵抗力",
+        "explanation":"+75點發狂異常耐受上限",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7005600",
+        "entry_name":"受到損傷的當下，能通過攻擊恢復部分血量",
+        "entry_type":"恢復",
+        "explanation":"∘ 最近一次被攻擊的4s內，可通過攻擊恢復這部分虛血\n∘ 每次攻擊的恢復量 = 武器基礎回血量 × 動作回血倍率",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7006000",
+        "entry_name":"提升雙手共持時，造成失去平衡的能力",
+        "entry_type":"攻擊力",
+        "explanation":"雙手共持時，造成的削韌 +5%",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7006100",
+        "entry_name":"提升雙手各持時，造成失去平衡的能力",
+        "entry_type":"攻擊力",
+        "explanation":"雙手各持時，造成的削韌 +5%",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7010200",
+        "entry_name":"使用聖盃瓶時，連同恢復周圍我方人物",
+        "entry_type":"隊伍成員",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7010500",
+        "entry_name":"【追蹤者】發動絕招時，能燃起火焰、蔓延周圍",
+        "entry_type":"僅限特定角色",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7010700",
+        "entry_name":"【女爵】以短劍使出連續攻擊時，能對著周圍的敵人，再次上演最近做過的行動",
+        "entry_type":"僅限特定角色",
+        "explanation":"女爵用短劍連續攻擊，用出整套動作最後一下時觸發重演，重演造成連續攻擊過程中傷害的40%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7010900",
+        "entry_name":"【復仇者】發動絕招時，能以自己的血量為代價完全恢復我方人物的血量",
+        "entry_type":"僅限特定角色",
+        "explanation":"扣除自身最大生命值的 50%，恢復周圍友軍最大生命值的 100%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7011000",
+        "entry_name":"【守護者】延長技藝的有效時間",
+        "entry_type":"僅限特定角色",
+        "explanation":"技藝從單次傷害變為，不蓄力持續4秒，蓄力持續7秒",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7011200",
+        "entry_name":"【復仇者】發動絕招時，能引發靈火爆炸",
+        "entry_type":"僅限特定角色",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7011600",
+        "entry_name":"【守護者】以戟蓄力攻擊時，能引發旋風",
+        "entry_type":"僅限特定角色",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7011700",
+        "entry_name":"【執行者】在絕招發動期間，能以咆哮恢復血量",
+        "entry_type":"僅限特定角色",
+        "explanation":"恢復最大生命值的 15%，內置0.9秒冷卻時間",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7012000",
+        "entry_name":"【守護者】發動絕招時，能緩慢恢復周圍我方人物的血量",
+        "entry_type":"僅限特定角色",
+        "explanation":"每秒恢復[最大生命值 × 10% + 12]點血量",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7012200",
+        "entry_name":"血量偏低時，包含周圍我方人物緩慢恢復血量",
+        "entry_type":"恢復",
+        "explanation":"生命值量小於40%時，50秒內，每秒恢復[最大生命值 × 0.5% + 1]點血量，內置50秒冷卻時間",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7012300",
+        "entry_name":"血量偏低時，能提升減傷率",
+        "entry_type":"減傷率",
+        "explanation":"生命值量小於40%時，受到的傷害 -16%",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7020000",
+        "entry_name":"【追蹤者】發動技藝時，輕攻擊能使出纏繞火焰的追加攻擊（僅限大劍）",
+        "entry_type":"僅限特定角色",
+        "explanation":"使用技藝後用大劍進行輕攻擊，武器+20點火屬性攻擊力，持續20秒",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7030000",
+        "entry_name":"身在圖騰碑石周圍時，能提升強韌度",
+        "entry_type":"僅限特定角色",
+        "explanation":"∘ 無賴釋放圖騰石碑時，本buff會賦予給石碑周圍的玩家\n∘ 獲得buff的玩家受到的韌性傷害 -90%，內置30秒冷卻時間",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7030200",
+        "entry_name":"食用苔藥等等道具時，能恢復血量",
+        "entry_type":"恢復",
+        "explanation":"使用對應道具後立即回覆20點血量，然後每秒回覆[最大生命值 × 0.5% + 1]點血量，持續20秒",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7030600",
+        "entry_name":"防禦成功時，能累積絕招量表",
+        "entry_type":"技藝/絕招",
+        "explanation":"絕招量表 +1",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7030700",
+        "entry_name":"防禦時，變得容易被敵人攻擊",
+        "entry_type":"行動",
+        "explanation":"仇恨+9，鬆開後持續4s ",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7030800",
+        "entry_name":"使出致命一擊時，加快累積絕招量表",
+        "entry_type":"技藝/絕招",
+        "explanation":"絕招量表 +5",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7030900",
+        "entry_name":"塗抹油脂類道具時，能額外提升物理攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"30秒內，增加物理傷害 +10%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7031200",
+        "entry_name":"【復仇者】發動絕招時，能強化家人與我方人物",
+        "entry_type":"僅限特定角色",
+        "explanation":"30秒內，造成的傷害 +25%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7031300",
+        "entry_name":"【無賴】在技藝發動期間，受到攻擊時能提升攻擊力與精力上限",
+        "entry_type":"僅限特定角色",
+        "explanation":"20秒內，最大精力值 +20%，造成的傷害 +10%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7031800",
+        "entry_name":"【女爵】從背後使出致命一擊後，自己的身影會變得難以辨識，並消除腳步聲",
+        "entry_type":"僅限特定角色",
+        "explanation":"10秒內，敵人靠視覺發現你的概率變為0.01%，敵人靠聽覺發現你的概率變為0",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7031900",
+        "entry_name":"使出致命一擊時，能獲得盧恩",
+        "entry_type":"能力",
+        "explanation":"+600盧恩",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7032200",
+        "entry_name":"受到攻擊時，能提升攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"10秒內，造成的傷害 +15%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7032400",
+        "entry_name":"【追蹤者】發動能力時，能累積絕招量表",
+        "entry_type":"僅限特定角色",
+        "explanation":"絕招量表 +18",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7032700",
+        "entry_name":"【女爵】在絕招發動期間，打倒敵人時能提升攻擊力",
+        "entry_type":"僅限特定角色",
+        "explanation":"∘ 在隱身的12.5秒內，擊殺敵人會疊加層數，每層增傷15%，持續30s \n∘ 每層獨立計時，上限30層（如層數為3時增傷計算：1.15*1.15*1.15 ≈ 1.52，增傷52%）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7032800",
+        "entry_name":"【隱士】收集屬性痕時，能觸發“魔法之境”",
+        "entry_type":"僅限特定角色",
+        "explanation":"產生持續30秒的“魔法之境”，在周圍的玩家造成的魔力屬性傷害 +15%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7032900",
+        "entry_name":"【隱士】發動絕招時，自己陷入異常狀態出血，提升攻擊力",
+        "entry_type":"僅限特定角色",
+        "explanation":"引發特殊的出血異常，固定扣除自身[最大生命值 × 20%]點血量，造成的傷害 +16%，持續30秒",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7033200",
+        "entry_name":"【追蹤者】技藝的使用次數+１",
+        "entry_type":"僅限特定角色",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7033300",
+        "entry_name":"【守護者】在能力發動期間，會變得容易受敵人攻擊",
+        "entry_type":"僅限特定角色",
+        "explanation":"仇恨增益 +600",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7033400",
+        "entry_name":"【守護者】在能力發動期間，防禦成功時能形成衝擊波",
+        "entry_type":"僅限特定角色",
+        "explanation":"造成[固定100點 + 0.12%最大生命值]的物理傷害，5點削韌，3號衝擊力",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7034100",
+        "entry_name":"【隱士】發動絕招時，能提升血量上限",
+        "entry_type":"僅限特定角色",
+        "explanation":"30秒內，提升生命值上限50%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7034400",
+        "entry_name":"【執行者】提升技藝發動期間的攻擊力，但攻擊時會降低減傷率",
+        "entry_type":"僅限特定角色",
+        "explanation":"發動技藝期間，buff:攻擊力提升35%; debuff:每次攻擊後會降低減傷率40%，持續5s，攻擊會持續刷新debuff",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7034500",
+        "entry_name":"【執行者】在技藝發動期間，妖刀進入解放狀態時，能恢復血量",
+        "entry_type":"僅限特定角色",
+        "explanation":"回覆[最大生命值 × 5% + 100]點血量",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7034600",
+        "entry_name":"【鐵之眼】蓄力發動絕招時，附加異常狀態中毒",
+        "entry_type":"僅限特定角色",
+        "explanation":"附帶300點中毒值，造成中毒異常，每秒扣除敵人[最大生命值 × 0.1% + 10]點血量，持續40秒",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7034700",
+        "entry_name":"【鐵之眼】發動絕招後，強化突刺反擊",
+        "entry_type":"僅限特定角色",
+        "explanation":"30秒內，觸發突刺反擊時，造成的物理傷害 +20%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7035100",
+        "entry_name":"使出致命一擊時，能提升精力的恢復速度",
+        "entry_type":"恢復",
+        "explanation":"15秒內，精力回覆速度 +10點\/秒",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7035400",
+        "entry_name":"通過肢體動作“盤腿坐”，能累積發狂量表",
+        "entry_type":"行動",
+        "explanation":"每2秒 +10點發狂值。 觸發發狂異常時，扣除[最大生命值 × 10% + 100]點血量，固定扣除30點專注值，造成2.4秒發狂硬直",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7035500",
+        "entry_name":"引發異常狀態發狂後，能持續恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"引發發狂異常後，25秒內，每0.5秒回覆1點專注值",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7035700",
+        "entry_name":"切換武器時，能附加隨機的屬性攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"10秒內，增加隨機屬性的攻擊力 +20",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7035800",
+        "entry_name":"附加屬性攻擊力時，能提升屬性攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"魔力\/火\/雷\/聖屬性傷害 +10%（本詞條不能加成魔法\/禱告）",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7035900",
+        "entry_name":"切換武器時，能提升物理攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"10秒內，物理攻擊力 +10%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7036100",
+        "entry_name":"防禦成功時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7040000",
+        "entry_name":"強化輕攻擊的第一記攻擊",
+        "entry_type":"攻擊力",
+        "explanation":"輕擊第一下造成的傷害 +15%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7040100",
+        "entry_name":"強化防禦反擊",
+        "entry_type":"攻擊力",
+        "explanation":"防禦反擊造成的傷害 +18%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7040200",
+        "entry_name":"強化致命一擊",
+        "entry_type":"攻擊力",
+        "explanation":"致命一擊造成的傷害 +18%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7040201",
+        "entry_name":"強化致命一擊+１ (爵的黑夜)",
+        "entry_type":"攻擊力",
+        "explanation":"致命一擊造成的傷害 +20%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7040300",
+        "entry_name":"提升投擲壺的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"投擲壺造成的傷害 +15%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7040400",
+        "entry_name":"提升投擲小刀的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"投投擲小刀造成的傷害 +15%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7040500",
+        "entry_name":"提升使用輝石、重力石道具的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"投投擲石頭造成的傷害 +15%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7043000",
+        "entry_name":"強化咆哮與吐息",
+        "entry_type":"攻擊力",
+        "explanation":"咆哮與吐息造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7043100",
+        "entry_name":"強化調香術",
+        "entry_type":"攻擊力",
+        "explanation":"調香術造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7043200",
+        "entry_name":"強化挖石的魔法",
+        "entry_type":"魔法/禱告",
+        "explanation":"挖石的魔法造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7043300",
+        "entry_name":"強化卡利亞劍的魔法",
+        "entry_type":"魔法/禱告",
+        "explanation":"卡利亞劍的魔法造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7043400",
+        "entry_name":"強化輝劍的魔法",
+        "entry_type":"魔法/禱告",
+        "explanation":"輝劍的魔法造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7043500",
+        "entry_name":"強化隱形的魔法",
+        "entry_type":"魔法/禱告",
+        "explanation":"隱形的魔法造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7043600",
+        "entry_name":"強化結晶人的魔法",
+        "entry_type":"魔法/禱告",
+        "explanation":"結晶人的魔法造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7043700",
+        "entry_name":"強化重力的魔法",
+        "entry_type":"魔法/禱告",
+        "explanation":"重力的魔法造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7043800",
+        "entry_name":"強化荊棘的魔法",
+        "entry_type":"魔法/禱告",
+        "explanation":"荊棘的魔法造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7043900",
+        "entry_name":"強化黑夜的魔法",
+        "entry_type":"魔法/禱告",
+        "explanation":"黑夜的魔法造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7044000",
+        "entry_name":"強化黃金律法基本主義的禱告",
+        "entry_type":"魔法/禱告",
+        "explanation":"黃金律法基本主義的禱告造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7044100",
+        "entry_name":"強化王城古龍信仰的禱告",
+        "entry_type":"魔法/禱告",
+        "explanation":"王城古龍信仰的禱告造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7044200",
+        "entry_name":"強化巨人火焰的禱告",
+        "entry_type":"魔法/禱告",
+        "explanation":"巨人火焰的禱告造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7044300",
+        "entry_name":"強化狩獵神祇的禱告",
+        "entry_type":"魔法/禱告",
+        "explanation":"狩獵神祇的禱告造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7044400",
+        "entry_name":"強化野獸的禱告",
+        "entry_type":"魔法/禱告",
+        "explanation":"野獸的禱告造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7044500",
+        "entry_name":"強化癲火的禱告",
+        "entry_type":"魔法/禱告",
+        "explanation":"癲火的禱告造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7044600",
+        "entry_name":"強化龍饗的禱告",
+        "entry_type":"魔法/禱告",
+        "explanation":"龍饗的禱告造成的傷害 +12%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7050000",
+        "entry_name":"不包含自己，提升周圍我方人物的精力恢復速度",
+        "entry_type":"隊伍成員",
+        "explanation":"周圍友方人物但不包括自己，精力恢復速度+4點\/秒",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7050100",
+        "entry_name":"道具效用能擴及我方人物",
+        "entry_type":"隊伍成員",
+        "explanation":null,
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7060000",
+        "entry_name":"每次打倒封印監牢裡的囚犯，能提升攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害每次 +5%，局內無限成長",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7060100",
+        "entry_name":"每次解開魔法師塔的機關，能提升專注值上限",
+        "entry_type":"能力",
+        "explanation":"專注值上限每次 +18%，局內無限成長",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7060200",
+        "entry_name":"每次打倒黑夜入侵者，能提升攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害每次 +7%，局內無限成長",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7070000",
+        "entry_name":"能顯示地圖上隱藏寶藏的位置",
+        "entry_type":"場地環境",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7080000",
+        "entry_name":"裝備三把以上類別為短劍的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7080100",
+        "entry_name":"裝備三把以上類別為直劍的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7080200",
+        "entry_name":"裝備三把以上類別為大劍的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7080300",
+        "entry_name":"裝備三把以上類別為特大劍的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7080400",
+        "entry_name":"裝備三把以上類別為曲劍的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7080500",
+        "entry_name":"裝備三把以上類別為大麴劍的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7080600",
+        "entry_name":"裝備三把以上類別為刀的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7080700",
+        "entry_name":"裝備三把以上類別為雙頭劍的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7080800",
+        "entry_name":"裝備三把以上類別為刺劍的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7080900",
+        "entry_name":"裝備三把以上類別為重刺劍的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7081000",
+        "entry_name":"裝備三把以上類別為斧的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7081100",
+        "entry_name":"裝備三把以上類別為大斧的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7081200",
+        "entry_name":"裝備三把以上類別為槌的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7081300",
+        "entry_name":"裝備三把以上類別為大槌的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7081400",
+        "entry_name":"裝備三把以上類別為連枷的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7081500",
+        "entry_name":"裝備三把以上類別為矛的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7081700",
+        "entry_name":"裝備三把以上類別為大矛的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7081800",
+        "entry_name":"裝備三把以上類別為戟的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7081900",
+        "entry_name":"裝備三把以上類別為鐮刀的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7082000",
+        "entry_name":"裝備三把以上類別為拳頭的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7082100",
+        "entry_name":"裝備三把以上類別為鉤爪的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7082200",
+        "entry_name":"裝備三把以上類別為軟鞭的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7082300",
+        "entry_name":"裝備三把以上類別為特大武器的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +20%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7082400",
+        "entry_name":"裝備三把以上類別為弓的武器，能提升攻擊力",
+        "entry_type":"僅限特定武器",
+        "explanation":"造成的傷害 +10%，指定放在揹包裡就可生效，用別的武器也可增傷",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7082500",
+        "entry_name":"裝備三把以上類別為手杖的武器，能提升專注值上限",
+        "entry_type":"僅限特定武器",
+        "explanation":"+10點集中力（固定+50點專注值上限）",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7082600",
+        "entry_name":"裝備三把以上類別為聖印記的武器，能提升專注值上限",
+        "entry_type":"僅限特定武器",
+        "explanation":"+10點集中力（固定+50點專注值上限）",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7082700",
+        "entry_name":"裝備三把以上類別為小盾的武器，能提升血量上限",
+        "entry_type":"僅限特定武器",
+        "explanation":"+10點生命力（固定+200點生命值上限）",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7082800",
+        "entry_name":"裝備三把以上類別為中盾的武器，能提升血量上限",
+        "entry_type":"僅限特定武器",
+        "explanation":"+10點生命力（固定+200點生命值上限）",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7082900",
+        "entry_name":"裝備三把以上類別為大盾的武器，能提升血量上限",
+        "entry_type":"僅限特定武器",
+        "explanation":"+10點生命力（固定+200點生命值上限）",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7090000",
+        "entry_name":"提升打倒敵人時，絕招量表的累積量表",
+        "entry_type":"技藝/絕招",
+        "explanation":"絕招量表 +5",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7090100",
+        "entry_name":"打倒敵人時，除了自己恢復周圍我方人物的血量",
+        "entry_type":"隊伍成員",
+        "explanation":"固定回覆20點血量，有0.5秒內置冷卻時間",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7090300",
+        "entry_name":"在圖騰碑石周圍打倒敵人時，能恢復血量",
+        "entry_type":"恢復",
+        "explanation":"∘ 無賴釋放圖騰石碑時，本buff會和石碑增傷buff同時賦予給石碑周圍的玩家\n∘ 獲得buff的玩家每擊殺一個敵人回覆[最大生命值 × 50%]點血量，持續20秒",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7100100",
+        "entry_name":"攻擊命中時，能恢復精力",
+        "entry_type":"恢復",
+        "explanation":"攻擊成功時，+2點精力值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7100110",
+        "entry_name":"攻擊成功時，能恢復精力+１ (野獸的黑夜)",
+        "entry_type":"恢復",
+        "explanation":"攻擊成功時，+3點精力值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7110000",
+        "entry_name":"增加自己與我方人物獲得的盧恩",
+        "entry_type":"隊伍成員",
+        "explanation":"獲得的盧恩+3.5%，僅對擊殺獎勵有效，全隊有效",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7120000",
+        "entry_name":"出擊時的武器，附加魔力屬性攻擊力",
+        "entry_type":"出擊時的武器（附加）",
+        "explanation":"根據武器類型降低物理攻擊力30\/40\/50\/60，並增加魔力屬性攻擊力33\/44\/55\/66",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7120100",
+        "entry_name":"出擊時的武器，附加火屬性攻擊力",
+        "entry_type":"出擊時的武器（附加）",
+        "explanation":"根據武器類型降低物理攻擊力30\/40\/50\/60，並增加火屬性攻擊力33\/44\/55\/66",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7120200",
+        "entry_name":"出擊時的武器，附加雷屬性攻擊力",
+        "entry_type":"出擊時的武器（附加）",
+        "explanation":"根據武器類型降低物理攻擊力30\/40\/50\/60，並增加雷屬性攻擊力33\/44\/55\/66",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7120300",
+        "entry_name":"出擊時的武器，附加聖屬性攻擊力",
+        "entry_type":"出擊時的武器（附加）",
+        "explanation":"根據武器類型降低物理攻擊力30\/40\/50\/60，並增加聖屬性攻擊力33\/44\/55\/66",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7120400",
+        "entry_name":"出擊時的武器，附加異常狀態凍傷",
+        "entry_type":"出擊時的武器（附加）",
+        "explanation":"∘ 附帶35點基礎凍傷值，武器造成的傷害 -15%\n∘ 凍傷：扣除敵人最大生命值 × 10% + 50，30秒內，玩家造成的傷害 +15%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7120500",
+        "entry_name":"出擊時的武器，附加異常狀態中毒",
+        "entry_type":"出擊時的武器（附加）",
+        "explanation":"∘ 附帶35點基礎中毒值，武器造成的傷害 -15%\n∘ 中毒：每秒扣除敵人[最大生命值 × 0.1% + 10]點血量，持續40秒",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7120600",
+        "entry_name":"出擊時的武器，附加異常狀態出血",
+        "entry_type":"出擊時的武器（附加）",
+        "explanation":"∘ 附帶25點基礎出血值，武器造成的傷害 -15%\n∘ 出血：扣除敵人[最大生命值 × 12.5% + 100]點血量",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7120900",
+        "entry_name":"出擊時，會持有“石劍鑰匙”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7121000",
+        "entry_name":"出擊時，會持有“小型隨身包包”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7121100",
+        "entry_name":"出擊時，會持有“火焰壺”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7121200",
+        "entry_name":"出擊時，會持有“魔力壺”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7121300",
+        "entry_name":"出擊時，會持有“雷電壺”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7121400",
+        "entry_name":"出擊時，會持有“聖水壺”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7121500",
+        "entry_name":"出擊時，會持有“獸骨毒飛刀”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7121600",
+        "entry_name":"出擊時，會持有“結晶飛刀”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7121700",
+        "entry_name":"出擊時，會持有“投擲匕首”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7121800",
+        "entry_name":"出擊時，會持有“崩裂輝石”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7121900",
+        "entry_name":"出擊時，會持有“塊狀重力石”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7122000",
+        "entry_name":"出擊時，會持有“魅惑樹枝”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7122100",
+        "entry_name":"出擊時，會持有“召咒魂鈴”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7122200",
+        "entry_name":"出擊時，會持有“火油脂”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7122300",
+        "entry_name":"出擊時，會持有“魔力油脂”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7122400",
+        "entry_name":"出擊時，會持有“雷油脂”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7122500",
+        "entry_name":"出擊時，會持有“聖油脂”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7122600",
+        "entry_name":"出擊時，會持有“堅盾油脂”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7122700",
+        "entry_name":"出擊時，武器戰技改為“輝劍圓陣”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7122800",
+        "entry_name":"出擊時，武器戰技改為“重力”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7122900",
+        "entry_name":"出擊時，武器戰技改為“炎擊”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7123000",
+        "entry_name":"出擊時，武器戰技改為“熔岩火漿”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7123100",
+        "entry_name":"出擊時，武器戰技改為“落雷”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7123200",
+        "entry_name":"出擊時，武器戰技改為“雷擊斬”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7123300",
+        "entry_name":"出擊時，武器戰技改為“神聖刀刃”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7123400",
+        "entry_name":"出擊時，武器戰技改為“祈禱一擊”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7123500",
+        "entry_name":"出擊時，武器戰技改為“毒霧”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7123600",
+        "entry_name":"出擊時，武器戰技改為“雙吻毒蛾”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7123700",
+        "entry_name":"出擊時，武器戰技改為“血刃”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7123800",
+        "entry_name":"出擊時，武器戰技改為“切腹”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7123900",
+        "entry_name":"出擊時，武器戰技改為“寒氣凍霧”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7124000",
+        "entry_name":"出擊時，武器戰技改為“凍霜踏地”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7124100",
+        "entry_name":"出擊時，武器戰技改為“白影誘惑”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7124300",
+        "entry_name":"出擊時，武器戰技改為“忍耐”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7124400",
+        "entry_name":"出擊時，武器戰技改為“碎步”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7124500",
+        "entry_name":"出擊時，武器戰技改為“風暴足”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7124600",
+        "entry_name":"出擊時，武器戰技改為“決心”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7124700",
+        "entry_name":"出擊時，武器戰技改為“箭雨”",
+        "entry_type":"出擊時的武器（戰技）",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7126000",
+        "entry_name":"出擊時，會持有“星光碎片”",
+        "entry_type":"出擊時的道具",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7150000",
+        "entry_name":"防禦反擊成功時，能依照自己目前的血量提升傷害",
+        "entry_type":"攻擊力",
+        "explanation":"提升防禦反擊傷害，提升數值為人物最大生命值的 5%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7160000",
+        "entry_name":"突刺反擊成功時，能恢復血量",
+        "entry_type":"恢復",
+        "explanation":"觸發突刺反擊時，回覆人物最大生命值 × 2.5% (突刺反擊本身的物理傷害增益為10%)",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7220000",
+        "entry_name":"【復仇者】與家人並肩戰鬥期間，能強化自身",
+        "entry_type":"僅限特定角色",
+        "explanation":"召喚家人時激活不同的增益效果: \n ∘ 海倫：玩家每秒回覆1點生命值\n ∘ 弗雷德利克：玩家造成的傷害 +10%\n ∘ 塞巴斯蒂安：玩家受到的魔力\/火\/雷\/聖屬性傷害 -20%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7230000",
+        "entry_name":"在出擊期間，減少於商店購物時所需的盧恩",
+        "entry_type":"場地環境",
+        "explanation":"物品出售價格-10%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7230001",
+        "entry_name":"在出擊期間，大幅減少於商店購物時所需的盧恩",
+        "entry_type":"場地環境",
+        "explanation":"物品出售價格-20%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7240000",
+        "entry_name":"受到損傷並被彈飛時，能提升強韌度與減傷率",
+        "entry_type":"減傷率",
+        "explanation":"玩家被擊飛時，20秒內，受到的傷害 -20%，受到的韌性傷害 -20%",
+        "superposability":"未知"
+    },
+    {
+        "entry_id":"7260000",
+        "entry_name":"對陷入中毒的敵人，能強化攻擊",
+        "entry_type":"行動",
+        "explanation":"對中毒的敵人造成的傷害 +10%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7260300",
+        "entry_name":"對陷入猩紅腐敗的敵人，能強化攻擊",
+        "entry_type":"行動",
+        "explanation":"對猩紅腐敗的敵人造成的傷害 +10%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7260400",
+        "entry_name":"對陷入凍傷的敵人，能強化攻擊",
+        "entry_type":"行動",
+        "explanation":"對凍傷的敵人造成的傷害 +10%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7260700",
+        "entry_name":"周圍人物陷入異常狀態凍傷時，能隱藏自己的身影",
+        "entry_type":"行動",
+        "explanation":"隱身時間為5秒",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7260800",
+        "entry_name":"周圍人物陷入中毒、腐敗時，能提升攻擊力 (智的黑夜)",
+        "entry_type":"行動",
+        "explanation":"20秒內，玩家造成的傷害 +12%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7270100",
+        "entry_name":"【鐵之眼】技藝的使用次數+１",
+        "entry_type":"僅限特定角色",
+        "explanation":null,
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7280000",
+        "entry_name":"【鐵之眼】延長弱點顯露的時間",
+        "entry_type":"僅限特定角色",
+        "explanation":"標記存在時間從17變為22秒",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7290000",
+        "entry_name":"【女爵】提升技藝造成的傷害",
+        "entry_type":"僅限特定角色",
+        "explanation":"重演從50%傷害變為60%",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7310000",
+        "entry_name":"【無賴】延長絕招的有效時間",
+        "entry_type":"僅限特定角色",
+        "explanation":"墓碑存在時間從20秒變為30秒",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7330000",
+        "entry_name":"提升短劍的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7330100",
+        "entry_name":"提升直劍的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7330200",
+        "entry_name":"提升大劍的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7330300",
+        "entry_name":"提升特大劍的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7330400",
+        "entry_name":"提升曲劍的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7330500",
+        "entry_name":"提升大麴劍的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7330600",
+        "entry_name":"提升刀的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7330700",
+        "entry_name":"提升雙頭劍的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7330800",
+        "entry_name":"提升刺劍的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7330900",
+        "entry_name":"提升重刺劍的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7331000",
+        "entry_name":"提升斧的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7331100",
+        "entry_name":"提升大斧的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7331200",
+        "entry_name":"提升槌的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7331300",
+        "entry_name":"提升大槌的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7331400",
+        "entry_name":"提升連枷的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7331500",
+        "entry_name":"提升矛的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7331600",
+        "entry_name":"提升長矛的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7331700",
+        "entry_name":"提升大矛的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7331800",
+        "entry_name":"提升戟的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7331900",
+        "entry_name":"提升鐮刀的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7332000",
+        "entry_name":"提升拳頭的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7332100",
+        "entry_name":"提升鉤爪的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7332200",
+        "entry_name":"提升軟鞭的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7332300",
+        "entry_name":"提升特大武器的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +9%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7332400",
+        "entry_name":"提升弓的攻擊力",
+        "entry_type":"攻擊力",
+        "explanation":"造成的傷害 +6%",
+        "superposability":"可疊加"
+    },
+    {
+        "entry_id":"7340000",
+        "entry_name":"以短劍攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7340100",
+        "entry_name":"以直劍攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7340200",
+        "entry_name":"以大劍攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7340300",
+        "entry_name":"以特大劍攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7340400",
+        "entry_name":"以曲劍攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7340500",
+        "entry_name":"以大麴劍攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7340600",
+        "entry_name":"以刀攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7340700",
+        "entry_name":"以雙頭劍攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7340800",
+        "entry_name":"以刺劍攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7340900",
+        "entry_name":"以重刺劍攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7341000",
+        "entry_name":"以斧攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7341100",
+        "entry_name":"以大斧攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7341200",
+        "entry_name":"以槌攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7341300",
+        "entry_name":"以大槌攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7341400",
+        "entry_name":"以連枷攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7341500",
+        "entry_name":"以矛攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7341600",
+        "entry_name":"以長矛攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7341700",
+        "entry_name":"以大矛攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7341800",
+        "entry_name":"以戟攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7341900",
+        "entry_name":"以鐮刀攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7342000",
+        "entry_name":"以拳頭攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7342100",
+        "entry_name":"以鉤爪攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7342200",
+        "entry_name":"以軟鞭攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7342300",
+        "entry_name":"以特大武器攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7342400",
+        "entry_name":"以弓攻擊時，恢復血量",
+        "entry_type":"恢復",
+        "explanation":"固定回覆15點生命值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7350000",
+        "entry_name":"以短劍攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7350100",
+        "entry_name":"以直劍攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7350200",
+        "entry_name":"以大劍攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7350300",
+        "entry_name":"以特大劍攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7350400",
+        "entry_name":"以曲劍攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7350500",
+        "entry_name":"以大麴劍攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7350600",
+        "entry_name":"以刀攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7350700",
+        "entry_name":"以雙頭劍攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7350800",
+        "entry_name":"以刺劍攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7350900",
+        "entry_name":"以重刺劍攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7351000",
+        "entry_name":"以斧攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7351100",
+        "entry_name":"以大斧攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7351200",
+        "entry_name":"以槌攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7351300",
+        "entry_name":"以大槌攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7351400",
+        "entry_name":"以連枷攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7351500",
+        "entry_name":"以矛攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7351600",
+        "entry_name":"以長矛攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7351700",
+        "entry_name":"以大矛攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7351800",
+        "entry_name":"以戟攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7351900",
+        "entry_name":"以鐮刀攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7352000",
+        "entry_name":"以拳頭攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7352100",
+        "entry_name":"以鉤爪攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7352200",
+        "entry_name":"以軟鞭攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7352300",
+        "entry_name":"以特大武器攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+        "entry_id":"7352400",
+        "entry_name":"以弓攻擊時，恢復專注值",
+        "entry_type":"恢復",
+        "explanation":"固定回覆2點專注值",
+        "superposability":"不可疊加"
+    },
+    {
+		"entry_id": "6630000",
+		"entry_name": "通過潛在能力，能比較容易找到短劍",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6630100",
+		"entry_name": "通過潛在能力，能比較容易找到直劍",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6630200",
+		"entry_name": "通過潛在能力，能比較容易找到大劍",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6630300",
+		"entry_name": "通過潛在能力，能比較容易找到特大劍",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6630400",
+		"entry_name": "通過潛在能力，能比較容易找到曲劍",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6630500",
+		"entry_name": "通過潛在能力，能比較容易找到大麴劍",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6630600",
+		"entry_name": "通過潛在能力，能比較容易找到刀",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6630700",
+		"entry_name": "通過潛在能力，能比較容易找到雙頭劍",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6630800",
+		"entry_name": "通過潛在能力，能比較容易找到刺劍",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6630900",
+		"entry_name": "通過潛在能力，能比較容易找到重刺劍",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6631000",
+		"entry_name": "通過潛在能力，能比較容易找到斧",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6631100",
+		"entry_name": "通過潛在能力，能比較容易找到大斧",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6631200",
+		"entry_name": "通過潛在能力，能比較容易找到槌",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6631300",
+		"entry_name": "通過潛在能力，能比較容易找到大槌",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6631400",
+		"entry_name": "通過潛在能力，能比較容易找到連枷",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6631500",
+		"entry_name": "通過潛在能力，能比較容易找到矛",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6631600",
+		"entry_name": "通過潛在能力，能比較容易找到大矛",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6631700",
+		"entry_name": "通過潛在能力，能比較容易找到戟",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6631800",
+		"entry_name": "通過潛在能力，能比較容易找到鐮刀",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6631900",
+		"entry_name": "通過潛在能力，能比較容易找到拳頭",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6632000",
+		"entry_name": "通過潛在能力，能比較容易找到鉤爪",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6632100",
+		"entry_name": "通過潛在能力，能比較容易找到軟鞭",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6632200",
+		"entry_name": "通過潛在能力，能比較容易找到特大武器",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6632300",
+		"entry_name": "通過潛在能力，能比較容易找到弓",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6632400",
+		"entry_name": "通過潛在能力，能比較容易找到大弓",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6632500",
+		"entry_name": "通過潛在能力，能比較容易找到弩",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6632600",
+		"entry_name": "通過潛在能力，能比較容易找到弩炮",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6632700",
+		"entry_name": "通過潛在能力，能比較容易找到小盾",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6632800",
+		"entry_name": "通過潛在能力，能比較容易找到中盾",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6632900",
+		"entry_name": "通過潛在能力，能比較容易找到大盾",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6633000",
+		"entry_name": "通過潛在能力，能比較容易找到手杖",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6633100",
+		"entry_name": "通過潛在能力，能比較容易找到聖印記",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "6633200",
+		"entry_name": "通過潛在能力，能比較容易找到火把",
+		"entry_type": "僅限特定武器",
+		"explanation": "直接替換角色專屬池",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7006400",
+		"entry_name": "【單眼鏡的皮革袋】延長魔法、禱告的有效時間",
+		"entry_type": "專屬遺物",
+		"explanation": "延長魔法、禱告的有效時間 (延長50%，向下取整)",
+		"superposability": "可疊加"
+	},
+	{
+		"entry_id": "7006500",
+		"entry_name": "【安定者的遺志】持續恢復專注值",
+		"entry_type": "專屬遺物",
+		"explanation": "每5秒恢復1點專注值",
+		"superposability": "可疊加"
+	},
+	{
+		"entry_id": "7006600",
+		"entry_name": "【安定的遺志/安定者的遺志】提升近戰攻擊力",
+		"entry_type": "專屬遺物",
+		"explanation": "近戰攻擊造成的傷害 +6% (包括近戰武器打出的彈道型遠程戰技)",
+		"superposability": "可疊加"
+	},
+	{
+		"entry_id": "7006700",
+		"entry_name": "【安定的遺志/安定者的遺志】提升戰技攻擊力",
+		"entry_type": "專屬遺物",
+		"explanation": "戰技造成的傷害 +15%",
+		"superposability": "可疊加"
+	},
+	{
+		"entry_id": "7036200",
+		"entry_name": "【學者】減緩技藝進行率的下降幅度",
+		"entry_type": "僅限特定角色",
+		"explanation": "技藝進行率的下降幅度 -30",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7036300",
+		"entry_name": "【學者】使用技藝時，提升目標我方人物的攻擊力",
+		"entry_type": "僅限特定角色",
+		"explanation": "30秒內，目標友方單位造成的物理傷害 +20%，造成的魔力/火/雷/聖屬性傷害 +15% (學者自身無法享受這個效果，僅增益隊友)",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7036400",
+		"entry_name": "【學者】對上已用絕招連結的敵人，持續給予傷害",
+		"entry_type": "僅限特定角色",
+		"explanation": "∘ 對於每個被連接的敵人，每秒固定扣除15點生命值，持續20秒\n∘ 扣血效果可在敵人之間傳遞，連接的敵人越多效果越強",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7036500",
+		"entry_name": "【學者】每次使用技藝增加樣本，能獲得盧恩",
+		"entry_type": "僅限特定角色",
+		"explanation": "∘ 每次用技藝觀察不同種類的敵人時，+1300點盧恩\n∘ 同一對局內，同種敵人只能觸發一次該效果",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7036800",
+		"entry_name": "【送葬者】發動絕招時，提升攻擊力",
+		"entry_type": "僅限特定角色",
+		"explanation": "發動絕招時，造成的傷害+18%，持續40秒",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7036900",
+		"entry_name": "【送葬者】連擊的最後攻擊命中時，提升攻擊力",
+		"entry_type": "僅限特定角色",
+		"explanation": "最後攻擊命中時，造成的傷害+16%，持續20秒",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7037000",
+		"entry_name": "【送葬者】使用禱告將輔助效果附加在自己身上時，提升物理攻擊力",
+		"entry_type": "僅限特定角色",
+		"explanation": "物理攻擊力+19%，持續60秒",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7037300",
+		"entry_name": "【送葬者】發動絕招時，恢復觸碰到的我方人物的血量",
+		"entry_type": "僅限特定角色",
+		"explanation": "絕招觸碰到的友方單位，固定回覆[最大生命值 × 30% + 100]點血量",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7037600",
+		"entry_name": "【玻璃項鍊】連續攻擊時，提升攻擊力",
+		"entry_type": "專屬遺物",
+		"explanation": "根據連續攻擊累積值增加傷害\n ∘ 共有4個階段 [5%\/6.5%\/9%\/15%]\n ∘ 持續時間 [1-3階段1.5秒，4階段0秒]\n ∘ 每個等級buff互相獨立計算持續時間和增傷",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7037700",
+		"entry_name": "【廢棄物之夜】出現異常狀態量表時，能緩慢提升攻擊力",
+		"entry_type": "專屬遺物",
+		"explanation": "根據異常值存在的時間，逐步提升增加的傷害\n  ∘ 共有10個階段[3.5%/7%/11%/15.5%/20%/25%/30%/35%/40%/45%]\n  ∘ 當人物進入任意異常狀態時，就會進入階段1(增傷3.5%)，之後每20秒會進行一次判定，如果判定時異常狀態仍然存在，則會提升到下一個階段\n  ∘ 階段的提升與異常狀態是否觸發、異常條本身的進度以及長短無關\n  ∘ 如果在判定間隔之間異常狀態消失，但隨後又出現，不會導致階段重置",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7037800",
+		"entry_name": "【安定的遺志】減傷率降低時，偶爾會讓敵人攻擊失效",
+		"entry_type": "專屬遺物",
+		"explanation": "∘ 當玩家減傷率降低時，有20%概率讓敵人攻擊失效\n∘ 該效果會隨任意減傷率降低buff一同出現和消失\n∘ 攻擊失效時，玩家會受到1點傷害，會累積異常條，但不會硬直",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7170100",
+		"entry_name": "【廢棄物之夜】受到損傷時，附加異常狀態腐敗",
+		"entry_type": "專屬遺物",
+		"explanation": "∘ 受到敵人攻擊後，武器附魔25點腐敗值，持續12秒\n∘ 猩紅腐敗：40秒內，每1.3秒扣除敵人[最大生命值 × 0.15% + 15]點血量",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7260900",
+		"entry_name": "【廢棄物之夜】周圍陷入腐敗時，持續恢復血量",
+		"entry_type": "專屬遺物",
+		"explanation": "周圍人物陷入異常狀態猩紅腐敗時，每1.3秒回覆[最大生命值 × 0.15% + 15]點血量，持續15秒",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7360600",
+		"entry_name": "出擊時，武器魔法改為“魔法輝劍",
+		"entry_type": "出擊時的武器（魔法）",
+		"explanation": "僅隱士有效",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7360900",
+		"entry_name": "出擊時，武器魔法改為“卡利亞大劍”",
+		"entry_type": "出擊時的武器（魔法）",
+		"explanation": "僅隱士有效",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7361200",
+		"entry_name": "出擊時，武器魔法改為“黑夜魔礫”",
+		"entry_type": "出擊時的武器（魔法）",
+		"explanation": "僅隱士有效",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7361300",
+		"entry_name": "出擊時，武器魔法改為“熔岩球”",
+		"entry_type": "出擊時的武器（魔法）",
+		"explanation": "僅隱士有效",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7362100",
+		"entry_name": "出擊時，武器魔法改為“責罰荊棘”",
+		"entry_type": "出擊時的武器（魔法）",
+		"explanation": "僅隱士有效",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7370300",
+		"entry_name": "出擊時，武器禱告改為“黃金之怒”",
+		"entry_type": "出擊時的武器（禱告）",
+		"explanation": "僅復仇者有效",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7370400",
+		"entry_name": "出擊時，武器禱告改為“雷電槍”",
+		"entry_type": "出擊時的武器（禱告）",
+		"explanation": "僅復仇者有效",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7370500",
+		"entry_name": "出擊時，武器禱告改為“雷擊”",
+		"entry_type": "出擊時的武器（禱告）",
+		"explanation": "僅復仇者有效",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7370600",
+		"entry_name": "出擊時，武器禱告改為“火焰啊!”",
+		"entry_type": "出擊時的武器（禱告）",
+		"explanation": "僅復仇者有效",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7370900",
+		"entry_name": "出擊時，武器禱告改為“獸爪”",
+		"entry_type": "出擊時的武器（禱告）",
+		"explanation": "僅復仇者有效",
+		"superposability": "不可疊加"
+	},
+	{
+		"entry_id": "7371500",
+		"entry_name": "出擊時，武器禱告改為“龍焰”",
+		"entry_type": "出擊時的武器（禱告）",
+		"explanation": "僅復仇者有效",
+		"superposability": "不可疊加"
+	}
+]
